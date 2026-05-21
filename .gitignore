@@ -1,0 +1,16 @@
+.git/
+.claude/
+backup/
+dictionary/*
+!dictionary/dictionary_local.xml
+ies/
+se/
+ui/**/*
+!ui/uiscp/
+!ui/uiscp/buff_tip.scp
+!ui/uixml/
+!ui/uixml/img.xml
+
+*.ipf
+*.bat
+*.py

@@ -1,0 +1,9880 @@
+func BUFF_AngryBull(level)
+{
+	return "<$>128038</>";
+}
+
+func BUFF_AngryBull(level)
+{
+	return "<$>167430</>";
+}
+
+func BUFF_EXPBUFF_PanPan(level)
+{
+	return "<$>167431</>";
+}
+
+func BUFF_FireBlessing2(level)
+{
+	return "<$>128040</>";
+}
+
+func BUFF_Gathering(level)
+{
+	return "<$>120732</>";
+}
+
+func BUFF_Haste2(level)
+{
+	return "<$>120820</>";
+}
+
+func BUFF_Haste3(level)
+{
+	return "<$>188449</>";
+}
+
+func BUFF_IncreaseALLTribe(level)
+{
+	return "<$>167432</>";
+}
+
+func BUFF_Insteroid2(level)
+{
+	return "<$>167433</>";
+}
+
+func BUFF_MagicalRes(level)
+{
+	return "<$>120811</>";
+}
+
+func BUFF_Mon_Invulnerable(level)
+{
+	return "<$>120604</>";
+}
+
+func BUFF_Mon_ProtectionField(level)
+{
+	return "<$>120605</>";
+}
+
+func BUFF_MonsterFortify(level)
+{
+	return "<$>120017</>";
+}
+
+func BUFF_MonsterMeditation(level)
+{
+	return "<$>120015</>";
+}
+
+func BUFF_PhysicalRes(level)
+{
+	return "<$>120810</>";
+}
+
+func BUFF_SPhantom(level)
+{
+	return "<$>128042</>";
+}
+
+func BUFF_Tesdischarge(level)
+{
+	return "<$>119991</>";
+}
+
+func BUFF_Revenge(level)
+{
+	return "<$>167434</>";
+}
+
+func BUFF_Positions(level)
+{
+	return  IMCFormat("<$>167435</>", level, level * 3 );
+}
+
+func BUFF_MeleeTrigger(level)
+{
+  if(level <= 10){
+	  return IMCFormat("<$>142244</>", level, level, level, level);
+	} else if(level == 11){
+	  return IMCFormat("<$>167436</>", level, level, level, level);
+	} else {
+	  return IMCFormat("<$>142246</>", level, level, level, level);
+	}
+}
+
+func BUFF_ShootTrigger(level)
+{
+  if(level <= 10){
+	  return IMCFormat("<$>142247</>", level, level, level, level);
+	} else if(level == 11){
+	  return IMCFormat("<$>167437</>", level, level, level, level);
+	} else {
+	  return IMCFormat("<$>142249</>", level, level, level, level);
+	}
+}
+
+func BUFF_Memorise(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>99206</>", level, level * 2 + 20, 20 + ( level - 10) * 5 );
+	}else{
+	  return IMCFormat("<$>99206</>", level, level * 2 + 20, level * 2);
+	}
+}
+
+func BUFF_Sprint3(level)
+{
+	return "<$>167438</>";
+}
+
+func BUFF_PotionHPUP(level)
+{
+	return IMCFormat("<$>167439</>", level*500);
+}
+
+
+func BUFF_PotionSPUP(level)
+{
+	return IMCFormat("<$>167440</>", level*50);
+}
+
+
+func BUFF_LevelUp(level)
+{
+	return "<$>167441</>";
+}
+
+func BUFF_Poison(level)
+{
+	return "<$>167442</>";
+}
+
+func BUFF_CommLvBuff(level)
+{
+    return IMCFormat("<$>79114</>", GetCommanderMasteryTooltipText());
+}
+
+func BUFF_WorldPVP(level)
+{
+    return "<$>79115</>";
+ }
+
+func BUFF_Fear(level)
+{
+	return IMCFormat("<$>79116</>", level);
+}
+
+func BUFF_Fear2(level)
+{
+	return IMCFormat("<$>79116</>", level);
+}
+
+func BUFF_Stun(level)
+{
+	return IMCFormat("<$>79117</>", level);
+}
+func BUFF_Ritardi(level)
+{
+  var req_lv = 30 + level*3;
+  
+  if(level > 10){
+    return IMCFormat("<$>79118</>", level,req_lv,req_lv);
+  }else{
+    return IMCFormat("<$>79119</>", level,req_lv,req_lv);
+  }
+  	
+}
+func BUFF_MagicalPiercing(level)
+{
+  var req_lv = level * 5 + 25;
+  
+	return IMCFormat("<$>151513</>", level,req_lv,req_lv,req_lv,req_lv);
+}
+func BUFF_Blind(level)
+{
+	return IMCFormat("<$>79121</>", level);
+}
+func BUFF_Sandmann(level)
+{
+	return IMCFormat("<$>79122</>", level);
+}
+func BUFF_Provoke(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>79123</>", level,level+10, ( level - 10 ) + 5 );
+  } else {
+   	return IMCFormat("<$>79123</>", level,level+10, math.floor(level/2) );
+  }
+}
+func BUFF_Apocalypse(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>79124</>", level);
+  }else{
+    return IMCFormat("<$>79125</>", level);
+  }
+}
+func BUFF_DispellMagic(level)
+{
+	return IMCFormat("<$>101380</>", level);
+}
+func BUFF_Web(level)
+{
+	return IMCFormat("<$>79127</>", level);
+}
+func BUFF_Reverse(level)
+{
+	return IMCFormat("<$>79128</>", level);
+}
+func BUFF_ArmorCrasher(level)
+{
+	return IMCFormat("<$>198327</>", level);
+}
+func BUFF_ArmorCrasher_Quest(level)
+{
+	return IMCFormat("<$>198328</>", level);
+}
+func BUFF_Burning(level)
+{
+	return "<$>198329</>";
+}
+func BUFF_Freeze(level)
+{
+	return "<$>198330</>";
+}
+func BUFF_Shock(level)
+{
+	return IMCFormat("<$>198331</>", level);
+}
+func BUFF_OldShock(level)
+{
+	return IMCFormat("<$>199876</>", level);
+}
+func BUFF_Petrified(level)
+{
+	return IMCFormat("<$>167445</>", level);
+}
+func BUFF_Confusion(level)
+{
+	return IMCFormat("<$>79134</>", level);
+}
+func BUFF_Enervation(level)
+{
+	return IMCFormat("<$>167446</>", level);
+}
+func BUFF_WebMon(level)
+{
+	return "<$>27642</>";
+}
+func BUFF_Curse(level)
+{
+  if(level >10){
+  	return IMCFormat("<$>167447</>", level);
+	}else{
+	  return IMCFormat("<$>79137</>", level);
+	}
+}
+func BUFF_Panic(level)
+{
+	return IMCFormat("<$>79138</>", level);
+}
+func BUFF_Freeze2(level)
+{
+	return "<$>79139</>";
+}
+func BUFF_CriticalWound(level)
+{
+	return IMCFormat("<$>167448</>", level);
+}
+func BUFF_Protection(level)
+{
+  var req_lv = level * 2 + 10;
+  if(level > 10){
+  	return IMCFormat("<$>167449</>", level,req_lv);
+  }else{
+    return IMCFormat("<$>167450</>", level,req_lv);
+  }
+}
+func BUFF_Allegretto(level)
+{
+  var crt_lv = level + 5;
+  var aspd_lv = math.floor(10 + level * 1.5);
+  
+  if(level > 10){
+  	return IMCFormat("<$>79143</>", level,aspd_lv,crt_lv);
+  } else{
+    return IMCFormat("<$>79144</>", level,aspd_lv,crt_lv);
+  }
+}
+func BUFF_LavaPlasma(level)
+{
+  var req_lv = 20 + level *5;
+	return IMCFormat("<$>79145</>", level,req_lv);
+}
+func BUFF_ColdPlasma(level)
+{
+  var req_lv = 20 + level *5;
+	return IMCFormat("<$>79146</>", level,req_lv);
+}
+func BUFF_ElectricPlasma(level)
+{
+	var req_lv = 20 + level *5;
+	return IMCFormat("<$>79147</>", level,req_lv);
+}
+func BUFF_MagicBarrier(level)
+{
+	var req_lv = level *3
+	return IMCFormat("<$>79148</>", level,req_lv,level);
+}
+func BUFF_IgnoreHarm(level)
+{
+	var req_lv = level *5
+	return IMCFormat("<$>95291</>", level,req_lv,level);
+}
+func BUFF_Invulnerable(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>180174</>", level);
+  }else{
+    return IMCFormat("<$>180175</>", level);
+  }
+}
+func BUFF_SpiritualShield(level)
+{
+  var rstat_lv = 15 + level *2;
+  var rpsy_lv = 10 + level;
+	return IMCFormat("<$>95292</>", level,rstat_lv,rpsy_lv);
+}
+func BUFF_AntimagicShell(level)
+{
+	return IMCFormat("<$>79153</>", level,level+10,level+10,level+10);
+}
+func BUFF_ProtectionField(level)
+{
+  var req_lv = 50 + level *3;
+  if(level >10){
+  	return IMCFormat("<$>79154</>", level,req_lv);
+  }else{
+    return IMCFormat("<$>79155</>", level,req_lv);
+  }
+}
+func BUFF_InvisibleStalker(level)
+{
+	return IMCFormat("<$>105341</>", level);
+}
+func BUFF_ManaActivation(level)
+{
+  var req_lv = level * 0.5;
+  
+  if(level > 10){
+	  return IMCFormat("<$>167451</>", level,level + 3,req_lv);
+	}else{
+	  return IMCFormat("<$>167452</>", level,level + 3,req_lv);
+	}
+}
+func BUFF_BurningHands(level)
+{
+  var req_lv = 10 + level * 3;
+	return IMCFormat("<$>79159</>", level,req_lv);
+}
+func BUFF_ChillingTouch(level)
+{
+	var req_lv = 10 + level * 3;
+	return IMCFormat("<$>79160</>", level,req_lv);
+}
+func BUFF_ElectricCharger(level)
+{
+	var req_lv = 10 + level * 3;
+	return IMCFormat("<$>79161</>", level,req_lv);
+}
+func BUFF_EnchantedArm(level)
+{
+  var req_lv = math.floor(50 + level^ 2 / 2);
+  if(level > 10){
+	  return IMCFormat("<$>79162</>", level,req_lv);
+	}else{
+	  return IMCFormat("<$>79163</>", level,req_lv);
+	}
+}
+func BUFF_DagaVenenosa(level)
+{
+	return IMCFormat("<$>167453</>", level);
+}
+func BUFF_Clique(level)
+{
+  if ( level == 11 ){
+  	return "<$>167454</>";
+  }else if( level < 11 ){
+    return "<$>167455</>";
+  }else if( level == 12){
+    return "<$>218165</>";
+  }
+}
+func BUFF_Safeguard(level)
+{
+	return "<$>27690</>";
+}
+func BUFF_WrongAnswer(level)
+{
+	return "<$>27692</>";
+}
+func BUFF_CounterAttack(level)
+{
+	return "<$>27694</>";
+}
+func BUFF_MCounterAttack(level)
+{
+	return "<$>218166</>";
+}
+func BUFF_BlueOrb(level)
+{
+	return IMCFormat("<$>79167</>",level);
+}
+func BUFF_WhiteOrb(level)
+{
+	return IMCFormat("<$>79168</>",level);
+}
+func BUFF_RedOrb(level)
+{
+  if(level == 11){
+    return "<$>112411</>";
+  } else if(level == 12){
+    return "<$>112412</>";
+  } else if(level == 13){
+    return "<$>112413</>";
+  } else {
+	  return IMCFormat("<$>79169</>",level);
+	}
+}
+func BUFF_BlackOrb(level)
+{
+	return "<$>167456</>";
+}
+func BUFF_BlessofGM(level)
+{
+  var req_lv = 5 * level;
+	return IMCFormat("<$>99211</>", level,req_lv,req_lv,req_lv,req_lv,req_lv,req_lv,req_lv);
+}
+func BUFF_Intensify(level)
+{
+  if(level > 10){
+	  return IMCFormat("<$>79172</>", level,level+5);
+	}else{
+	  return IMCFormat("<$>79173</>", level,level+5);
+	}
+}
+func BUFF_Concentrate(level)
+{
+  var crt_lv = math.floor(level * 1.5);
+  var hr_lv = level * 2 + 10;
+  if(level > 10){
+  	return IMCFormat("<$>167457</>", level,level*3,hr_lv,crt_lv);
+	}else{
+	  return IMCFormat("<$>167458</>", level,level*3,hr_lv,crt_lv);
+	}
+}
+func BUFF_Fortify(level)
+{
+  if(level >10){
+	  return IMCFormat("<$>99212</>", level,level+10);
+	}else{
+	  return IMCFormat("<$>99213</>", level,level+10);
+	}
+}
+func BUFF_Acceleration(level)
+{
+  var req_lv = math.floor(5 + level * 1.5);
+	return IMCFormat("<$>79178</>", level,req_lv,req_lv);
+}
+func BUFF_Meditation(level)
+{
+  var req_lv = 10 + level*2;
+	return IMCFormat("<$>79179</>", level,req_lv,level+5);
+}
+func BUFF_Fury(level)
+{
+  var mspd_lv = 25;
+  var aspd_lv = math.floor(10 + level * 1.5);
+  if(level > 10){
+	  return IMCFormat("<$>167459</>", level,aspd_lv,mspd_lv);
+	}else{
+	  return IMCFormat("<$>167460</>", level,aspd_lv,mspd_lv);
+	}
+}
+func BUFF_HighlandersSoul(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>79182</>", level, 2 * level, level, (level - 10 ) * 10);
+	}else{
+  	return IMCFormat("<$>79183</>", level, 2 * level, level);
+	}
+}
+func BUFF_Guardian(level)
+{
+  var req_lv = level*3 +5;
+  if(level > 10){
+	  return IMCFormat("<$>167461</>", level,req_lv);
+	}else{
+	  return IMCFormat("<$>167462</>", level,req_lv);
+	}
+}
+func BUFF_Evasion(level)
+{
+  var pr_lv = math.floor(level * 1.5 + 5);
+  var aspd_lv = math.floor(5 * (level - 10));
+  if(level>10){
+  	return IMCFormat("<$>167463</>", level,aspd_lv,pr_lv);
+	}else{
+	  return IMCFormat("<$>167464</>", level,pr_lv);
+	}
+}
+func BUFF_Westraid(level)
+{
+  var req_lv = math.floor(40 - level * 1.5);
+  if(level > 10){
+  	return IMCFormat("<$>167465</>", level,level+5,req_lv);
+	}else{
+	  return IMCFormat("<$>167466</>", level,level+5,req_lv);
+	}
+}
+func BUFF_Haste(level)
+{
+	return "<$>167467</>";
+}
+func BUFF_Reflection(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>180176</>", level);
+	}else{
+	  return IMCFormat("<$>180177</>", level);
+	}
+}
+func BUFF_Sprint(level)
+{
+  var req_lv = 50+level*5
+	return IMCFormat("<$>79193</>", level,req_lv);
+}
+func BUFF_Rafflesia(level)
+{
+	return "<$>79194</>";
+}
+func BUFF_CapyBuff(level)
+{
+	return "<$>79195</>";
+}
+func BUFF_FrozenShield(level)
+{
+	return "<$>180178</>";
+}
+func BUFF_LavaAurora(level)
+{
+	return "<$>79197</>";
+}
+func BUFF_LavaField(level)
+{
+	return "<$>79198</>";
+}
+func BUFF_PHealth(level)
+{
+	return "<$>99214</>";
+}
+func BUFF_PSoul(level)
+{
+	return "<$>99215</>";
+}
+func BUFF_Retrench(level)
+{
+  req_lv = (level -10) * 2;
+  if(level > 10){
+  	return IMCFormat("<$>79201</>", level,req_lv,level);
+	}else{
+	  return IMCFormat("<$>79202</>", level,level);
+	}
+}
+func BUFF_ScopeExtension(level)
+{
+  var cast_lv = level * 2.5;
+  var aspd_lv = (level-10) * 2;
+  if(level > 10){
+	  return IMCFormat("<$>167468</>", level,aspd_lv,cast_lv);
+	}else{
+	  return IMCFormat("<$>99217</>", level,cast_lv);
+	}
+}
+func BUFF_AdvancedCast(level)
+{
+  var rhp_lv = level * 50;
+  var rsp_lv = level * 10;
+  if(level > 11){
+  	return IMCFormat("<$>79205</>", level,rhp_lv,rsp_lv);
+	}else if(level > 10){
+	  return IMCFormat("<$>79206</>", level,rhp_lv,rsp_lv);
+	}else{
+	  return IMCFormat("<$>79207</>", level,rhp_lv,rsp_lv);
+	}
+}
+func BUFF_BuffEXPCHN(level)
+{
+	return "<$>79208</>";
+}
+func BUFF_AbsoluteIce(level)
+{
+	return "<$>74217</>";
+}
+func BUFF_RegenWard(level)
+{
+	return "<$>79209</>";
+}
+func BUFF_HealingWard(level)
+{
+	return "<$>99218</>";
+}
+func BUFF_SafetyWard(level)
+{
+	return "<$>99219</>";
+}
+func BUFF_ConcentrationWard(level)
+{
+	return "<$>79212</>";
+}
+func BUFF_BattleMove(level)
+{
+	return "<$>79213</>";
+}
+func BUFF_EXPBuffCHN50(level)
+{
+	return "<$>79214</>";
+}
+func BUFF_Wall(level)
+{
+	return "<$>79215</>";
+}
+func BUFF_CatsEye(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>79216</>", level,level * 2,level * 2);
+  }else{
+    return IMCFormat("<$>79217</>", level,level * 2,level  *2);
+  }
+}
+func BUFF_LuckyBag(level)
+{
+	return "<$>79218</>";
+}
+func BUFF_PoseBuffRhpRsp(level)
+{
+	return "<$>79219</>";
+}
+func BUFF_EventBuff(level)
+{
+	return "<$>79220</>";
+}
+func BUFF_EventBuff1(level)
+{
+	return "<$>79220</>";
+}
+func BUFF_EventBuffWP(level)
+{
+	return "<$>101381</>";
+}
+func BUFF_PartyLeaderBuff1(level)
+{
+	return "<$>27780</>";
+}
+func BUFF_PartyLeaderBuff2(level)
+{
+	return "<$>27781</>";
+}
+func BUFF_PartyLeaderBuff3(level)
+{
+	return "<$>27782</>";
+}
+func BUFF_PartyLeaderBuff4(level)
+{
+	return "<$>27783</>";
+}
+func BUFF_PartyLeaderBuff5(level)
+{
+	return "<$>27784</>";
+}
+func BUFF_PartyLeaderBuff6(level)
+{
+	return "<$>27785</>";
+}
+func BUFF_PartyLeaderBuff7(level)
+{
+	return "<$>27786</>";
+}
+func BUFF_PartyLeaderBuff8(level)
+{
+	return "<$>27786</>";
+}
+func BUFF_PartyLeaderBuff9(level)
+{
+	return "<$>27786</>";
+}
+func BUFF_PartyLeaderBuff10(level)
+{
+	return "<$>27786</>";
+}
+func BUFF_PartyColBuff1(level)
+{
+	return "<$>99220</>";
+}
+func BUFF_PartyColBuff2(level)
+{
+	return "<$>99221</>";
+}
+func BUFF_PartyColBuff3(level)
+{
+	return "<$>99222</>";
+}
+func BUFF_PartyColBuff4(level)
+{
+	return "<$>99223</>";
+}
+func BUFF_PartyColBuff5(level)
+{
+	return "<$>99224</>";
+}
+func BUFF_PartyColBuff6(level)
+{
+	return "<$>99225</>";
+}
+func BUFF_PartyColBuff7(level)
+{
+	return "<$>99226</>";
+}
+func BUFF_PartyColBuff8(level)
+{
+	return "<$>99227</>";
+}
+func BUFF_PartyColBuff9(level)
+{
+	return "<$>99228</>";
+}
+func BUFF_PartyColBuff10(level)
+{
+	return "<$>99228</>";
+}
+func BUFF_Dragonscale(level)
+{
+	return "<$>167469</>";
+}
+func BUFF_TBuff_Col_C(level)
+{
+	return "<$>167470</>";
+}
+func BUFF_TBuff_Col_N(level)
+{
+	return "<$>167471</>";
+}
+func BUFF_TBuff_Col_S(level)
+{
+	return "<$>167471</>";
+}
+func BUFF_ArgusGuard(level)
+{
+	return "<$>79233</>";
+}
+func BUFF_TBuff_Col_NE(level)
+{
+	return "<$>167471</>";
+}
+func BUFF_Concentration(level)
+{
+	return "<$>79234</>";
+}
+func BUFF_TBuff_Col_SE(level)
+{
+	return "<$>167471</>";
+}
+func BUFF_TBuff_Home(level)
+{
+	return "<$>167472</>";
+}
+func BUFF_Feeblemind(level)
+{
+	return "<$>167473</>";
+}
+func BUFF_Benediction(level)
+{
+	return "<$>167474</>";
+}
+func BUFF_SymbolOfWarrior(level)
+{
+	return "<$>167475</>";
+}
+func BUFF_Victory(level)
+{
+	return "<$>27917</>";
+}
+func BUFF_BlessOfAncient(level)
+{
+	return "<$>79238</>";
+}
+func BUFF_StrongBuff(level)
+{
+	return "<$>81364</>";
+}
+func BUFF_Anger(level)
+{
+	return "<$>79239</>";
+}
+func BUFF_BurlonLvBuff1(level)
+{
+	return "<$>101382</>";
+}
+func BUFF_BurlonLvBuff2(level)
+{
+	return "<$>27923</>";
+}
+func BUFF_BurlonLvBuff3(level)
+{
+	return "<$>27924</>";
+}
+func BUFF_BurlonLvBuff4(level)
+{
+	return "<$>27925</>";
+}
+func BUFF_BurlonLvBuff5(level)
+{
+	return "<$>27926</>";
+}
+func BUFF_BuffofQueen(level)
+{
+	return "<$>27927</>";
+}
+func BUFF_EXPBuff5(level)
+{
+	return "<$>27928</>";
+}
+func BUFF_EXPBuff10(level)
+{
+	return "<$>27929</>";
+}
+func BUFF_EXPBuff15(level)
+{
+	return "<$>27930</>";
+}
+func BUFF_EXPBuff20(level)
+{
+	return "<$>27931</>";
+}
+func BUFF_StnEXPBuff5(level)
+{
+	return "<$>27933</>";
+}
+func BUFF_StnEXPBuff10(level)
+{
+	return "<$>27934</>";
+}
+func BUFF_StnEXPBuff15(level)
+{
+	return "<$>27935</>";
+}
+func BUFF_StnEXPBuff20(level)
+{
+	return "<$>27936</>";
+}
+func BUFF_ProtectionofEsperanza(level)
+{
+	return "<$>79240</>";
+}
+func BUFF_BuffEvent1(level)
+{
+  return "<$>97355</>";
+}
+func BUFF_BuffEvent2(level)
+{
+  return "<$>79241</>";
+}
+func BUFF_BuffEXP1(level)
+{
+	return "<$>27944</>";
+}
+func BUFF_BuffEXP2(level)
+{
+	return "<$>79242</>";
+}
+func BUFF_BuffEvent3(level)
+{
+	return "<$>167476</>";
+}
+func BUFF_DungeonBuff(level)
+{
+	return "<$>27947</>";
+}
+func BUFF_HwoarangsSpirits(level)
+{
+  var psyatk_lv = 25 + level * 10;
+  if(level >10){
+    return IMCFormat("<$>195396</>", level, level * 15, level * 5, level, level, math.floor(level/1.5), math.floor(level/0.5));
+  }else{
+    return IMCFormat("<$>195397</>", level, level * 15, level * 5, level, level, math.floor(level/1.5), math.floor(level/0.5));
+  }
+}
+func BUFF_InvisibleStalker2(level)
+{
+	return "<$>27950</>";
+}
+func BUFF_DivineBless(level)
+{
+	return "<$>167477</>";
+}
+func BUFF_DungeonBuff2(level)
+{
+	return "<$>119626</>";
+}
+func BUFF_Decarabia(level)
+{
+	return "<$>167478</>";
+}
+func BUFF_EXPBuff40(level)
+{
+	return "<$>27957</>";
+}
+func BUFF_StnEXPBuff40(level)
+{
+	return "<$>27958</>";
+}
+func BUFF_TournamentBuff(level)
+{
+	return "<$>99232</>";
+}
+func BUFF_TBuff_EventCol_C(level)
+{
+	return "<$>79249</>";
+}
+func BUFF_TBuff_EventCol_E(level)
+{
+	return "<$>79250</>";
+}
+func BUFF_TBuff_EventCol_W(level)
+{
+	return "<$>79251</>";
+}
+func BUFF_IncAR(level)
+{
+	return IMCFormat("<$>79252</>", level);
+}
+func BUFF_IncDR(level)
+{
+	return IMCFormat("<$>79253</>", level);
+}
+func BUFF_IncARDR(level)
+{
+	return IMCFormat("<$>79254</>", level);
+}
+func BUFF_Insanity(level)
+{
+	return "<$>79255</>";
+}
+func BUFF_Restoration(level)
+{
+  if ( level == 2 ){
+    return "<$>167479</>";
+  } else {
+    return "<$>167480</>";
+  }
+}
+func BUFF_Distraction(level)
+{
+	return "<$>79257</>";
+}
+func BUFF_Daze(level)
+{
+	return "<$>79258</>";
+}
+func BUFF_Slow(level)
+{
+	return "<$>79259</>";
+}
+func BUFF_Chilly(level)
+{
+	return "<$>79260</>";
+}
+func BUFF_Griffon(level)
+{
+	return "<$>79261</>";
+}
+func BUFF_WillofWarrior(level)
+{
+  var req_lv = 10 + level * 6
+  if(level > 10){
+  	return IMCFormat("<$>167481</>", level,req_lv,level+10);
+  }else{
+    return IMCFormat("<$>167482</>", level,req_lv,level+10);
+  }
+}
+func BUFF_DivineBless3(level)
+{
+	return "<$>167483</>";
+}
+func BUFF_Weakened(level)
+{
+	return "<$>79265</>";
+}
+func BUFF_Protect(level)
+{
+	return "<$>79266</>";
+}
+func BUFF_Roar(level)
+{
+	return "<$>79267</>";
+}
+func BUFF_Stun2(level)
+{
+	return "<$>79268</>";
+}
+func BUFF_Uraeus(level)
+{
+	return "<$>79269</>";
+}
+func BUFF_DropBuff5(level)
+{
+	return "<$>28000</>";
+}
+func BUFF_DropBuff10(level)
+{
+	return "<$>28001</>";
+}
+func BUFF_DropBuff15(level)
+{
+	return "<$>28002</>";
+}
+func BUFF_DropBuff20(level)
+{
+	return "<$>28003</>";
+}
+func BUFF_DropBuff30(level)
+{
+	return "<$>79270</>";
+}
+func BUFF_Invierno(level)
+{
+	return "<$>99234</>";
+}
+func BUFF_Competition(level)
+{
+	return "<$>109027</>";
+}
+func BUFF_Flame(level)
+{
+	return "<$>95298</>";
+}
+func BUFF_Fight(level)
+{
+	return "<$>28011</>";
+}
+func BUFF_Reverse2(level)
+{
+	return "<$>79273</>";
+}
+func BUFF_SoulOfGrim(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>79274</>", level, level, level, level);
+  }else{
+    return IMCFormat("<$>79275</>", level, level, level, level);
+  }
+}
+func BUFF_OtiteBuff(level)
+{
+	return "<$>28015</>";
+}
+func BUFF_EXPBuff50(level)
+{
+	return "<$>27766</>";
+}
+func BUFF_EXPBuff80(level)
+{
+	return "<$>28016</>";
+}
+func BUFF_EXPBuff100(level)
+{
+	return "<$>28017</>";
+}
+func BUFF_DEUEXPBuff100(level)
+{
+	return "<$>120993</>";
+}
+func BUFF_StnEXPBuff50(level)
+{
+	return "<$>28018</>";
+}
+func BUFF_StnEXPBuff80(level)
+{
+	return "<$>28019</>";
+}
+func BUFF_StnEXPBuff100(level)
+{
+	return "<$>28020</>";
+}
+func BUFF_Recess(level)
+{
+	return "<$>79276</>";
+}
+func BUFF_WaterMelon(level)
+{
+	return "<$>79277</>";
+}
+func BUFF_FrostBite(level)
+{
+  var req_lv = 10 + level * 8;
+  if(level > 10){
+  	return IMCFormat("<$>167484</>", level,req_lv,level+5);
+  }else{
+    return IMCFormat("<$>167485</>", level,req_lv,level+5);
+  }
+}
+func BUFF_KSWISS(level)
+{
+	return "<$>79280</>";
+}
+func BUFF_Tcapy(level)
+{
+	return "<$>79281</>";
+}
+func BUFF_ChapterofWind(level)
+{
+  if(level > 10){
+	  return IMCFormat("<$>142255</>", level, level * 15, level * 5, level, level, level, math.floor(level/1.5), level * 2);
+	}else{
+	  return IMCFormat("<$>142256</>", level, level * 15, level * 5, level, level, level, math.floor(level/1.5), level * 2);
+	}
+}
+func BUFF_ChapterofEarth(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>167486</>", level, level * 4, level * 3, level, level, level, math.floor(level/1.5), level * 2);
+  }else{
+    return IMCFormat("<$>167487</>", level, level * 4, level * 3, level, level, level, math.floor(level/1.5, level * 2) );
+  }
+}
+func BUFF_Insanity2(level)
+{
+	return "<$>95299</>";
+}
+func BUFF_WaitingDiablo(level)
+{
+	return "<$>28038</>";
+}
+func BUFF_ShiningBallade(level)
+{
+  var req_lv = (level -10)*3;
+  if(level > 10){
+  	return IMCFormat("<$>79287</>", level,req_lv,level,level,level);
+  }else{
+    return IMCFormat("<$>101384</>", level,level,level,level);
+  }
+}
+func BUFF_EnduranceMelody(level)
+{
+  var req_lv = (level -10) *3;
+  if(level > 10){
+  	return IMCFormat("<$>79289</>", level,req_lv,level);
+	}else{
+	  return IMCFormat("<$>79290</>", level,level);
+	}
+}
+func BUFF_RhythmofSpellBreak(level)
+{
+  var req_lv = (level -10) *3;
+  if(level > 10){  
+  	return IMCFormat("<$>167488</>", level,req_lv,level);
+	}else{
+    return IMCFormat("<$>167489</>", level,level);
+	}
+}
+func BUFF_RiceCake(level)
+{
+	return "<$>79293</>";
+}
+func BUFF_MermanCurse(level)
+{
+	return "<$>79294</>";
+}
+func BUFF_Competition2(level)
+{
+  if(level == 2){
+    return "<$>113279</>";
+  } else {
+	  return "<$>28049</>";
+	}
+}
+func BUFF_Fishing(level)
+{
+	return "<$>79295</>";
+}
+func BUFF_Requiem(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>95302</>", level);
+	}else{
+	  return IMCFormat("<$>95303</>", level);
+	}
+}
+func BUFF_MonRequiem(level)
+{
+	return "<$>180179</>";
+}
+func BUFF_Reanimate(level)
+{
+	return "<$>79298</>";
+}
+func BUFF_Stasisfield(level)
+{
+	return "<$>99235</>";
+}
+func BUFF_Betelgeuse(level)
+{
+	return "<$>79300</>";
+}
+func BUFF_BetelFortify(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>79301</>", level);
+  }else{
+    return IMCFormat("<$>79302</>", level);
+  }
+}
+func BUFF_HawkEye(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>167490</>", level,level+5,level);
+  }else{
+    return IMCFormat("<$>167491</>", level,level+5,level);
+  }
+}
+func BUFF_SilentMove(level)
+{
+	return IMCFormat("<$>180180</>", level);
+}
+func BUFF_Hold(level)
+{
+	return "<$>28067</>";
+}
+func BUFF_Destino(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>195398</>", level,level*2, level, math.floor(level/3));
+  }else{
+    return IMCFormat("<$>195399</>", level,level*2, level, math.floor(level/3));
+  }
+}
+func BUFF_Howling(level)
+{
+  var atk_lv = 10+level*5;
+  var aspd_lv = 30 + level*5;
+	return IMCFormat("<$>79308</>", level,atk_lv,aspd_lv);
+}
+func BUFF_Puppet(level)
+{
+	return "<$>79309</>";
+}
+func BUFF_Paralysis(level)
+{
+	return "<$>79310</>";
+}
+func BUFF_Intoxicacion(level)
+{
+  var req_lv = 10+level*4;
+  if(level > 10){
+	  return IMCFormat("<$>167493</>", level,req_lv);
+	}
+	else {
+	  return IMCFormat("<$>167494</>", level,req_lv);
+	}
+}
+func BUFF_Bless(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>199877</>", level,level * 3,level*2,level,level*2,level*500,level*3);
+  }else{
+    return IMCFormat("<$>199878</>", level,level * 3,level*2,level,level*2,level*500,level*3);
+  }
+}
+func BUFF_Incapacitation(level)
+{
+	return IMCFormat("<$>79314</>", level,level);
+}
+func BUFF_ShoutofDeth(level)
+{
+	return IMCFormat("<$>79315</>", level,level*15,level*15);
+}
+func BUFF_DungeonBuff3(level)
+{
+	return "<$>28085</>";
+}
+func BUFF_Slow2(level)
+{
+	return "<$>79316</>";
+}
+func BUFF_Rollsofthunder(level)
+{
+	return "<$>79317</>";
+}
+func BUFF_Ropera(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>218167</>", level, level*2.5, level*2.5, level*7.5);
+  }else{
+    return IMCFormat("<$>218168</>", level, level*2.5, level*2.5, level*7.5);
+  }
+}
+func BUFF_Expose(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>167498</>", level, 10 + level* 4, math.floor(level * 1.2));
+  }else{
+        return IMCFormat("<$>167499</>", level, 10 + level* 4, math.floor(level * 1.2));
+  }
+}
+func BUFF_Intrepid(level)
+{
+  if(level > 11){
+    return IMCFormat("<$>79322</>", level, 12 - level);
+  }else if(level > 10){
+    return IMCFormat("<$>79323</>", level, 12 - level);
+  }else {
+    return IMCFormat("<$>79324</>", level, 12 - level);
+  }
+}
+func BUFF_Agile(level)
+{
+	if(level > 11){
+  	return IMCFormat("<$>156023</>", level);
+  }else if(level > 10){
+    return IMCFormat("<$>156024</>", level);
+  }else{
+    return IMCFormat("<$>79327</>", level);
+  }
+}
+func BUFF_Silence(level)
+{
+	return "<$>79328</>";
+}
+func BUFF_Paralysis2(level)
+{
+	return "<$>79310</>";
+}
+func BUFF_Levitation(level)
+{
+	return "<$>28099</>";
+}
+func BUFF_Derangement(level)
+{
+	return "<$>79329</>";
+}
+func BUFF_DropBuff10_Event(level)
+{
+	return "<$>28103</>";
+}
+func BUFF_EXPBuff20_Event(level)
+{
+	return "<$>28105</>";
+}
+func BUFF_IncARDR_Event(level)
+{
+	return IMCFormat("<$>167500</>", level,level);
+}
+func BUFF_Soldierspirit(level)
+{
+	return "<$>79331</>";
+}
+func BUFF_Crosseddestiny(level)
+{
+	return "<$>79332</>";
+}
+func BUFF_Gunsmith(level)
+{
+	return "<$>79333</>";
+}
+func BUFF_Muscleclub(level)
+{
+	return "<$>79334</>";
+}
+func BUFF_Kntorescue(level)
+{
+	return "<$>79335</>";
+}
+func BUFF_War3years(level)
+{
+	return "<$>167501</>";
+}
+func BUFF_Settler(level)
+{
+	return "<$>79337</>";
+}
+func BUFF_Misunderstnding(level)
+{
+	return "<$>28604</>";
+}
+func BUFF_Dreamoftorche(level)
+{
+	return "<$>79338</>";
+}
+func BUFF_Chainofpast(level)
+{
+	return "<$>28614</>";
+}
+func BUFF_Granado2th(level)
+{
+	return "<$>79339</>";
+}
+func BUFF_Hiddentruth(level)
+{
+	return "<$>79340</>";
+}
+func BUFF_Juniorclub(level)
+{
+	return "<$>99236</>";
+}
+func BUFF_EXPBuff_Mission(level)
+{
+	return IMCFormat("<$>79342</>", level,level);
+}
+func BUFF_HRup05(level)
+{
+	return "<$>28122</>";
+}
+func BUFF_MHPup1000(level)
+{
+	return "<$>97365</>";
+}
+func BUFF_MHPup500(level)
+{
+	return "<$>97367</>";
+}
+func BUFF_ATKup05(level)
+{
+	return "<$>28128</>";
+}
+func BUFF_MSPDup05(level)
+{
+	return "<$>28130</>";
+}
+func BUFF_DRup05(level)
+{
+	return "<$>167502</>";
+}
+func BUFF_TeamArenaBuff(level)
+{
+  var mhpadd_lv = 10000 + level * 1500;
+  var mhp_lv = 15+ level *5;
+  var mspadd_lv = 400+level*200
+	return IMCFormat("<$>99237</>", level,mhpadd_lv,mhp_lv,mspadd_lv);
+}
+func BUFF_AddAR(level)
+{
+	return IMCFormat("<$>167503</>", level,level);
+}
+func BUFF_AddATK(level)
+{
+	return IMCFormat("<$>79345</>", level,level*5);
+}
+func BUFF_AddASPD(level)
+{
+	return IMCFormat("<$>79346</>", level,level*5);
+}
+func BUFF_AddHR(level)
+{
+	return IMCFormat("<$>79347</>", level,level*5);
+}
+func BUFF_AddDEFIP(level)
+{
+	return IMCFormat("<$>79348</>", level,level*5);
+}
+func BUFF_AddDR(level)
+{
+	return IMCFormat("<$>167504</>", level,level);
+}
+func BUFF_AddDEF(level)
+{
+	return IMCFormat("<$>79350</>", level,level*5);
+}
+func BUFF_AddPR(level)
+{
+	return IMCFormat("<$>79351</>", level,level*5);
+}
+func BUFF_AddBLK(level)
+{
+	return IMCFormat("<$>79352</>", level,level*5);
+}
+func BUFF_AddIMP(level)
+{
+	return IMCFormat("<$>79353</>", level,level*5);
+}
+func BUFF_AddFireATK(level)
+{
+	return IMCFormat("<$>79354</>", level,level*10);
+}
+func BUFF_AddIceATK(level)
+{
+	return IMCFormat("<$>79355</>", level,level*10);
+}
+func BUFF_AddLghtATK(level)
+{
+	return IMCFormat("<$>79356</>", level,level*10);
+}
+func BUFF_AddPsyATK(level)
+{
+	return IMCFormat("<$>79357</>", level,level*10);
+}
+func BUFF_AddMagicIP(level)
+{
+	return IMCFormat("<$>79358</>", level,level*5);
+}
+func BUFF_AddRST(level)
+{
+	return IMCFormat("<$>79359</>", level,level*3);
+}
+func BUFF_AddRFIRE(level)
+{
+	return IMCFormat("<$>79360</>", level,level*5);
+}
+func BUFF_AddRLGHT(level)
+{
+	return IMCFormat("<$>79361</>", level,level*5);
+}
+func BUFF_AddRICE(level)
+{
+	return IMCFormat("<$>79362</>", level,level*5);
+}
+func BUFF_AddRSTAT(level)
+{
+	return IMCFormat("<$>95307</>", level,level*3);
+}
+func BUFF_DecHR(level)
+{
+	return IMCFormat("<$>79364</>", level,level*5);
+}
+func BUFF_DecATK(level)
+{
+	return IMCFormat("<$>79365</>", level,level*5);
+}
+func BUFF_DecDEF(level)
+{
+	return IMCFormat("<$>79366</>", level,level*5);
+}
+func BUFF_AddStun(level)
+{
+	return IMCFormat("<$>79367</>", level);
+}
+func BUFF_AddShock(level)
+{
+	return IMCFormat("<$>79368</>", level);
+}
+func BUFF_AddRitardi(level)
+{
+	return IMCFormat("<$>79369</>", level,30+level*3,30+level*3);
+}
+func BUFF_ArenaHomeBuff(level)
+{
+	return "<$>79370</>";
+}
+func BUFF_AddMspd(level)
+{
+	return IMCFormat("<$>79371</>", level,level*5);
+}
+func BUFF_EXPBUFF_PanPan(level)
+{
+	return IMCFormat("<$>79372</>", level,level*20,level*20);
+}
+func BUFF_Freezing(level)
+{
+	return IMCFormat("<$>79373</>", level);
+}
+func BUFF_Joker(level)
+{
+	return IMCFormat("<$>79374</>", level);
+}
+func BUFF_Diceofdeath(level)
+{
+	return IMCFormat("<$>79375</>", level,level*3,level*3,level*20,level*20,level*20);
+}
+func BUFF_Alteration(level)
+{
+	return IMCFormat("<$>79376</>", level,level*10,level*50,level*50,level*10,level*50);
+}
+func BUFF_Xmas_IncASPD(level)
+{
+	return IMCFormat("<$>79346</>", level,level*2);
+}
+func BUFF_Xmas_IncATK(level)
+{
+	return IMCFormat("<$>79345</>", level,level*4);
+}
+func BUFF_Xmas_EXPBuff(level)
+{
+	return IMCFormat("<$>79377</>", level,level*3);
+}
+func BUFF_HomePreBuff10(level)
+{
+	return "<$>28212</>";
+}
+func BUFF_HomePreBuff20(level)
+{
+	return "<$>119630</>";
+}
+func BUFF_HomePreBuff30(level)
+{
+	return "<$>214472</>";
+}
+func BUFF_PartySpotWEH(level)
+{
+	return IMCFormat("<$>167505</>", level, level, level);
+}
+func BUFF_PartySpotCNTRM(level)
+{
+	return "<$>97370</>";
+}
+func BUFF_PartySpotWEM(level)
+{
+	return "<$>97371</>";
+}
+func BUFF_Peace(level)
+{
+	return "<$>28221</>";
+}
+func BUFF_ColBuffD(level)
+{
+	return "<$>79380</>";
+}
+func BUFF_ColBuffE(level)
+{
+	return "<$>79381</>";
+}
+func BUFF_Nyato(level)
+{
+	return IMCFormat("<$>79382</>", level);
+}
+func BUFF_Event_DcrMSPD(level)
+{
+	return "<$>79383</>";
+}
+func BUFF_Stower_DcrMSPD(level)
+{
+	return "<$>79384</>";
+}
+func BUFF_Sprint_WhiteDay(level)
+{
+	return IMCFormat("<$>79385</>", 50+level*5);
+}
+func BUFF_IncASPD_WhiteDay(level)
+{
+	return "<$>79386</>";
+}
+func BUFF_AddDEF_WhiteDay(level)
+{
+	return "<$>79387</>";
+}
+func BUFF_IncATK_WhiteDay(level)
+{
+	return "<$>79388</>";
+}
+func BUFF_AddMspd_WhiteDay(level)
+{
+	return "<$>79389</>";
+}
+func BUFF_HeavenBuff(level)
+{
+	return "<$>186819</>";
+}
+func BUFF_EnhancedLionHeart(level)
+{
+  var mspd_lv = 30+level*5;
+  var aspd_lv = 10+level*2;
+  var atk_lv = 50+level*5;
+  if(level > 10){
+  	return IMCFormat("<$>79390</>", level,mspd_lv,aspd_lv,atk_lv);
+  }else{
+    return IMCFormat("<$>79391</>", level,mspd_lv,aspd_lv,atk_lv);
+  }
+}
+func BUFF_Marineheros(level)
+{
+	return "<$>79392</>";
+}
+func BUFF_Rebmilitia(level)
+{
+	return "<$>99238</>";
+}
+func BUFF_Giganticblaster(level)
+{
+	return "<$>167506</>";
+}
+func BUFF_IceSpirits(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>142260</>", level, level * 15, level * 5, level * 2, level, level, math.floor(level/1.5), level * 2);
+  }else{
+  	return IMCFormat("<$>142261</>", level, level * 15, level * 5, level * 2, level, level, math.floor(level/1.5), level * 2);
+  }
+}
+func BUFF_BurningSpirits(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>142262</>", level, level * 15, level * 5, level, level, math.floor(level/1.5), level * 2);
+  }else{
+  	return IMCFormat("<$>142263</>", level, level * 15, level * 5, level, level, math.floor(level/1.5), level * 2);
+  }
+}
+func BUFF_Amplify(level)
+{
+  var mspadd_lv = 50+level*20;
+  var patk_lv = 10+level*3;
+  
+  if(level > 11){
+  	return IMCFormat("<$>79398</>", level,mspadd_lv,patk_lv,level);
+	}else if(level > 10){
+    return IMCFormat("<$>79399</>", level,mspadd_lv,patk_lv,level);
+	}else{
+	  return IMCFormat("<$>79400</>", level,mspadd_lv,patk_lv,level);
+	}
+}
+func BUFF_Deepsleep(level)
+{
+	return IMCFormat("<$>79401</>", level);
+}
+func BUFF_Improvedisease(level)
+{
+  var req_lv = 10+level*3;
+  var req_lv2 = 10+level*4;
+  
+  if(level > 10){
+    if(level > 11){
+      return IMCFormat("<$>95309</>", level,level*2,req_lv,req_lv,req_lv2);
+    }
+    return IMCFormat("<$>95310</>", level,level*2,req_lv,req_lv,req_lv2);
+	}else{
+	  return IMCFormat("<$>95311</>", level,level*2,req_lv,req_lv,req_lv2);
+	}
+}
+func BUFF_Gloomypresent(level)
+{
+	return IMCFormat("<$>79405</>", level,10+level*2);
+}
+func BUFF_Wholecancellation(level)
+{
+	return IMCFormat("<$>126646</>", level);
+}
+func BUFF_Bloodcurse(level)
+{
+  var mhp_lv = 10+level*2;
+  var msp_lv = 5+ level;
+  var def_lv = 20+level*3;
+  var mspd_lv = 10+level*2;
+	return IMCFormat("<$>99239</>", level,mhp_lv,msp_lv,def_lv,mspd_lv);
+}
+func BUFF_StudentBuff2(level)
+{
+	return IMCFormat("<$>79408</>", level, level * 10);
+}
+func BUFF_StudentBuff4(level)
+{
+	return IMCFormat("<$>79409</>", level, level * 10);
+}
+func BUFF_StudentBuff6(level)
+{
+	return IMCFormat("<$>79410</>", level, level * 10);
+}
+func BUFF_StudentBuff8(level)
+{
+	return "<$>79411</>";
+}
+func BUFF_StudentBuff10(level)
+{
+	return "<$>79412</>";
+}
+func BUFF_Entangle(level)
+{
+	return "<$>79413</>";
+}
+func BUFF_BloodyFeast(level)
+{
+  var atkbm = level * 2;
+        
+  if(level <= 9){
+	  return IMCFormat("<$>79414</>", level, atkbm);
+	}else if(level == 10){
+	  return "<$>221080</>";
+	}else if(level == 11){
+	  return "<$>221081</>";
+	}else if(level == 12){
+	  return "<$>221082</>";
+	}else if(level == 13){
+	  return "<$>221083</>";
+	}else if(level == 14){
+	  return "<$>221084</>";
+	}else if(level == 15){
+	  return "<$>221085</>";
+	}else if(level == 16){
+	  return "<$>221086</>";
+	}else if(level == 17){
+	  return "<$>221087</>";
+	}else if(level == 18){
+	  return "<$>221088</>";
+	}else if(level == 19){
+	  return "<$>221089</>";
+	}
+}
+func BUFF_Hound(level)
+{
+  var mastk_lv = 5 + math.floor(level * 1.5);
+  var crt_lv = 3 + math.floor(level * 0.7);
+  
+	return IMCFormat("<$>79422</>", level,mastk_lv,crt_lv);
+}
+func BUFF_Corrosion(level)
+{
+	return "<$>105352</>";
+}
+func BUFF_Bleeding(level)
+{
+	return IMCFormat("<$>79424</>", level);
+}
+func BUFF_Restore(level)
+{
+	return IMCFormat("<$>112417</>", level);
+}
+func BUFF_Satisfy(level)
+{
+	return IMCFormat("<$>112418</>", level);
+}
+func BUFF_Redemption(level)
+{
+	return IMCFormat("<$>167514</>", level, level);
+}
+func BUFF_Destruido(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>225472</>", level);
+  }else{
+    return IMCFormat("<$>225473</>", level, 50 + level * 2.5);
+  }
+}
+func BUFF_Drain(level)
+{
+	return IMCFormat("<$>167517</>");
+}
+func BUFF_Eagleeye(level)
+{
+	return IMCFormat("<$>221090</>", level, math.floor(level * 2.5));
+}
+func BUFF_Mutation(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>99242</>", level,level,level*3,level*2);
+  }else{
+    return IMCFormat("<$>99243</>", level,level,level*3,level*2);
+  }
+}
+func BUFF_Totentanz(level)
+{
+  if(level > 11){
+  	return IMCFormat("<$>79434</>", level);
+  }else if(level > 10){
+    return IMCFormat("<$>79435</>", level);
+  }else{
+    return IMCFormat("<$>79436</>", level);
+  }
+}
+func BUFF_ConFuoco(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>79437</>", level, 10 + ( level - 10) * 4 , 10 + ( level - 10) * 4, 10 + ( level - 10) * 4);
+  }else{
+    return IMCFormat("<$>79437</>", level,level,level,level);
+  }
+}
+func BUFF_Virtuoso(level)
+{
+  return IMCFormat("<$>167518</>", level, level, level, level);
+}
+func BUFF_ConImpeto(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>79439</>", level, 10 + ( level - 10) * 4 , 10 + ( level - 10) * 4, ( level - 10) * 2, level );
+  }else{
+    return IMCFormat("<$>79440</>", level,level,level,level);
+  }
+}
+func BUFF_Pieno(level)
+{
+  return IMCFormat("<$>99245</>", level, level, level, level);
+}
+func BUFF_PartySpotCNTRH(level)
+{
+	if(level <= 1){
+    return;
+  }
+  return IMCFormat("<$>95312</>", level, level/2);
+}
+func BUFF_Maestoso(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>79446</>", level,level,level*2+3);
+  }else{
+    return IMCFormat("<$>79446</>", level,level,level*2);
+  }
+}
+func BUFF_Brillante(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>79447</>", level,level*2+3,level);
+  }else{
+    return IMCFormat("<$>79447</>", level,level*2,level);
+  }
+}
+func BUFF_Excitation(level)
+{
+	return "<$>167519</>";
+}
+func BUFF_OrtegaBuff(level)
+{
+	return "<$>28312</>";
+}
+func BUFF_OrtegaAtkBuff(level)
+{
+	return "<$>103659</>";
+}
+func BUFF_YufuegenBuff(level)
+{
+	return "<$>28316</>";
+}
+func BUFF_YufuegenAtkBuff(level)
+{
+	return "<$>167520</>";
+}
+func BUFF_DarkFuegen(level)
+{
+	return "<$>99246</>";
+}
+func BUFF_YufuegenInv(level)
+{
+	return "<$>28322</>";
+}
+func BUFF_DonutEvent1(level)
+{
+	return "<$>79449</>";
+}
+func BUFF_DonutEvent2(level)
+{
+	return "<$>79450</>";
+}
+func BUFF_DonutEvent3(level)
+{
+	return "<$>99247</>";
+}
+func BUFF_DonutEvent4(level)
+{
+	return "<$>79452</>";
+}
+func BUFF_DonutEvent5(level)
+{
+	return "<$>79453</>";
+}
+func BUFF_DonutEvent6(level)
+{
+	return "<$>79454</>";
+}
+func BUFF_DonutEvent7(level)
+{
+	return "<$>79455</>";
+}
+func BUFF_DonutEvent8(level)
+{
+	return "<$>79456</>";
+}
+func BUFF_EleSafeGuard(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>189140</>", level, level, level);
+  }
+  else {
+    return IMCFormat("<$>189141</>", level, level, level);
+  }
+}
+func BUFF_EleInvisible(level)
+{
+	return IMCFormat("<$>167521</>", level,level*2,level*2,level*2,level*2);
+}
+func BUFF_DarkBleeding(level)
+{
+	return IMCFormat("<$>79459</>", level);
+}
+func BUFF_HailBrek(level)
+{
+	return IMCFormat("<$>79460</>", level,level*2);
+}
+func BUFF_Barsel(level)
+{
+  return IMCFormat("<$>79461</>", level);
+}
+func BUFF_Flare(level)
+{
+	return IMCFormat("<$>195400</>", level);
+}
+func BUFF_Tenseness(level)
+{
+  if(level > 11){
+  	return IMCFormat("<$>79463</>", level);
+  }else{
+    return IMCFormat("<$>79464</>", level);
+  }
+}
+func BUFF_DynaBreath(level)
+{
+	return IMCFormat("<$>79465</>", level);
+}
+func BUFF_BingMa(level)
+{
+	return IMCFormat("<$>198334</>", level);
+}
+func BUFF_Principal(level)
+{
+  return IMCFormat("<$>79467</>", level);
+  /*
+  if(level > 11){
+  	return IMCFormat("<$>99248</>", level,level*2, level*2,level*2,level+5,level*3,level,level,level);
+	}else if(level > 10){
+	  return IMCFormat("<$>99249</>", level,level*2, level*2,level*2,level+5,level*3,level,level,level);
+	}else{
+	  return IMCFormat("<$>99250</>", level,level*2, level*2,level*2,level+5,level*3,level,level,level);
+	}
+	*/
+}
+func BUFF_MeleeEn(level)
+{
+  return IMCFormat("<$>212824</>", level);
+}
+func BUFF_MagicEn(level)
+{
+	return IMCFormat("<$>212825</>", level);
+}
+func BUFF_ShootingEn(level)
+{
+	return IMCFormat("<$>212826</>", level);
+}
+func BUFF_EscapeArtist(level)
+{
+	return IMCFormat("<$>79474</>", level);
+}
+func BUFF_EXPUP100EVENT(level)
+{
+	return "<$>28361</>";
+}
+func BUFF_EXPUP50EVENT(level)
+{
+	return "<$>28362</>";
+}
+func BUFF_EXPUP20EVENT(level)
+{
+	return "<$>28363</>";
+}
+func BUFF_Lightflow(level)
+{
+	return IMCFormat("<$>212827</>", level,level*2);
+}
+func BUFF_RhodoLite(level)
+{
+	return "<$>79476</>";
+}
+func BUFF_StoneGas(level)
+{
+	return "<$>79477</>";
+}
+func BUFF_Otite(level)
+{
+	return "<$>79478</>";
+}
+func BUFF_Corazon(level)
+{
+	return "<$>79479</>";
+}
+func BUFF_DeathBuff(level)
+{
+	return "<$>79480</>";
+}
+func BUFF_Deathguardbuff(level)
+{
+	return "<$>79481</>";
+}
+func BUFF_IncreaseSTR(level)
+{
+	return IMCFormat("<$>79482</>", level,level);
+}
+func BUFF_IncreaseAGI(level)
+{
+	return IMCFormat("<$>79483</>", level,level);
+}
+func BUFF_IncreaseCON(level)
+{
+	return IMCFormat("<$>79484</>", level,level);
+}
+func BUFF_IncreaseDEX(level)
+{
+	return IMCFormat("<$>79485</>", level,level);
+}
+func BUFF_IncreaseINT(level)
+{
+	return IMCFormat("<$>79486</>", level,level);
+}
+func BUFF_IncreaseCHA(level)
+{
+	return IMCFormat("<$>95313</>", level,level);
+}
+func BUFF_IncreaseALL(level)
+{
+	return IMCFormat("<$>112419</>", level,level);
+}
+func BUFF_Deathguardbuff01(level)
+{
+	return "<$>79488</>";
+}
+func BUFF_DeathMel(level)
+{
+	return "<$>79489</>";
+}
+func BUFF_DeathSho(level)
+{
+	return "<$>79490</>";
+}
+func BUFF_DeathMag(level)
+{
+	return "<$>79491</>";
+}
+func BUFF_DeathHyb(level)
+{
+	return "<$>79492</>"
+}
+func BUFF_Deathkingbuff(level)
+{
+	return "<$>79493</>";
+}
+func BUFF_Deathkingbuff_01(level)
+{
+	return "<$>79494</>";
+}
+func BUFF_Deathkingbuff_02(level)
+{
+	return "<$>79495</>";
+}
+func BUFF_Deathkingbuff_03(level)
+{
+	return "<$>79496</>";
+}
+func BUFF_Deathkingbuff_04(level)
+{
+	return "<$>79497</>";
+}
+func BUFF_Deathkingbuff_05(level)
+{
+	return "<$>79498</>";
+}
+func BUFF_Deathkingbuff_06(level)
+{
+	return "<$>79499</>";
+}
+func BUFF_Deathkingbuff_07(level)
+{
+	return "<$>79500</>";
+}
+func BUFF_DeathAspd(level)
+{
+	return "<$>79501</>";
+}
+func BUFF_DeathPcBuff(level)
+{
+	return "<$>95314</>";
+}
+func BUFF_DeathSheolBuff(level)
+{
+	return "<$>79503</>";
+}
+func BUFF_elemetal_boss_fire(level)
+{
+	return IMCFormat("<$>79504</>", level);
+}
+func BUFF_elemetal_boss_ice(level)
+{
+	return IMCFormat("<$>79505</>", level);
+}
+func BUFF_elemetal_boss_lgt(level)
+{
+	return IMCFormat("<$>79506</>", level);
+}
+func BUFF_Sprint2(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>221091</>", level,level*5+20);
+	}else{
+	  return IMCFormat("<$>221092</>", level,level*5+20);
+	}
+}
+func BUFF_Burning2(level)
+{
+	return "<$>142264</>";
+}
+func BUFF_MoonCurse(level)
+{
+	return IMCFormat("<$>105355</>", level);
+}
+func BUFF_Gloomypresent2(level)
+{
+	return "<$>79511</>";
+}
+func BUFF_Sieger(level)
+{
+  if(level > 11){
+    return IMCFormat("<$>167525</>", level);
+  }else if(level > 10){
+    return IMCFormat("<$>167526</>", level);
+  }else{
+    return IMCFormat("<$>167527</>", level,level*5);
+  }
+}
+func BUFF_Sacredpro(level)
+{
+	if(level > 11){
+		return IMCFormat("<$>167528</>", level);
+	}else if(level > 10){
+		return IMCFormat("<$>167529</>", level);
+	}else{
+		return IMCFormat("<$>167530</>", level);
+	}
+}
+func BUFF_Invisiblebreak(level)
+{
+	return "<$>28418</>";
+}
+func BUFF_Camouflage(level)
+{
+  if(level >10){
+	  return IMCFormat("<$>167531</>", level);
+	}else{
+	  return IMCFormat("<$>167532</>", level);
+	}
+}
+func BUFF_Hightide(level)
+{
+    return IMCFormat("<$>199879</>", level, level, level * 3,level, level*2);
+}
+func BUFF_Venom(level)
+{
+  if(level > 11){
+	  return IMCFormat("<$>180181</>", level,level*2,level*2,level*2);
+	}else if(level > 10){
+	  return IMCFormat("<$>180182</>", level,level*2,level*2);
+	}else{
+	  return IMCFormat("<$>180183</>", level,level*2,level*2);
+	}
+}
+func BUFF_Shackles(level)
+{
+        if(level > 11){
+	  return IMCFormat("<$>99259</>", level,level*2,level*6,level*4);
+	}else{
+	  return IMCFormat("<$>79526</>", level,level*6,level*4);
+	}
+}
+func BUFF_Blockade(level)
+{
+  if(level > 11){
+	  return IMCFormat("<$>79527</>", level,level,level*2);
+	}else if(level > 10){
+	  return IMCFormat("<$>79528</>", level,level*2);
+	}else{
+	  return IMCFormat("<$>79529</>", level);
+	}
+}
+func BUFF_Prophecy(level)
+{
+  if(level > 11){
+	  return IMCFormat("<$>99260</>", level,level*2);
+	}else if(level >10){
+	  return IMCFormat("<$>99261</>", level,level*2);
+	}else{
+	  return IMCFormat("<$>95317</>", level);
+	}
+}
+func BUFF_EXPDROPUP100GOLD(level)
+{
+	return "<$>28431</>";
+}
+func BUFF_EXPUP100GOLD(level)
+{
+	return "<$>28431</>";
+}
+func BUFF_EXPUP50GOLD(level)
+{
+	return "<$>28432</>";
+}
+func BUFF_EXPUP20GOLD(level)
+{
+	return "<$>28433</>";
+}
+func BUFF_EXPUP30NEWBIE(level)
+{
+	return "<$>27881</>";
+}
+func BUFF_Insteroid(level)
+{
+	return "<$>99262</>";
+}
+func BUFF_Hightinsteroid(level)
+{
+	return "<$>112420</>";
+}
+func BUFF_TorDeBuff01(level)
+{
+	return "<$>79534</>";
+}
+func BUFF_TorDeBuff02(level)
+{
+	return "<$>79535</>";
+}
+func BUFF_TorDeBuff03(level)
+{
+	return "<$>79536</>";
+}
+func BUFF_TorDeBuff04(level)
+{
+	return "<$>79537</>";
+}
+func BUFF_TorHeBuff(level)
+{
+	return "<$>79538</>";
+}
+func BUFF_Protectionofthetiger(level)
+{
+	return "<$>167536</>";
+}
+func BUFF_Protectionofdragon(level)
+{
+	return "<$>167537</>";
+}
+func BUFF_Aorchado(level)
+{
+  return "<$>167538</>";
+}
+func BUFF_Icewolf(level)
+{
+	return "<$>167539</>";
+}
+func BUFF_CatorBuff(level)
+{
+	return "<$>28446</>";
+}
+func BUFF_Pendulumofancient(level)
+{
+	return "<$>79541</>";
+}
+func BUFF_Chaos(level)
+{
+	return IMCFormat("<$>79542</>", level);
+}
+func BUFF_PHealth_02(level)
+{
+	var ApplyBM = 3000 + level * 1000;
+	return IMCFormat("<$>99264</>", ApplyBM);
+}
+func BUFF_PSoul_02(level)
+{
+	return "<$>79544</>";
+}
+
+func BUFF_EventEXP(level)
+{
+	  return IMCFormat("<$>79545</>", level*10);
+}
+
+func BUFF_EventStnEXP(level)
+{
+	  return IMCFormat("<$>79546</>", level*10);
+}
+
+func BUFF_EventGetItem(level)
+{
+	  return IMCFormat("<$>79547</>", level*10);
+}
+
+func BUFF_TBuff_Home02(level)
+{
+  return "<$>27827</>";
+}
+
+func BUFF_CatsEye02(level)
+{
+  return "<$>27829</>";
+}
+
+func BUFF_AddDEF02(level)
+{
+  return "<$>27831</>";
+}
+
+func BUFF_AddPR02(level)
+{
+  return "<$>27833</>";
+}
+
+func BUFF_AddBLK02(level)
+{
+  return "<$>27835</>";
+}
+
+func BUFF_IncreaseSTR02(level)
+{
+  return "<$>27837</>";
+}
+
+func BUFF_IncreaseAGI02(level)
+{
+  return "<$>27839</>";
+}
+
+func BUFF_IncreaseCON02(level)
+{
+  return "<$>27841</>";
+}
+
+func BUFF_IncreaseDEX02(level)
+{
+  return "<$>27843</>";
+}
+
+func BUFF_IncreaseINT02(level)
+{
+  return "<$>27845</>";
+}
+
+func BUFF_IncAR02(level)
+{
+  return "<$>167540</>";
+}
+
+func BUFF_IncDR02(level)
+{
+  return "<$>167541</>";
+}
+func BUFF_PartyLeaderBlessing(level)
+{
+  return "<$>79548</>";
+}
+func BUFF_SupplyEXP(level)
+{
+  return "<$>167542</>";
+}
+func BUFF_Principal3(level)
+{
+  return IMCFormat("<$>79467</>", level);
+}
+func BUFF_MeleeEn3(level)
+{
+  return IMCFormat("<$>212824</>", level);
+}
+func BUFF_MagicEn3(level)
+{
+	return IMCFormat("<$>212825</>", level);
+}
+func BUFF_ShootingEn3(level)
+{
+	return IMCFormat("<$>212826</>", level);
+}
+func BUFF_MonsterIntensify(level)
+{
+  return "<$>27858</>";
+}
+func BUFF_Monsteracceleration(level)
+{
+  return "<$>27860</>";
+}
+func BUFF_EXPUP20ORP(level)
+{
+	return "<$>27880</>";
+}
+func BUFF_EXPUP30ORP(level)
+{
+	return "<$>27881</>";
+}
+func BUFF_Hungry(level)
+{
+  if ( level == 2 ){
+	  return "<$>212828</>";
+	}
+	else {
+	  return "<$>27878</>";
+	}
+}
+func BUFF_Luck(level)
+{
+  return "<$>91952</>";
+}
+func BUFF_OtiteRing(level)
+{
+	return "<$>99265</>";
+}
+func BUFF_HolyWaterRing(level)
+{
+	return "<$>167543</>";
+}
+func BUFF_RhodoliteRing(level)
+{
+	return "<$>167544</>";
+}
+func BUFF_StoneGasRing(level)
+{
+	return "<$>167545</>";
+}
+func BUFF_CorazonRing(level)
+{
+	return "<$>167546</>";
+}
+func BUFF_MonsterWeak(level)
+{
+	return IMCFormat("<$>79556</>", level);
+}
+func BUFF_CliqueWarFood(level)
+{
+  return "<$>101385</>";
+}
+func BUFF_SpiderSteak(level)
+{
+  if(level == 1){
+	  return "<$>101687</>";
+	}else{
+	  return "<$>101688</>";
+  }
+}
+func BUFF_BoarSteak(level)
+{
+  if (level == 1){
+	  return "<$>101689</>";
+	}else if (level == 2){
+	  return "<$>101690</>";
+	}else{
+	  return "<$>217539</>";
+	}
+}
+func BUFF_WolfSteak(level)
+{
+  if (level == 1){
+	  return "<$>101691</>";
+	}else{
+	  return "<$>101692</>";
+	}
+}
+func BUFF_ComodoSteak(level)
+{
+  if (level == 1){
+	  return "<$>101693</>";
+	}else if (level == 2){
+	  return "<$>101694</>";
+	}else{
+	  return "<$>217540</>";
+	}
+}
+func BUFF_MeatStew(level)
+{
+  if (level == 1){
+	  return "<$>101695</>";
+	}else if (level == 2){
+	  return "<$>101696</>";
+	}else{
+	  return "<$>217541</>";
+	}
+}
+func BUFF_StirfriedOcto(level)
+{
+  if (level == 1){
+	  return "<$>101697</>";
+	}else if (level == 2){
+	  return "<$>101698</>";
+	}else{
+	  return "<$>217542</>";
+	}
+}
+func BUFF_FishSausage(level)
+{
+  if (level == 1){
+	  return "<$>101699</>";
+	}else if (level == 2){
+	  return "<$>101700</>";
+	}else{
+	  return "<$>217543</>";
+	}
+}
+func BUFF_StirfriedCorn(level)
+{
+  if (level == 1){
+	  return "<$>101701</>";
+	}else if (level == 2){
+	  return "<$>101702</>";
+	}else{
+	  return "<$>217544</>";
+	}
+}
+func BUFF_GoldenApplePie(level)
+{
+  if (level == 1){
+	  return "<$>101703</>";
+	}else if (level == 2){
+	  return "<$>101704</>";
+	}else{
+	  return "<$>217545</>";
+	}
+}
+func BUFF_EggStew(level)
+{
+  if (level == 1){
+	  return "<$>101705</>";
+	}else if (level == 2){
+	  return "<$>101706</>";
+	}else{
+	  return "<$>217546</>";
+	}
+}
+func BUFF_CapyFish(level)
+{
+  if (level == 1){
+	  return "<$>101707</>";
+	}else if (level == 2){
+	  return "<$>101708</>";
+	}else{
+	  return "<$>217547</>";
+	}
+}
+func BUFF_Caborum(level)
+{
+  if (level == 1){
+	  return "<$>101709</>";
+	}else{
+	  return "<$>101710</>";
+	}
+}
+func BUFF_EsSalad(level)
+{
+  if (level == 1){
+	  return "<$>101711</>";
+	}else{
+	  return "<$>101712</>";
+	}
+}
+func BUFF_CourseFood(level)
+{
+  if (level == 1){
+	  return "<$>151514</>";
+	}else if (level == 2){
+	  return "<$>151515</>";
+	}else if (level == 3){
+    return "<$>151516</>";
+	}else if (level == 4){
+    return "<$>151517</>";
+	}else if (level == 5){
+    return "<$>151518</>";
+	}
+}
+func BUFF_Tenacity(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>142267</>", level,level*2 + 3,level + 10,2 * level);
+  }else{
+	  return IMCFormat("<$>142268</>", level,level*2 + 3,level + 10,2 * level);
+	}
+}
+func BUFF_MeleeTrigger2(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>91953</>", level, level - 5 );
+  }else{
+	  return IMCFormat("<$>91953</>",level, math.floor(level/2));
+	}
+}
+
+func BUFF_ShootTrigger2(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>91954</>", level, level - 5 );
+  }else{
+	  return IMCFormat("<$>91954</>", level, math.floor(level/2));
+	}
+}
+func BUFF_Dreamofdoll(level)
+{
+  return "<$>167547</>";
+}
+func BUFF_PhysicalGrinding(level)
+{
+  return "<$>79588</>";
+}
+func BUFF_MagicalGrinding(level)
+{
+  return "<$>79589</>";
+}
+func BUFF_PhysicalBreak(level)
+{
+  if(level > 11){
+    return IMCFormat("<$>167548</>", level, level );
+  } else if(level == 11){
+    return IMCFormat("<$>167549</>", level, level );
+  }else{
+    return IMCFormat("<$>79592</>", level, level );
+  }
+}
+func BUFF_MagicalBreak(level)
+{
+  if(level > 11){
+    return IMCFormat("<$>167550</>", level, level );
+  } else if(level == 11){
+    return IMCFormat("<$>167551</>", level, level );
+  }else{
+    return IMCFormat("<$>79595</>", level, level );
+  }
+}
+func BUFF_FatalBlues(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>167552</>", level,level);
+  }else{
+    return IMCFormat("<$>142270</>", level,level);
+  }
+}
+func BUFF_Blessofltd(level)
+{
+  return "<$>99276</>";
+}
+func BUFF_Blessofgst(level)
+{
+  return "<$>99277</>";
+}
+func BUFF_Avenger(level)
+{
+  return IMCFormat("<$>79600</>", level, level*10);
+}
+func BUFF_Mining(level)
+{
+  return "<$>79601</>";
+}
+func BUFF_Scald(level)
+{
+  return "<$>79602</>"
+}
+func BUFF_SealMonster(level)
+{
+  return "<$>79603</>"
+}
+func BUFF_FlagAura(level)
+{
+  return IMCFormat("<$>79604</>", level,level);
+}
+func BUFF_OccupyFlag(level)
+{
+  return "<$>79605</>";
+}
+func BUFF_Rage(level)
+{
+  return IMCFormat("<$>151519</>", level,level);
+}
+func BUFF_BloodRevenge(level)
+{
+  return IMCFormat("<$>151520</>", level);
+}
+func BUFF_BattleCook(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>142271</>", level);
+  } else {
+    return IMCFormat("<$>142272</>", level);
+  }
+}
+func BUFF_Grill(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>95319</>", level,level,level, ( level - 10) * 5 );
+  } else {
+    return IMCFormat("<$>79611</>", level,level,level);
+  }
+}
+func BUFF_Extraction(level)
+{
+  return  IMCFormat("<$>189142</>", level, math.floor(level/2),level);
+}
+func BUFF_Net(level)
+{
+  return IMCFormat("<$>167553</>", level, 5 + level);
+}
+func BUFF_Fantastic(level)
+{
+  return IMCFormat("<$>195401</>", level, level, 3 * level, 2 * level,level);
+}
+func BUFF_MeltArmor(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>142274</>", level, 2 * level);
+  } else {
+    return IMCFormat("<$>142275</>", level, 2 * level);
+  }
+}
+func BUFF_BrokenArmor(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>79617</>", level,level);
+  } else {
+    return IMCFormat("<$>79618</>", level,level);
+  }
+}
+func BUFF_MeltWeapon(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>142276</>", level, 2 * level);
+  } else {
+    return IMCFormat("<$>142277</>", level, 2 * level);
+  }
+}
+func BUFF_BrokenWeapon(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>79621</>", level, 2 * level);
+  } else {
+    return IMCFormat("<$>79622</>", level, 2 * level);
+  }
+}
+func BUFF_BoostMagic(level)
+{
+  return IMCFormat("<$>112421</>", level, level, level);
+}
+func BUFF_SiegeMode(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>225474</>", level,level,level);
+  } else {
+    return IMCFormat("<$>225475</>", level,level,level);
+  }  
+}
+
+
+func BUFF_WeakMelee(level)
+{
+  return IMCFormat("<$>195402</>", 100-level);
+}
+func BUFF_WeakShoot(level)
+{
+  return IMCFormat("<$>195403</>", 100-level);
+}
+func BUFF_WeakMagic(level)
+{
+  return IMCFormat("<$>195404</>", 100-level);
+}
+func BUFF_WeakMartial(level)
+{
+  return IMCFormat("<$>195405</>", 100-level);
+}
+
+func BUFF_TimeWave(level)
+{
+  var text;
+  
+  if ( level == 1 ){
+    text = "<$>167556</>";
+  }
+  else if ( level == 2 ){
+    text = "<$>167557</>";
+  }
+  else if ( level == 3 ){
+    text = "<$>167558</>";
+  }
+  return text;
+}
+func BUFF_TimeSlow(level)
+{
+  return IMCFormat("<$>167559</>", level, level, level);
+}
+func BUFF_Cheerup(level)
+{
+  return "<$>28560</>";
+}
+func BUFF_Encourage(level)
+{
+  return "<$>28562</>";
+}
+func BUFF_WeaponBlock(level)
+{
+  return "<$>221093</>";
+}
+func BUFF_Spasticity(level)
+{
+  return "<$>79635</>";
+}
+func BUFF_ShieldBlock(level)
+{
+  return "<$>167561</>";
+}
+func BUFF_CounterAttack2(level)
+{
+  return "<$>167562</>";
+}
+func BUFF_Assassinate(level)
+{
+  return "<$>99283</>";
+}
+func BUFF_ManaRegen(level)
+{
+  return "<$>167563</>";
+}
+func BUFF_HolyBless(level)
+{
+  return "<$>167564</>";
+}
+func BUFF_Enthusiastic(level)
+{
+  return "<$>79641</>";
+}
+func BUFF_AntiPersonnel(level)
+{
+  return "<$>93344</>";
+}
+func BUFF_Converging(level)
+{
+  return "<$>99285</>";
+}
+func BUFF_Rapiding(level)
+{
+  return "<$>79644</>";
+}
+func BUFF_VitalAttack(level)
+{
+  return "<$>167565</>";
+}
+func BUFF_Checking(level)
+{
+  return "<$>167566</>";
+}
+func BUFF_Menace(level)
+{
+  return "<$>167567</>";
+}
+func BUFF_PowerMagic(level)
+{
+  return "<$>187967</>";
+}
+func BUFF_EternalFire(level)
+{
+  return "<$>167569</>";
+}
+func BUFF_FrostShield(level)
+{
+  if ( level > 10 ) {
+    return IMCFormat("<$>195406</>", level, level, math.floor(level/2), level );
+  } else {
+    return IMCFormat("<$>195407</>", level, level, math.floor(level/2), level );
+  }
+}
+func BUFF_FrostShield2(level)
+{
+  if ( level > 10 ) {
+    return IMCFormat("<$>195406</>", level, level, math.floor(level/2), level );
+  } else {
+    return IMCFormat("<$>195407</>", level, level, math.floor(level/2), level );
+  }
+}
+func BUFF_Focusing(level)
+{
+  return "<$>167572</>";
+}
+func BUFF_Rush(level)
+{
+  return "<$>195408</>";
+}
+func BUFF_ContainmentATK(level)
+{
+  return "<$>167573</>"
+}
+func BUFF_Shrinking(level)
+{
+  return "<$>79655</>";
+}
+func BUFF_LuckyStrike(level)
+{
+  return "<$>79656</>";
+}
+func BUFF_SafetyParty(level)
+{
+  if ( level > 13 ){
+    return IMCFormat("<$>105357</>", level, 40, level - 8);
+  }
+  if ( level > 8 && level < 14 ){
+    return IMCFormat("<$>105357</>", level, 3 * level, level - 8);
+  } 
+  else {
+  	return IMCFormat("<$>79657</>", level, 3 * level);
+  }
+}
+func BUFF_Leadership(level)
+{
+  if ( level > 10 && level <= 12 ) {
+   	return IMCFormat("<$>79658</>", level, math.floor(level/2), math.floor(level/3), math.floor(level/4), math.floor(level/5), 2 * ( level - 10 ), 2 * ( level - 10 ) );
+  } else if ( level > 12 ){
+    return IMCFormat("<$>79658</>", level, math.floor(level/2), math.floor(level/3), math.floor(level/4), math.floor(level/5), 6, 6 );
+  } else {
+  	return IMCFormat("<$>79659</>", level, math.floor(level/2), math.floor(level/3), math.floor(level/4), math.floor(level/5));
+  }
+}
+func BUFF_BlessofNeutral(level)
+{
+  return IMCFormat("<$>102002</>",level, 5 + level);
+}
+func BUFF_Blessofltd2(level)
+{
+  var title = { "<$>79661</>", "<$>28748</>", "<$>79662</>", "<$>79663</>", "<$>28745</>", "<$>28744</>", "<$>28743</>", "<$>28742</>", "<$>28741</>", "<$>28740</>", "<$>28739</>", "<$>28738</>", "<$>28737</>", "<$>28736</>" };
+  return IMCFormat("<$>79664</>", title[level], level, level, level, level * 300);
+}
+func BUFF_Blessofgst2(level)
+{
+  var title = { "<$>28763</>", "<$>28762</>", "<$>28761</>", "<$>28760</>", "<$>28759</>", "<$>28758</>", "<$>28757</>", "<$>28756</>", "<$>28755</>", "<$>28754</>", "<$>28753</>", "<$>28752</>", "<$>28751</>", "<$>28750</>" };
+  return IMCFormat("<$>79664</>", title[level], level, level, level, level * 300);
+}
+func BUFF_BlessofNeutral2(level)
+{
+  var title = { "<$>28777</>", "<$>28776</>", "<$>28775</>", "<$>28774</>", "<$>28773</>", "<$>28772</>", "<$>28771</>", "<$>28770</>", "<$>28769</>", "<$>28768</>", "<$>28767</>", "<$>28766</>", "<$>28765</>", "<$>28764</>" };
+  return IMCFormat("<$>79664</>", title[level], level, level, level, level * 300);
+}
+func BUFF_CliquewarBless(level)
+{
+  var title = { "<$>102003</>", "<$>28763</>", "<$>101977</>", "<$>101976</>", "<$>101975</>", "<$>28761</>", "<$>28766</>", "<$>101974</>", "<$>28758</>", "<$>28757</>", "<$>101973</>", "<$>28755</>", "<$>28754</>", "<$>28751</>" };
+  return IMCFormat("<$>79664</>", title[level], level, level, level, level * 300);
+}
+func BUFF_Frantic(level)
+{
+  return "<$>79665</>"
+}
+func BUFF_FeralRoar(level)
+{
+  return IMCFormat("<$>79666</>", level);
+}
+func BUFF_Beast(level)
+{
+  if ( level > 10 ) {
+    return IMCFormat("<$>167574</>", level,( level - 9 ) * 10, level);
+  } else {
+    return IMCFormat("<$>167574</>", level, level, level);
+  }
+}
+func BUFF_SandStorm(level)
+{
+  if ( level > 10 ) {
+   	return IMCFormat("<$>167575</>", level, level * 4 );
+  } else {
+    return IMCFormat("<$>79669</>", level, level * 4 );
+  }
+}
+func BUFF_Powerabsinia(level)
+{
+  if ( level > 10 ) {
+   	return IMCFormat("<$>195409</>", level, level, math.floor(level/2) );
+  } else {
+    return IMCFormat("<$>195410</>", level, level, math.floor(level/2));
+  }
+}
+func BUFF_Infiltration(level)
+{
+ 	return IMCFormat("<$>167576</>", level, level, level );
+}
+func BUFF_MontoroCurse(level)
+{
+  return IMCFormat("<$>79673</>", level);
+}
+func BUFF_Encor(level)
+{
+	return "<$>79674</>";
+}
+func BUFF_Equilibrium(level)
+{
+  if ( level > 10 ) {
+   	return IMCFormat("<$>167577</>", level, 2 * level, 3 * level, level * 0.5 );
+  } else {
+    return IMCFormat("<$>167578</>", level, 2 * level, 3 * level, level * 0.5 );
+  }
+}
+func BUFF_Creature_ATK(level)
+{
+  return IMCFormat("<$>198335</>", level, level);
+}
+func BUFF_Golem_ATK(level)
+{
+  return IMCFormat("<$>198336</>", level, level);
+}
+func BUFF_Demon_ATK(level)
+{
+  return IMCFormat("<$>198337</>", level, level);
+}
+func BUFF_Undead_ATK(level)
+{
+  return IMCFormat("<$>198338</>", level, level);
+}
+func BUFF_Human_ATK(level)
+{
+  return IMCFormat("<$>198339</>", level, level);
+}
+
+func BUFF_Devilwind(level)
+{
+  return IMCFormat("<$>167584</>", level, level);
+}
+func BUFF_Devilshield(level)
+{
+  return IMCFormat("<$>167585</>", level, level);
+}
+func BUFF_Devilbarrier(level)
+{
+  return IMCFormat("<$>167586</>", level, level);
+}
+func BUFF_SharpEye(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>79685</>", level,level+5,level,level*2);
+  }else{
+    return IMCFormat("<$>79686</>", level,level+5,level,level*2);
+  }
+}
+func BUFF_AntiSauterelle(level)
+{
+  return IMCFormat("<$>79687</>", level);
+}
+func BUFF_Chemicalprotect(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>214473</>", level, level, level);
+  }else{
+    return IMCFormat("<$>214474</>", level, level, level);
+  }
+}
+func BUFF_Waveillusion(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>167587</>", level, (5 + math.floor(level * 1.5)));
+  }else{
+    return IMCFormat("<$>167588</>", level, (5 + math.floor(level * 1.5)));
+  }
+}
+func BUFF_Freeofsoul(level)
+{
+  return IMCFormat("<$>88303</>", level, level, level, 2 * level );
+}
+func BUFF_Autobartonslow(level)
+{
+  return IMCFormat("<$>79692</>");
+}
+func BUFF_Gaming(level)
+{
+  return IMCFormat("<$>90174</>");
+}
+func BUFF_CliqueSafety(level)
+{
+  return "<$>105358</>";
+}
+
+func BUFF_Furious(level)
+{
+  if( level <= 10 ){
+    return IMCFormat("<$>167589</>", level, level * 5 );
+  }else if( level == 11 ){
+    return IMCFormat("<$>167590</>", level, level * 5 );
+  }else if( level == 12 ){
+    return IMCFormat("<$>167591</>", level, level * 5 );
+  }
+}
+
+func BUFF_Wanderer(level)
+{
+  return "<$>167592</>";
+}
+
+func BUFF_Wakening(level)
+{
+  return "<$>79697</>";
+}
+func BUFF_Set(level)
+{
+  if( level <= 10 ){
+    return IMCFormat("<$>167593</>", level, level, math.floor(level/2)) ;
+  }else{
+    return IMCFormat("<$>167594</>", level, level, math.floor(level/2));
+  }
+}
+func BUFF_Tactics(level)
+{
+  if ( level <= 10 ) {
+   	return IMCFormat("<$>195411</>", level, math.floor(level/2), math.floor(level/2), math.floor(level/3), level/2 );
+  } else {
+  	return IMCFormat("<$>195412</>", level, math.floor(level/2), math.floor(level/2), math.floor(level/3), (level-10)*2, 5 + (level-10) );
+  }
+}
+func BUFF_Contract(level)
+{
+  if ( level > 10 ) {
+   	return IMCFormat("<$>167597</>", level, level * 2, level * 5, level * 100, level * 20);
+  } else {
+    return IMCFormat("<$>167598</>", level, level * 2, level * 5, level * 100, level * 20);
+  }
+}
+func BUFF_Frenzy(level)
+{
+  if ( level > 10 ) {
+   	return IMCFormat("<$>99294</>", level, math.floor(level/2), level, level, level - 10);
+  } else {
+    return IMCFormat("<$>79705</>", level, math.floor(level/2), level, level);
+  }
+}
+func BUFF_KingSpirit(level)
+{
+  if( level > 10 ){
+    return IMCFormat("<$>167599</>", level, level * 5, math.floor(5 + level * 0.5), level*5) ;
+  }else{
+    return IMCFormat("<$>167600</>", level, level * 5, level*5 );
+  }
+}
+
+func BUFF_DefensivePosition(level)
+{
+  if( level == 11 ){
+    return IMCFormat("<$>218172</>", level, level * 2, level, math.floor(level * 0.5), level) ;
+  }else if( level == 12 ){
+    return IMCFormat("<$>218173</>", level, level * 2, level, math.floor(level * 0.5), level) ;
+  }else{
+    return IMCFormat("<$>218172</>", level, level * 2, level, level) ;
+  }
+}
+
+func BUFF_AggressivePosition(level)
+{
+  if( level == 11 ){
+    return IMCFormat("<$>218174</>", level, level * 2, level, level, math.floor(level * 0.5)) ;
+  }else if( level == 12 ){
+    return IMCFormat("<$>218175</>", level, level * 2, level, level, math.floor(level * 0.5)) ;
+  }else{
+    return IMCFormat("<$>218174</>", level, level * 2, level, level) ;
+  }
+}
+
+func BUFF_QuestEvent(level)
+{
+  if ( level == 10 ) {
+    return "<$>79714</>";
+  } else if ( level == 1 ) {
+    return "<$>151521</>";
+  } else if ( level == 2 ) {
+    return "<$>151522</>";
+  } else if ( level == 3 ) {
+    return "<$>152455</>";
+  }
+}
+
+func BUFF_ShortBreathing(level)
+{
+  return IMCFormat("<$>167607</>", level, level * 5, level * 2) ;
+}
+func BUFF_LongBreathing(level)
+{
+    return IMCFormat("<$>167609</>", level, level * 20);
+}
+func BUFF_TargetFocus(level)
+{
+  return IMCFormat("<$>167610</>", level, level * 5, 1 + (level/2), level) ;
+}
+
+func BUFF_VenomBlade(level)
+{
+  if( level > 10 ){
+    return IMCFormat("<$>167611</>", level, level * 3) ;
+  }else{
+    return IMCFormat("<$>79721</>", level, level * 3) ;
+  }
+}
+
+func BUFF_Decay(level)
+{
+  if( level > 10 ){
+    return IMCFormat("<$>218176</>", level, level * 300) ;
+  }else{
+    return IMCFormat("<$>218177</>", level, level * 300) ;
+  }
+}
+
+func BUFF_Mark(level)
+{
+  if( level > 10 ){
+    return IMCFormat("<$>167613</>", level, level * 2) ;
+  }else{
+    return IMCFormat("<$>167614</>", level, level * 2) ;
+  }
+}
+
+func BUFF_LadiesOrder(level)
+{
+  if( level > 10 ){
+    return IMCFormat("<$>167615</>", level, level * 2, level * 1.5) ;
+  }else{
+    return IMCFormat("<$>167616</>", level, level * 2, level * 1.5) ;
+  }
+}
+
+func BUFF_CleaningTime(level)
+{
+  if( level > 10 ){
+    return IMCFormat("<$>112423</>", level, level * 5, level, level * 2) ;
+  } else {
+    return IMCFormat("<$>112424</>", level, level * 5, level, level * 2) ;
+  }
+
+}
+
+
+func BUFF_Heating(level)
+{
+  if( level > 10 ){
+    return IMCFormat("<$>180184</>", level, level * 2);
+  } else {
+    return IMCFormat("<$>180185</>", level, level * 2);
+  }
+}
+func BUFF_Cooling(level)
+{
+  if( level > 10 ){
+    return IMCFormat("<$>167619</>", level, level * 3, level);
+  } else {
+    return IMCFormat("<$>167620</>", level, level * 3, level);
+  }
+}
+func BUFF_ShadowWalk(level)
+{
+  return IMCFormat("<$>126647</>", level);
+}
+
+func BUFF_ShadowWalk1(level)
+{
+  return IMCFormat("<$>126647</>", level);
+}
+
+func BUFF_FastBuild(level)
+{
+  return IMCFormat("<$>95320</>", level );
+}
+
+func BUFF_PainKiller(level)
+{
+  return IMCFormat("<$>198340</>", level);
+}
+
+func BUFF_MassEvasion(level)
+{
+  return IMCFormat("<$>198341</>", level);
+}
+
+func BUFF_AdrenalinFever(level)
+{
+ if (InWorldPVP() == 1){
+    return IMCFormat("<$>231158</>", level);
+ } else {
+    return IMCFormat("<$>198342</>", level);
+ }
+}
+
+func BUFF_WeaponMaster(level)
+{
+  return IMCFormat("<$>88304</>", level );
+}
+
+func BUFF_ImprovedCurse(level)
+{
+  return IMCFormat("<$>79740</>", level );
+}
+
+func BUFF_MindDrain(level)
+{
+  	return IMCFormat("<$>167621</>", level, level * 10, level * 6);
+}
+
+func BUFF_ReflectSkin(level)
+{
+  if( level > 10 ){
+    return IMCFormat("<$>214475</>", level );
+  } else {
+    return IMCFormat("<$>214476</>", level );
+  }
+}
+
+func BUFF_FastThinking(level)
+{
+  if ( level > 10 ) {
+    return IMCFormat("<$>198343</>", level, level*3, level*4, level*2 );
+  } else {
+    return IMCFormat("<$>198344</>", level, level*3, level*4, level*2 );
+  }
+}
+
+func BUFF_CrystalPrison(level)
+{
+  return IMCFormat("<$>167622</>", level, level, level );
+}
+
+func BUFF_BrainBreaker(level)
+{
+  return IMCFormat("<$>79744</>", level );
+}
+
+func BUFF_Love(level)
+{
+  return IMCFormat("<$>99300</>");
+}
+
+func BUFF_Drunken(level)
+{
+  if( level > 14 ){
+    return IMCFormat("<$>225476</>", level, level * 2, level, level );
+  } if( level > 10 ){
+    return IMCFormat("<$>225477</>", level, level * 2, level, level );
+  } else {
+    return IMCFormat("<$>225478</>", level, level * 2, level, level );
+  }
+}
+
+func BUFF_Bristia(level)
+{
+  return "<$>88310</>";
+}
+func BUFF_Chromatic(level)
+{
+  return IMCFormat("<$>88311</>", level, level * 3 );
+}
+
+func BUFF_CallZeppelin(level)
+{
+  return IMCFormat("<$>167626</>", level, level * 2, level );
+}
+func BUFF_ZeppelinReady(level)
+{
+  return IMCFormat("<$>167627</>", level, level * 2, level, level * 3 );  
+}
+func BUFF_Free(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>217081</>", level, level * 2, level, 2 * level );
+  }else{
+    return IMCFormat("<$>167629</>", level, level * 2, level, 2 * level);
+  }
+}
+func BUFF_FoxHound(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>88314</>", level, 5 * level, level, level * 5);
+  }else{
+    return IMCFormat("<$>88315</>", level, 5 * level, level, level * 5);
+  }
+}
+
+func BUFF_DaggerPolish(level)
+{
+  	return IMCFormat("<$>167630</>", level);
+
+}
+
+func BUFF_PiercedWound(level)
+{
+  return IMCFormat("<$>214477</>", level, level * 200, level * 10, level * 5);
+}
+
+func BUFF_PiercedWound2(level)
+{
+  return IMCFormat("<$>214478</>", level, level * 100);
+}
+
+func BUFF_Endurence(level)
+{
+  return IMCFormat("<$>99302</>", level, level * 10);
+}
+
+func BUFF_ForceField(level)
+{
+  return IMCFormat("<$>88319</>", level);
+}
+
+func BUFF_GrimReaper(level)
+{
+ if (InWorldPVP() == 1){
+  if(level > 10){
+    return IMCFormat("<$>231133</>", level);
+  } else {
+    return IMCFormat("<$>231134</>", level);
+  }
+ } else {
+  if(level > 10){
+    return IMCFormat("<$>156035</>", level);
+  } else {
+    return IMCFormat("<$>99303</>", level);
+  }
+ }
+}
+func BUFF_SoulReaper(level)
+{
+ if (InWorldPVP() == 1){
+  if(level > 10){
+    return IMCFormat("<$>231135</>", level);
+  } else {
+    return IMCFormat("<$>231136</>", level);
+  }
+ } else {
+  if(level > 10){
+    return IMCFormat("<$>156036</>", level);
+  } else {
+    return IMCFormat("<$>99304</>", level);
+  }
+ }
+}
+func BUFF_BeginnerLuck(level)
+{
+  return IMCFormat("<$>88322</>", level);
+}
+func BUFF_Coruscation(level)
+{
+  if(level == 10){
+  	return IMCFormat("<$>95321</>", level);
+  } else if(level == 11){
+    return IMCFormat("<$>95322</>", level);
+  } else if(level == 12){
+    return IMCFormat("<$>300515</>", level);
+  } else {
+    return IMCFormat("<$>300516</>", level, math.floor(level * 1.5));
+  }
+}
+func BUFF_MarksmanShip(level)
+{
+  return IMCFormat("<$>167632</>", level, level);
+}
+
+func BUFF_FireBlessing(level)
+{
+  return IMCFormat("<$>167633</>", level);
+}
+
+func BUFF_FireBlessing1(level)
+{
+  return IMCFormat("<$>167633</>", level);
+}
+
+func BUFF_CircleofStream(level)
+{
+  return IMCFormat("<$>198345</>", level, level + 10);
+}
+
+func BUFF_SeeingThrough(level)
+{
+  if(level >= 10){
+    return "<$>142288</>";
+  } else if(level >= 6){
+    return "<$>142289</>";
+  } else if(level >= 2){
+    return "<$>142290</>";
+  } else {
+    return "<$>142291</>";
+  }
+}
+func BUFF_Wallofcuran(level)
+{
+  return IMCFormat("<$>167635</>", level);
+}
+func BUFF_Mensa(level)
+{
+  if(level >= 11){
+    return IMCFormat("<$>167636</>", level);
+  } else {
+    return IMCFormat("<$>99308</>", level);
+  }
+}
+
+func BUFF_Charging(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>167637</>", level, level * 30, level * 2);
+  } else {
+    return IMCFormat("<$>167638</>", level, level * 30, level * 2);
+  }
+}
+	
+func BUFF_Gravitation(level)
+{
+    return IMCFormat("<$>120471</>", level);
+}
+
+func BUFF_FullMoon(level)
+{
+    return IMCFormat("<$>91961</>", level, level * 4, level * 2 );
+}
+
+func BUFF_FireAura(level)
+{
+    return IMCFormat("<$>167639</>", level, 5 + level / 2 );
+}
+
+func BUFF_CirclePenetration(level)
+{
+    return IMCFormat("<$>167640</>", level, level * 5 );
+}
+
+func BUFF_ShellBreaker(level)
+{
+    if(level <= 10){
+      return IMCFormat("<$>167641</>", level);
+    } else {
+      return IMCFormat("<$>167642</>", level);
+    }
+}
+func BUFF_HellVallyBuff(level)
+{
+    return "<$>167643</>"
+}
+func BUFF_Choco(level)
+{
+  return IMCFormat("<$>128046</>", level );
+}
+func BUFF_Awakening(level)
+{
+  return IMCFormat("<$>218178</>", level);
+}
+func BUFF_Voidness(level)
+{
+  return IMCFormat("<$>99309</>", level);
+}
+func BUFF_HeavyStalker(level)
+{
+  return IMCFormat("<$>167645</>", level);
+}
+func BUFF_Acrobatic(level)
+{
+  return IMCFormat("<$>99310</>", level);
+}
+func BUFF_Counter(level)
+{
+	if(level > 10){
+  	return IMCFormat("<$>167646</>", level);
+  }else{
+  	return IMCFormat("<$>167647</>", level);
+  }
+}
+func BUFF_Preparation(level)
+{
+	if(level > 10){
+  	return IMCFormat("<$>221094</>", level);
+  }else{
+  	return IMCFormat("<$>167649</>", level);
+  }
+}
+func BUFF_Edge(level)
+{
+	if(level > 10){
+  	return IMCFormat("<$>167650</>", level);
+	}else{
+		return IMCFormat("<$>99312</>", level);
+	}
+}
+func BUFF_WolfEye(level)
+{
+	if(level > 10){
+  	return IMCFormat("<$>189143</>", level, level * 2, level * 2);
+	}else{
+		return IMCFormat("<$>189144</>", level, level * 2, level * 2);
+	}
+}
+func BUFF_ForestBlessing(level)
+{
+	return IMCFormat("<$>167653</>", level);
+}
+func BUFF_Root(level)
+{
+	return IMCFormat("<$>99316</>", level);
+}
+func BUFF_Tiger_b(level)
+{
+  return "<$>167654</>";
+}
+///////////////////캐릭터 버프/////////////////////
+func BUFF_ChaARDR(level)
+{
+  return IMCFormat("<$>167655</>", level, level * 2);
+}
+func BUFF_ChaATK(level)
+{
+  return IMCFormat("<$>167656</>", level, level * 3);
+}
+
+func BUFF_ChaASPD(level)
+{
+  return IMCFormat("<$>167657</>", level, level * 3);
+}
+
+func BUFF_ChaCRT(level)
+{
+  return IMCFormat("<$>167658</>", level, level * 3);
+}
+
+func BUFF_ChaCRTATK(level)
+{
+  return IMCFormat("<$>95334</>", level, level * 5);
+}
+
+func BUFF_ChaHR(level)
+{
+  return IMCFormat("<$>95335</>", level, level * 3);
+}
+func BUFF_ChaDefIP(level)
+{
+  return IMCFormat("<$>95336</>", level, level * 3);
+}
+func BUFF_ChaMSATK(level)
+{
+  return IMCFormat("<$>167659</>", level, level * 5);
+}
+func BUFF_ChaPCATK(level)
+{
+  return IMCFormat("<$>95338</>", level, level * 5);
+}
+func BUFF_ChaEleIP(level)
+{
+  return IMCFormat("<$>95339</>", level, level * 3);
+}
+func BUFF_ChaDEF(level)
+{
+  return IMCFormat("<$>95340</>", level, level * 3);
+}
+func BUFF_ChaPR(level)
+{
+  return IMCFormat("<$>95341</>", level, level * 3);
+}
+func BUFF_ChaBLK(level)
+{
+  return IMCFormat("<$>95342</>", level, level * 3);
+}
+func BUFF_ChaIMP(level)
+{
+  return IMCFormat("<$>95343</>", level, level * 3);
+}
+func BUFF_ChaEvasion(level)
+{
+  return IMCFormat("<$>195414</>", level, level * 5);
+}
+func BUFF_ChaMonDam(level)
+{
+  return IMCFormat("<$>95345</>", level, level * 3);
+}
+func BUFF_ChaPCDEF(level)
+{
+  return IMCFormat("<$>95346</>", level, level * 3);
+}
+func BUFF_ChaMHP(level)
+{
+  return IMCFormat("<$>99317</>", level, level * 1000);
+}
+func BUFF_ChaMSP(level)
+{
+  return IMCFormat("<$>95348</>", level, level * 300);
+}
+func BUFF_ChaRHP(level)
+{
+  return IMCFormat("<$>95349</>", level, level * 100);
+}
+func BUFF_ChaRSP(level)
+{
+  return IMCFormat("<$>95350</>", level, level * 20);
+}
+func BUFF_ChaDrain(level)
+{
+  return IMCFormat("<$>95351</>", level, level * 2);
+}
+func BUFF_ChaIncSTR(level)
+{
+  return IMCFormat("<$>95352</>", level, level * 2);
+}
+func BUFF_ChaIncAGI(level)
+{
+  return IMCFormat("<$>95353</>", level, level * 2);
+}
+func BUFF_ChaIncCON(level)
+{
+  return IMCFormat("<$>95354</>", level, level * 2);
+}
+func BUFF_ChaIncDEX(level)
+{
+  return IMCFormat("<$>95355</>", level, level * 2);
+}
+func BUFF_ChaIncINT(level)
+{
+  return IMCFormat("<$>95356</>", level, level * 2);
+}
+func BUFF_ChaIncCHA(level)
+{
+  return IMCFormat("<$>95357</>", level, level * 2);
+}
+func BUFF_ChaCast(level)
+{
+  return IMCFormat("<$>95358</>", level, level * 2);
+}
+func BUFF_ChaHoldTime(level)
+{
+  return IMCFormat("<$>95359</>", level, level * 2);
+}
+func BUFF_ChaREle(level)
+{
+  return IMCFormat("<$>95360</>", level, level * 3);
+}
+func BUFF_ChaMSPD(level)
+{
+  return IMCFormat("<$>105363</>", level, level * 5);
+}
+func BUFF_ChaLinden(level)
+{
+  return IMCFormat("<$>128047</>", level, level * 10);
+}
+func BUFF_ChaBuff9th(level)
+{
+  return IMCFormat("<$>134481</>", level, level * 9, level * 9, level * 900);
+}
+///////////////////// 일본 특화 버프 //////////
+func BUFF_HAL_EVENT_0908(level)
+{
+	return "<$>79748</>";
+}
+
+func BUFF_StnEXPBuff30(level)
+{
+	return "<$>79749</>";
+}
+func BUFF_EXPBuff30(level)
+{
+	return "<$>167660</>";
+}
+func BUFF_IntenDivineBless(level)
+{
+	return "<$>79751</>";
+}
+func BUFF_TransPotion(level)
+{
+	return "<$>167661</>";
+}
+func BUFF_TransPotionB(level)
+{
+	return "<$>167662</>";
+}
+func BUFF_EXPBuff10_EEP(level)
+{
+	return "<$>79753</>";
+}
+func BUFF_Absorbbuff(level)
+{
+	return "<$>79754</>";
+}
+func BUFF_EXPBuff60(level)
+{
+	return "<$>79755</>";
+}
+func BUFF_StnEXPBuff60(level)
+{
+	return "<$>79756</>";
+}
+
+func BUFF_IncAR_JPN(level)
+{
+	return "<$>79757</>";
+}
+func BUFF_IncDR_JPN(level)
+{
+	return "<$>79758</>";
+}
+
+func BUFF_GrowthMedicine(level)
+{
+	return "<$>79759</>";
+}
+
+func BUFF_GrowthTactics(level)
+{
+	return "<$>79760</>";
+}
+
+func BUFF_GoodConduct_01(level)
+{
+	return "<$>167663</>";
+}
+func BUFF_GoodConduct_02(level)
+{
+	return "<$>167664</>";
+}
+func BUFF_GoodConduct_03(level)
+{
+	return "<$>167665</>";
+}
+func BUFF_GoodConduct_04(level)
+{
+	return "<$>167666</>";
+}
+func BUFF_GoodConduct_05(level)
+{
+	return "<$>167667</>";
+}
+func BUFF_Tiger_w(level)
+{
+  return "<$>79766</>";
+}
+func BUFF_ToothOfBless(level)
+{
+  return "<$>105364</>";
+}
+func BUFF_ToothOfActivation(level)
+{
+  return "<$>167668</>";
+}
+func BUFF_Ancestor(level)
+{
+  return "<$>201905</>";
+}
+func BUFF_Sacrifice(level)
+{
+  return  IMCFormat("<$>142295</>", level, level, level, level);
+}
+func BUFF_Nature(level)
+{
+  return IMCFormat("<$>180186</>", level, level * 2, level);
+}
+func BUFF_EXPSTNUP200GOLD(level)
+{
+	return "<$>91070</>";
+}
+func BUFF_Leadermorale1(level)
+{
+	return IMCFormat("<$>101421</>", level);
+}
+func BUFF_Leadermorale2(level)
+{
+	return IMCFormat("<$>101421</>", level);
+}
+
+func BUFF_alca02_buff_atk(level)
+{
+	return "<$>97398</>";
+}
+
+func BUFF_alca02_buff_def(level)
+{
+	return "<$>167669</>";
+}
+
+func BUFF_alca02_buff_reg(level)
+{
+	return "<$>97402</>";
+}
+func BUFF_IgnoreDefPer(level)
+{
+	return IMCFormat("<$>99320</>", level-20);
+}
+func BUFF_PoisonGasPc(level)
+{
+	return IMCFormat("<$>167670</>", level);
+}
+func BUFF_PoisonGasMon(level)
+{
+	return IMCFormat("<$>167670</>", level*2);
+}
+func BUFF_ObstructVision(level)
+{
+  return "<$>167671</>";
+}
+func BUFF_OverHeat(level)
+{
+    return IMCFormat("<$>99323</>", level, level/3);
+}
+func BUFF_CoolingGun(level)
+{
+  return "<$>189145</>";
+}
+func BUFF_OverLimit(level)
+{
+  if(level < 11){
+	  return IMCFormat("<$>217082</>", level, level * 2, level * 5, level * 2, level * 2);
+	}
+	else if (level == 11 ){
+	  return IMCFormat("<$>217083</>", level, level * 2, level * 5, level * 2);
+	}
+	else {
+	  return IMCFormat("<$>217084</>", level, level * 2, level * 5, level * 2);
+  }
+}
+func BUFF_GunMaster(level)
+{
+  if ( level > 10 ) {
+   	return IMCFormat("<$>167675</>", level, math.floor(level/2), math.floor(level/2), math.floor(level/2));
+  } else {
+  	return IMCFormat("<$>167676</>", level, math.floor(level/2), math.floor(level/2), math.floor(level/2));
+  }
+}
+func BUFF_Comebackbu(level)
+{
+	return "<$>119642</>";
+}
+func BUFF_Elephant(level)
+{
+	return IMCFormat("<$>167677</>", level);
+}
+func BUFF_AngelicBlessing(level)
+{
+	return IMCFormat("<$>167678</>", level);
+}
+func BUFF_RegenWardDEER(level)
+{
+  return "<$>27756</>";
+}
+func BUFF_SafetyWardDEER(level)
+{
+  return "<$>27760</>";
+}
+func BUFF_Chilblains(level)
+{
+	return IMCFormat("<$>167679</>", level);
+}
+func BUFF_Painful(level)
+{
+	return IMCFormat("<$>167680</>", level);
+}
+func BUFF_Snowflake(level)
+{
+  if (level > 10 ) {
+    return IMCFormat("<$>167681</>", level, level,  level);
+	} else { 
+	  return IMCFormat("<$>167682</>", level, level, level);
+	}
+}
+func BUFF_Chill(level)
+{
+	return IMCFormat("<$>225479</>", level);
+}
+func BUFF_ReentrancePenalty(level)
+{
+	return "<$>97382</>";
+}
+func BUFF_Imagine(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>101423</>", level);
+  }else{
+    return IMCFormat("<$>101424</>", level);
+  }
+}
+func BUFF_Nobility(level)
+{
+	return IMCFormat("<$>167684</>", level);
+}
+func BUFF_Calypso(level)
+{
+	return IMCFormat("<$>128048</>", level, level * 5);
+}
+func BUFF_Bolero(level)
+{
+	return IMCFormat("<$>128049</>", level, level * 2 );
+}
+func BUFF_Ranchera(level)
+{
+  return IMCFormat("<$>99333</>", level);
+}
+func BUFF_Cancion(level)
+{
+	return "<$>99334</>";
+}
+func BUFF_Heighten(level)
+{
+  return IMCFormat("<$>99335</>", level);
+}
+func BUFF_Blessoffriends(level)
+{
+  if(level == 1){
+    return IMCFormat("<$>225480</>", level);
+  }
+  else {
+    return IMCFormat("<$>225481</>", level);
+  }
+}
+func BUFF_SurroundingBat(level)
+{
+  return IMCFormat("<$>167685</>");
+}
+func BUFF_SurroundingSnow(level)
+{
+  return IMCFormat("<$>167686</>");
+}
+func BUFF_SurroundingBat_ice(level)
+{
+  return IMCFormat("<$>167687</>");
+}
+func BUFF_ImmortalSprit(level)
+{
+  if(level == 1){
+    return IMCFormat("<$>199885</>", level, level+5, level);
+  } else if(level > 10){
+    return IMCFormat("<$>199886</>", level, level+5, level);
+  }else{
+    return IMCFormat("<$>199887</>", level, level+5, level);
+  }
+}
+func BUFF_FrozenSprit(level)
+{
+  if(level == 1){
+    return IMCFormat("<$>199888</>", level, level+5, level);
+  } else if(level > 10){
+    return IMCFormat("<$>199889</>", level, level+5, level);
+  }else{
+    return IMCFormat("<$>199890</>", level, level+5, level);
+  }
+}
+func BUFF_DeathlessBody(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>112428</>", level, level*5);
+  }else{
+    return IMCFormat("<$>112429</>", level);
+  }
+}
+func BUFF_WindSpirits(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>101432</>", level, level, level, level, level+10);
+  }else{
+    return IMCFormat("<$>101433</>", level, level, level, level, level+10);
+  }
+}
+func BUFF_Arousal_test(level)
+{
+    return IMCFormat("<$>101434</>", level);
+}
+func BUFF_Destructivo(level)
+{
+  return IMCFormat("<$>128050</>", level, level*5, math.floor(level * 1.5), math.floor(level * 1.5), level);
+}
+func BUFF_Sleepwalking(level)
+{
+  return IMCFormat("<$>105380</>", level, level);
+}
+func BUFF_Smellblood(level)
+{
+  return IMCFormat("<$>105381</>", level);
+}
+func BUFF_Stink(level)
+{
+  return IMCFormat("<$>112430</>", level);
+}
+func BUFF_Pressure(level)
+{
+	return IMCFormat("<$>105383</>", level);
+}
+func BUFF_TierraLoser(level)
+{
+	return IMCFormat("<$>105384</>", level, level*5, level*5);
+}
+
+//------------------- 극한 버프 계열 시작 ---------------------//
+func BUFF_LimitBuff(level)
+{
+    return "<$>105385</>";
+}
+func BUFF_Limit_BLK(level)
+{
+    return IMCFormat("<$>105386</>", level, level * 5 );
+}
+func BUFF_Limit_MeleeATK(level)
+{
+    return IMCFormat("<$>105387</>", level, level * 10);
+}
+func BUFF_Limit_STR(level)
+{
+    return IMCFormat("<$>105388</>", level, level * 50, level * 10 );
+}
+func BUFF_Limit_MSPD(level)
+{
+    return IMCFormat("<$>105389</>", level, level * 30 );
+}
+func BUFF_Limit_ASPD(level)
+{
+    return IMCFormat("<$>105390</>", level, level * 20 );
+}
+func BUFF_Limit_AGI(level)
+{
+    return IMCFormat("<$>105391</>", level, level * 50, level * 60 );
+}
+func BUFF_Limit_MHP(level)
+{
+    return IMCFormat("<$>105392</>", level, level * 20);
+}
+func BUFF_Limit_RHP(level)
+{
+    return IMCFormat("<$>105393</>", level, level * 500);
+}
+func BUFF_Limit_CON(level)
+{
+    return IMCFormat("<$>105394</>", level, level * 50, level * 1000);
+}
+func BUFF_Limit_ShootATK(level)
+{
+    return IMCFormat("<$>105395</>", level, level * 10);
+}
+func BUFF_Limit_CRT(level)
+{
+    return IMCFormat("<$>105396</>", level, level * 10);
+}
+func BUFF_Limit_DEX(level)
+{
+    return IMCFormat("<$>105397</>", level, level * 50);
+}
+func BUFF_Limit_MagicATK(level)
+{
+    return IMCFormat("<$>105398</>", level, level * 10);
+}
+func BUFF_Limit_R_Magic(level)
+{
+    return IMCFormat("<$>105399</>", level, level * 5);
+}
+func BUFF_Limit_INT(level)
+{
+    return IMCFormat("<$>105400</>", level, level * 50, level * 10 );
+}
+func BUFF_Limit_SummonAtk(level)
+{
+  return IMCFormat("<$>112431</>", level, level * 50);
+}
+
+func BUFF_Limit_Cast(level)
+{
+  return IMCFormat("<$>119646</>", level, level * 50);
+}
+
+func BUFF_Limit_CHA(level)
+{
+  return IMCFormat("<$>112433</>", level, level * 50);
+}
+//------------------- 극한 버프 계열 끝 ---------------------//
+func BUFF_Blackcatbless(level)
+{
+  return "<$>105401</>";
+}
+func BUFF_MindEye(level)
+{
+  return IMCFormat("<$>167694</>", level, level * 2);
+}
+func BUFF_ChapterofWind_R(level)
+{
+  if(level > 10){
+	  return IMCFormat("<$>142297</>", level, level * 15, level * 5, level, level, level, math.floor(level/1.5));
+	}else{
+	  return IMCFormat("<$>142298</>", level, level * 15, level * 5, level, level, level, math.floor(level/1.5));
+	}
+}
+func BUFF_Pester(level)
+{
+  return "<$>105405</>"
+}
+func BUFF_Unrest(level)
+{
+  return "<$>105406</>"
+}
+func BUFF_Invertir1(level)
+{
+  return "<$>189147</>"
+}
+func BUFF_Invertir2(level)
+{
+  return "<$>189148</>"
+}
+
+func BUFF_EarthPiece(level)
+{
+  if(level <= 2){
+    return "<$>167695</>"
+  } else if(level == 3){
+    return "<$>151524</>"
+  } else{
+    return "<$>112434</>"
+  }
+}
+func BUFF_FirePiece(level)
+{
+  if(level <= 2){
+    return "<$>167696</>"
+  } else if(level == 3){
+    return "<$>152347</>"
+  } else{
+    return "<$>112435</>"
+  }
+}
+func BUFF_WindPiece(level)
+{
+  if(level == 3){
+    return "<$>151526</>"
+  } else {
+    return "<$>105409</>"
+  }
+}
+func BUFF_WaterPiece(level)
+{
+  if(level <= 2){
+    return "<$>105410</>"
+  } else if(level == 3){
+    return "<$>151527</>"
+  } else{
+    return "<$>112436</>"
+  }
+}
+func BUFF_IceAura(level)
+{
+    return IMCFormat("<$>167697</>", level, 5 + level / 2 );
+}
+func BUFF_Showtime(level)
+{
+  if (level == 11){
+    return IMCFormat("<$>195415</>", level);
+  }else if (level == 12){
+    return IMCFormat("<$>195416</>", level);
+  }else if (level == 13){
+    return IMCFormat("<$>231124</>", level);
+  }else if (level == 14){
+    return IMCFormat("<$>231125</>", level);
+  }else if (level == 15){
+    return IMCFormat("<$>231126</>", level);
+  }else{
+    return IMCFormat("<$>112439</>", level);
+  }
+}
+
+func BUFF_Temptation(level)
+{
+  return "<$>105415</>"
+}
+func BUFF_iceholyaura(level)
+{
+	return "<$>167698</>";
+}
+
+func BUFF_BristiaBuff(level)
+{
+	return "<$>109062</>";
+}
+
+func BUFF_Bstbuff1(level)
+{
+	return "<$>167699</>";
+}
+
+func BUFF_Bstbuff2(level)
+{
+	return "<$>109031</>";
+}
+
+func BUFF_Bstbuff3(level)
+{
+	return "<$>109033</>";
+}
+
+func BUFF_Bstbuff4(level)
+{
+	return "<$>167700</>";
+}
+
+func BUFF_Bstbuff5(level)
+{
+	return "<$>167701</>";
+}
+
+func BUFF_Bstbuff6(level)
+{
+	return "<$>167702</>";
+}
+func BUFF_BloodSword(level)
+{
+  if(level >= 5){
+    return IMCFormat("<$>167703</>", level, level*5, level, level * 5);
+  } else {
+  	return IMCFormat("<$>167704</>", level, level*5, level, level * 5);
+	}
+}
+func BUFF_BloodBracelet(level)
+{
+  if(level >= 5){
+    return IMCFormat("<$>167705</>", level, level*5, level);
+  } else {
+    return IMCFormat("<$>167706</>", level, level*5, level);
+  }
+}
+func BUFF_Devotion(level)
+{
+  return "<$>136797</>"
+}
+
+func BUFF_Holy(level)
+{
+  if(level <= 9){
+	  return IMCFormat("<$>167707</>", level, level);
+	}else if(level >= 10){
+	  return IMCFormat("<$>167708</>", level - 9, (level - 9)*2, (level - 9)*5);
+	}
+}
+func BUFF_HeavenlyShield(level)
+{
+  return IMCFormat("<$>180188</>", level);
+}
+func BUFF_WPAddATK(level)
+{
+	return "<$>112448</>";
+}
+func BUFF_WPAddSPD(level)
+{
+	return "<$>112449</>";
+}
+func BUFF_WPAddDEF(level)
+{
+	return "<$>112450</>";
+}
+func BUFF_Gigantosnailbless(level)
+{
+  return "<$>112451</>";
+}
+func BUFF_Taurusbless(level)
+{
+  return "<$>112452</>";
+}
+func BUFF_WhiteDay_Buff(level)
+{
+  if(level == 1){
+    return "<$>136798</>"
+  } else if(level == 2){
+    return "<$>136799</>"
+  } else if(level == 3){
+    return "<$>136800</>"
+  }
+}
+func BUFF_BlueHorse(level)
+{
+  if(level == 1){
+    return IMCFormat("<$>167710</>", level);
+  } else if(level == 2){
+    return IMCFormat("<$>167711</>", level);
+  }
+}
+func BUFF_QuestExp(level)
+{
+  var area = { "<$>3976</>", "<$>1293</>", "<$>3977</>", "<$>8793</>", "<$>47516</>", "<$>112458</>", "<$>47784</>", "<$>47860</>" };
+  if (level < 7){
+  	return IMCFormat("<$>112459</>", area[level], level*5);
+  } else {
+    return IMCFormat("<$>112459</>", area[level], (level-1)*5);
+  }
+}
+func BUFF_QuestStnExp(level)
+{
+  var area = { "<$>47479</>", "<$>47489</>"};
+  if (level < 2){
+  	return IMCFormat("<$>112460</>", area[level], level*5);
+  } else {
+    return IMCFormat("<$>112460</>", area[level], (level-1)*5);
+  }
+}
+
+func BUFF_Abysscurse(level)
+{
+  return "<$>167712</>"
+}
+
+func BUFF_AttendanceBuff(level)
+{
+  if (level > 1 && level < 7){
+  	return IMCFormat("<$>112462</>", level, level*5 - 5);
+  } else {
+    return "<$>112463</>";
+  }
+}
+func BUFF_AbyssImpose(level)
+{
+  return "<$>112464</>"
+}
+func BUFF_ProsAndCons(level)
+{
+
+	return IMCFormat("<$>195417</>", level, level, level, level, level/2, level*2, level*2, level-10);
+
+}
+func BUFF_AbyssCorruption(level)
+{
+  if ( level <= 250 ) {
+    return IMCFormat("<$>167715</>", level, level/5, level/50, level/50);
+  } else {
+    return "<$>167716</>";
+  }
+}
+func BUFF_RumbleFight(level)
+{
+  return "<$>128051</>";
+}
+func BUFF_RumbleMedal(level)
+{
+  return "<$>167717</>";
+}
+func BUFF_Sequela(level)
+{
+  return "<$>109094</>";
+}
+func BUFF_DungeonArmBuff(level)
+{
+	return "<$>113168</>";
+}
+func BUFF_Standbymode(level)
+{
+  return "<$>119648</>";
+}
+func BUFF_BlessItem(level, pcIdx)
+{
+	return IMCFormat("<$>119649</>", GetBlessEffectList(pcIdx));
+}
+func BUFF_LightningGrant(level)
+{
+ 	return IMCFormat("<$>199891</>", level);
+}
+func BUFF_LightningDispel(level)
+{
+ 	return IMCFormat("<$>119651</>", level, level*2);
+}
+func BUFF_Expose2(level)
+{
+  return "<$>119652</>";
+}
+func BUFF_Diablobless(level)
+{
+  return "<$>223232</>";
+}
+func BUFF_NoSkill(level)
+{
+  return "<$>119654</>";
+}
+func BUFF_PetBless(level)
+{
+  if(level == 1){
+    return "<$>201210</>";//레드 볼
+  } else if(level == 2){
+		return "<$>195419</>";
+	} else if(level == 3){
+	  return "<$>124101</>";
+	} else if(level == 4){
+	  return "<$>167720</>";
+	} else if(level == 5){
+	  return "<$>187972</>";
+	} else if(level == 6){
+	  return "<$>187973</>";
+	} else if(level == 7){
+	  return "<$>187974</>";
+	} else if(level == 8){
+	  return "<$>198346</>";
+	} else if(level == 10){
+	  return "<$>225681</>";
+	} else if(level == 11){
+	  return "<$>201294</>";
+	} else {
+    return "<$>112710</>";
+  }
+}
+func BUFF_wildSense(level)
+{
+  return "<$>225482</>";
+}
+func BUFF_HuntingTarget(level)
+{
+  return "<$>119657</>";
+}
+func BUFF_Rhinoceurbless(level)
+{
+  return "<$>223233</>";
+}
+func BUFF_EXP_Rabbit(level)
+{
+	return "<$>113191</>";
+}
+
+func BUFF_Justice(level)
+{
+	return IMCFormat("<$>180191</>", level, level, level);
+}
+func BUFF_Promise2(level)
+{
+	return IMCFormat("<$>167728</>", level);
+}
+
+func BUFF_SaintMark(level)
+{
+	  return IMCFormat("<$>167730</>", level, level*6, level*8);
+}
+
+func BUFF_BSacrifice(level)
+{
+  return IMCFormat("<$>167731</>", level, level);
+}
+func BUFF_DiscountBuff(level)
+{
+	  return IMCFormat("<$>119667</>");
+}
+func BUFF_Tinnitus(level)
+{
+	  return IMCFormat("<$>119668</>");
+}
+func BUFF_DependancyofBlood(level)
+{
+  if (level == 1){
+    return IMCFormat("<$>124102</>");
+  } else {
+    return IMCFormat("<$>119669</>", level);
+  }
+}
+func BUFF_LuckyClover(level)
+{
+	  return IMCFormat("<$>119670</>");
+}
+
+func BUFF_buffsaintspirit(level)
+{
+    return IMCFormat("<$>124103</>", level);
+}
+func BUFF_Handsign(level)
+{
+    return IMCFormat("<$>167732</>", level);
+}
+func BUFF_WatermelonOfBless(level)
+{
+	return "<$>167733</>";
+}
+func BUFF_MoonBless(level)
+{
+	return "<$>167734</>";
+}
+
+func BUFF_Blinkwait(level)
+{
+    return IMCFormat("<$>123270</>");
+}
+
+func BUFF_Justice_Light(level)
+{
+  return IMCFormat("<$>167735</>", level, -level);
+}
+
+func BUFF_Justice_Dark(level)
+{
+  return IMCFormat("<$>167736</>", level, -level);
+}
+
+func BUFF_Reasoning1(level)
+{
+  if ( level == 1 ) {
+    return IMCFormat("<$>167737</>", level, level, level/2, level/2, level/2);
+  } else if ( level >= 20 ) {
+    return IMCFormat("<$>167738</>", level, level, level/2, level/2, level/2);
+  } else {
+    return IMCFormat("<$>167739</>", level, level, level/2, level/2, level/2);
+  }
+}
+
+func BUFF_Reasoning2(level)
+{
+  if ( level == 1 ) {
+    return IMCFormat("<$>167737</>", level, level, level/2, level/2, level/2);
+  } else if ( level >= 20 ) {
+    return IMCFormat("<$>167738</>", level, level, level/2, level/2, level/2);
+  } else {
+    return IMCFormat("<$>167739</>", level, level, level/2, level/2, level/2);
+  }
+}
+
+func BUFF_Identified1(level)
+{
+  return IMCFormat("<$>199892</>", level, level * 3, level*5, 20 + level);
+}
+
+func BUFF_Identified2(level)
+{
+  return IMCFormat("<$>199892</>", level, level * 3, level*5, 20 + level);
+}
+
+func BUFF_Fuego(level)
+{
+  return "<$>124110</>";
+}
+
+func BUFF_Valer(level)
+{
+  if (level == 11){
+    return IMCFormat("<$>124111</>", level, level * 2);
+  }else if (level >=12){
+    return IMCFormat("<$>124112</>", level, level * 2);
+  }else{
+    return IMCFormat("<$>124113</>", level, level * 2, level);
+  }
+}
+
+func BUFF_ArmBuffCHN10(level)
+{
+  return "<$>167740</>";
+}
+
+func BUFF_ArmBuffCHN15(level)
+{
+  return "<$>167741</>";
+}
+
+func BUFF_ArmBuffCHN20(level)
+{
+  return "<$>167742</>";
+}
+
+func BUFF_ArmBuffCHN30(level)
+{
+  if(level == 2){
+    return "<$>133690</>";
+  } else {
+    return "<$>126651</>";
+  }
+}
+
+func BUFF_CadetBuffExp(level)
+{
+  return "<$>127485</>";
+}
+
+func BUFF_CadetBuffStn(level)
+{
+  return "<$>127487</>";
+}
+
+func BUFF_Novato(level)
+{
+	return "<$>123268</>";
+}
+func BUFF_SoulBurn(level)
+{
+  if (InWorldPVP() == 1){
+  	return IMCFormat("<$>198347</>", level);
+	} else {
+	  return IMCFormat("<$>198348</>", level);
+	}
+}
+func BUFF_Possession(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>167745</>", level, level, level * 100, level);
+	} else {
+  	return IMCFormat("<$>126655</>", level, level, level * 100, level);
+	}
+}
+func BUFF_Zodiac(level)
+{
+	return IMCFormat("<$>225483</>", level);
+}
+func BUFF_SealZone(level)
+{
+	return "<$>126657</>";
+}
+func BUFF_SealZone_2(level)
+{
+	return IMCFormat("<$>133691</>", level);
+}
+func BUFF_Savior(level)
+{
+return "<$>167747</>";
+}
+
+// 이벤트용 버프
+func BUFF_Buff_Ev(level)
+{
+  if(level == 1){
+    return IMCFormat("<$>126660</>", level, level * 20, level * 10);
+  } else if(level == 2){
+    return "<$>187976</>";
+  }
+}
+
+func BUFF_Armordestruction(level)
+{
+  if(level < 3){
+  	return IMCFormat("<$>167749</>", level, level*2, level * 10, level * 10, level * 30);
+	} else {
+  	return IMCFormat("<$>167750</>", level, level*2, level * 10, level * 10, level * 30);
+	}
+}
+
+func BUFF_Explosives(level)
+{
+ 	return IMCFormat("<$>225484</>", level, level, level);
+}
+
+func BUFF_AniesSilence(level)
+{
+  if(level <= 20){
+ 	  return IMCFormat("<$>133692</>", level);
+ 	} else {
+ 	  return IMCFormat("<$>133693</>", level - 20);
+ 	}
+}
+
+func BUFF_AniesRest(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>133694</>", level, math.floor(level * 1.5), level, level - 10);
+  }
+ 	return IMCFormat("<$>133695</>", level, math.floor(level * 1.5), level);
+}
+
+func BUFF_AniesSerenity(level)
+{
+  if(level <= 20){
+    if(level > 10){
+   	  return IMCFormat("<$>167751</>", level, level, level, (level - 10) * 5);
+   	} else {
+   	  return IMCFormat("<$>167752</>", level, level, level);
+   	}
+ 	} else if(level > 20){
+ 	  return IMCFormat("<$>167753</>", level - 20, (level - 20) * 3, (level - 20) * 3);
+ 	}
+}
+
+func BUFF_AniesBless(level)
+{
+  if(level > 11){
+    return IMCFormat("<$>167754</>", level, level);
+  } else {
+    return IMCFormat("<$>167755</>", level, level);
+  }
+}
+
+func BUFF_MyWay1(level)
+{
+  var IPvalue = 0;//----관통, 캐스팅 감소
+  var IPvalue2 = 0;//-----방어력 무시
+  
+  if(level >= 20){
+    IPvalue = 3;
+	IPvalue2 = 15;
+	} else if(level >= 10){
+	  IPvalue = 6;
+	  IPvalue2 = 15;
+	} else if(level >= 5){
+	  IPvalue = 6;
+	  IPvalue2 = 30;
+	} else {
+	  IPvalue = 9;
+	  IPvalue2 = 45;
+	}
+  return IMCFormat("<$>201906</>", level, 105-(level*5), IPvalue, IPvalue, IPvalue2);
+}
+func BUFF_MyWay2(level)
+{
+  var IPvalue = 0;
+  IPvalue2 = 15;
+  
+  if(level >= 20){
+    IPvalue = 3;
+    IPvalue2 = 15;
+	} else if(level >= 10){
+	  IPvalue = 6;
+	  IPvalue2 = 15;
+	} else if(level >= 5){
+	  IPvalue = 6;
+	  IPvalue2 = 30;
+	} else {
+	  IPvalue = 9;
+	  IPvalue2 = 45;
+	}
+  return IMCFormat("<$>198350</>", level, 105-(level*5), IPvalue, IPvalue, IPvalue2);
+}
+func BUFF_SnowRabbit(level)
+{
+	return "<$>195421</>";
+}
+
+func BUFF_Veryeasy(level)
+{
+  return IMCFormat("<$>199893</>", level, level * 4, level)
+}
+
+func BUFF_Appreciate(level)
+{
+  if(level > 10){
+    return IMCFormat("<$>225485</>", level, level * 2, level * 3);
+  } else {
+    return IMCFormat("<$>225486</>", level, level * 2, level * 3);
+  }
+}
+
+func BUFF_Poder(level)
+{
+  if (level > 11){
+    return IMCFormat("<$>167759</>", level, level / 2)
+  } else if (level == 11){
+    return IMCFormat("<$>167760</>", level, level / 2)
+  } else if ( level == 1){
+    return IMCFormat("<$>133703</>", level, level) //1레벨일 경우 공증 1% 고정
+  } else {
+    return IMCFormat("<$>133703</>", level, level / 2)
+  }
+}
+
+func BUFF_Limite(level)
+{
+  if (level > 11){
+    return IMCFormat("<$>167761</>", level, level)
+  }else{
+    return IMCFormat("<$>167762</>", level, level)
+  }
+}
+
+func BUFF_Redemption2(level)
+{
+  return IMCFormat("<$>133706</>", level, level * 2, level * 2, level * 10)
+}
+
+func BUFF_Mando(level)
+{
+  return IMCFormat("<$>221095</>", level, level * 4, level * 4);
+}
+
+func BUFF_Navasbreath(level)
+{
+  return ("<$>133707</>")
+}
+
+func BUFF_Callofnightmare(level)
+{
+  return ("<$>167764</>")
+}
+func BUFF_SaraBlass(level)
+{
+	return "<$>195422</>";
+}
+
+func BUFF_SaraBless(level)
+{
+  return "<$>167765</>";
+}
+
+func BUFF_MoriBless(level)
+{
+	return "<$>167766</>";
+}
+func BUFF_LuckyClover10(level)
+{
+	  return IMCFormat("<$>167767</>");
+}
+
+func BUFF_LuckyClover15(level)
+{
+	  return IMCFormat("<$>167768</>");
+}
+
+func BUFF_LuckyClover20(level)
+{
+	  return IMCFormat("<$>167769</>");
+}
+
+func BUFF_Nowlorraine(level)
+{
+    return IMCFormat("<$>225487</>", level, 5 + level / 2 );
+}
+
+func BUFF_Stayout(level)
+{
+    return IMCFormat("<$>225488</>", level, 5 + level / 2 );
+}
+
+func BUFF_Dancingrabbit(level)
+{
+    return "<$>167772</>";
+}
+
+func BUFF_Dancingrabbit2(level)
+{
+    return "<$>167773</>";
+}
+
+func BUFF_Harebless(level)
+{
+    return "<$>134088</>";
+}
+
+func BUFF_Revbless(level)
+{
+    return "<$>134090</>";
+}
+func BUFF_LindenBless(level)
+{
+  return IMCFormat("<$>214479</>", level, level * 100);
+}
+
+func BUFF_Onslaught(level)
+{
+  return IMCFormat("<$>167775</>", level)
+}
+func BUFF_Readines(level)
+{
+    return "<$>136808</>";
+}
+
+func BUFF_BattleCookWill(level)
+{
+    return "<$>199894</>";
+}
+
+func BUFF_CliquewarHonor1(level)
+{
+    return "<$>142308</>";
+}
+
+func BUFF_CliquewarHonor2(level)
+{
+    return "<$>142309</>";
+}
+
+func BUFF_CliquewarHonor3(level)
+{
+    return "<$>142310</>";
+}
+
+func BUFF_CliquewarHonor4(level)
+{
+    return "<$>142311</>";
+}
+
+func BUFF_CliquewarHonor5(level)
+{
+    return "<$>142312</>";
+}
+
+func BUFF_SiegeAttack(level)
+{
+    return "<$>136810</>";
+}
+
+func BUFF_TradeKing(level)
+{
+  return IMCFormat("<$>187977</>", level, level);
+}
+
+func BUFF_SharpenBlade(level)
+{
+  return IMCFormat("<$>167777</>", level, level, level);
+}
+func BUFF_Metallurge(level)
+{
+  return IMCFormat("<$>167778</>", level, math.floor(level * 0.2) , math.floor(level * 0.5) );
+}
+
+func BUFF_Welcome(level)
+{
+  return "<$>214480</>";
+}
+
+func BUFF_Welcome2(level)
+{
+  return "<$>136815</>";
+}
+func BUFF_FlameProtection(level)
+{
+    return IMCFormat("<$>168648</>", level, level, level*5 );
+}
+func BUFF_KillerInstinct(level)
+{
+  return "<$>167781</>";
+}
+
+func BUFF_Protectweapon(level)
+{
+  return IMCFormat("<$>195423</>", level, level * 3, level * 5);
+}
+
+func BUFF_Protectarmor(level)
+{
+  return IMCFormat("<$>167782</>", level, level, level, level);
+}
+
+func BUFF_Consilium(level)
+{
+   if ( level > 10 ) {
+    return IMCFormat("<$>167783</>", level, level, level*3, level, level );
+  } else {
+    return IMCFormat("<$>137438</>", level, level, level*3, level, level);
+  }
+}
+
+func BUFF_Suppression(level)
+{
+   if ( level > 10 ) {
+    return IMCFormat("<$>167784</>", level);
+  } else {
+    return IMCFormat("<$>137440</>", level);
+  }
+}
+
+func BUFF_AbyssPetBless01(level)
+{
+  return "<$>195424</>";
+}
+
+func BUFF_AbyssPetBless02(level)
+{
+  return "<$>195425</>";
+}
+
+func BUFF_AbyssPetBless03(level)
+{
+	return "<$>195426</>";
+}
+
+func BUFF_AbyssPetBless04(level)
+{
+	return "<$>195427</>";
+}
+
+func BUFF_AbyssPetBless05(level)
+{
+	return "<$>195428</>";
+}
+
+func BUFF_CurseoftheDoll(level)
+{
+	return IMCFormat("<$>142313</>", level, level * 3);
+}
+
+func BUFF_MachinaControl(level)
+{
+   if ( level > 10 ) {
+    return IMCFormat("<$>167790</>", level, level*2, level*0.5, level*0.5 );
+  } else {
+    return IMCFormat("<$>142561</>", level, level*2, level*0.5, level*0.5 );
+  }
+}
+
+func BUFF_SoltingMachina(level)
+{
+   if ( level > 10 ) {
+    return IMCFormat("<$>167791</>", level, level, level );
+  } else {
+    return IMCFormat("<$>167792</>", level, level, level );
+  }
+}
+
+func BUFF_Pacifista(level)
+{
+    return IMCFormat("<$>167793</>", level );
+}
+
+func BUFF_MagicSilince(level)
+{
+    return IMCFormat("<$>142565</>", level);
+}
+
+func BUFF_ElectricBoob(level)
+{
+    return IMCFormat("<$>167794</>", level);
+}
+
+func BUFF_Beginning(level)
+{
+    return IMCFormat("<$>604064</>", level);
+}
+func BUFF_Battlefield(level)
+{
+    return IMCFormat("<$>604065</>", level);
+}
+
+func BUFF_Risepoint(level)
+{
+   return IMCFormat("<$>604083</>", level, level, level );
+}
+
+
+func BUFF_Risepoint2(level)
+{
+    return IMCFormat("<$>604113</>", level, level, level );
+}
+
+func BUFF_RoarSalvation(level)
+{
+    return IMCFormat("<$>604088</>", level, level, level );
+}
+
+func BUFF_IdealAura(level)
+{
+    return IMCFormat("<$>604090</>", level, level, level );
+}
+
+func BUFF_Indicacion(level)
+{
+  if(level >= 100){
+    var value = level - 100;
+    return IMCFormat("<$>225489</>", value);
+  } else if(level >= 50){
+    var value = level - 50;
+    return IMCFormat("<$>225490</>", value);
+  } else {
+    return IMCFormat("<$>199897</>", level, level * 4);
+  }
+}
+
+func BUFF_Armas(level)
+{
+  return IMCFormat("<$>167795</>", level);
+}
+func BUFF_Armadura(level)
+{
+  return IMCFormat("<$>167796</>", level) ;
+}
+
+func BUFF_Calmese(level)
+{
+    return IMCFormat("<$>167798</>", level, level, level);
+}
+
+func BUFF_Pitiless(level)
+{
+  if(level > 10 ){
+    return IMCFormat("<$>195429</>", level);
+  }
+  else {
+    return IMCFormat("<$>143188</>", level);
+  }
+}
+func BUFF_Faith(level)
+{
+  return IMCFormat("<$>167800</>", level) ;
+}
+
+func BUFF_Intervention(level)
+{
+  return IMCFormat("<$>195430</>", level, level * 10, level * 80) ;
+}
+
+func BUFF_Readytoshot(level)
+{
+  return IMCFormat("<$>156049</>") ;
+}
+
+func BUFF_Faith2(level)
+{
+    return IMCFormat("<$>167801</>", level, level * 2, level);
+}
+
+func BUFF_Confession(level)
+{
+  if(level == 1 ){
+    return "<$>199898</>";
+  }
+  else if(level == 2){
+    return "<$>199899</>";
+  }
+  else if(level == 3){
+    return "<$>199900</>";
+  }
+  else if(level == 4){
+    return "<$>199901</>";
+  }
+  else if(level == 5){
+    return "<$>199902</>";
+  }
+  else if(level == 6){
+    return "<$>199903</>";
+  }
+  return "<$>152354</>";
+}
+
+func BUFF_Superbia(level)
+{
+  if(level <= 10){
+    return IMCFormat("<$>167808</>", level, level * 3 );
+  } else {
+    return IMCFormat("<$>167809</>", level, level * 3, 5 * (level - 10) );
+  }
+}
+
+func BUFF_Luxuria(level)
+{
+  if(level <= 10){
+    return IMCFormat("<$>180194</>", level, level * 3, level * 2);
+  } else {
+    return IMCFormat("<$>180195</>", level, level * 3, level * 2);
+  }
+}
+
+func BUFF_Avaritia(level)
+{
+  return IMCFormat("<$>180196</>", level);
+}
+func BUFF_Drunken_TGD(level)
+{
+  if (level > 5){
+    return IMCFormat("<$>156050</>", level*5 );
+  } else {
+    return IMCFormat("<$>156051</>", level, level*5 );
+  }
+}
+
+func BUFF_Jokerrisky(level)
+{
+	return IMCFormat("<$>167813</>", level);
+}
+func BUFF_Diceofdeathrisky(level)
+{
+	return IMCFormat("<$>152553</>", level,level*3,level*5,level*5);
+}
+
+func BUFF_Keycard(level)
+{
+  if ( level == 1 ){
+    return ("<$>168291</>");
+  } else if ( level == 2 ){
+    return ("<$>168292</>");
+  } else if ( level == 3 ){
+    return ("<$>168293</>");
+  } else if ( level == 4 ){
+    return ("<$>167817</>");
+  } else if ( level == 5 ){
+    return ("<$>195431</>");
+  } else if ( level >= 11 ){
+    return ("<$>195432</>");
+  }
+}
+
+func BUFF_Elementalcontrol(level)
+{
+  return IMCFormat("<$>187981</>", level, level*3, level);
+}
+
+func BUFF_Elementalcontrol2(level)
+{
+  return IMCFormat("<$>187981</>", level, level*3, level);
+}
+
+func BUFF_Elementalspirit(level)
+{
+  return "<$>167821</>";
+}
+
+func BUFF_OperationC(level)
+{
+  return IMCFormat("<$>152799</>", level, level, level);
+}
+
+func BUFF_OperationA(level)
+{
+  if ( level <= 12 ){
+    return IMCFormat("<$>167822</>", level, level);
+  } else if ( level >= 13 && level <= 24 ){
+    return IMCFormat("<$>167823</>", level-12, level-12);
+  } else if ( level == 25 ){
+    return IMCFormat("<$>167824</>", level-1, level-1, level-13);
+  } else if ( level == 26 ){
+    return IMCFormat("<$>167825</>", (level*2)-2, (level*2)-2, level-2);
+  }
+}
+
+func BUFF_OperationP(level)
+{
+  if ( level <= 12 ){
+    return IMCFormat("<$>152804</>", math.floor(level/2), math.floor(level/2));
+  } else if ( level >= 13 && level <= 24 ){
+    return IMCFormat("<$>152805</>", level-12, level-12);
+  } else if ( level == 25 ){
+    return IMCFormat("<$>152806</>", (level-13), (level-13));
+  } else if ( level == 26 ){
+    return IMCFormat("<$>189149</>", level-4, level-4);
+  }
+}
+
+func BUFF_OperationO(level)
+{
+  if ( level <= 12 ){
+    return IMCFormat("<$>152808</>", level, math.floor(level/2));
+  } else if ( level >= 13 && level <= 24 ){
+    return IMCFormat("<$>152809</>", level-12, level-12);
+  } else if ( level == 25 ){
+    return IMCFormat("<$>152810</>", (level-13)*2, (level-13));
+  } else if ( level == 26 ){
+    return IMCFormat("<$>152811</>", level-2, (level-14));
+  }
+}
+
+func BUFF_OperationS(level)
+{
+  if ( level <= 10 ){
+    return IMCFormat("<$>214481</>", level, math.floor(level/2), level);
+  } else {
+    return IMCFormat("<$>214482</>", level, math.floor(level/2), level);
+  }
+}
+
+func BUFF_Fieldmanual(level)
+{
+  if ( level <= 10 ){
+    return IMCFormat("<$>167828</>", level, level, level * 2);
+  } else {
+    return IMCFormat("<$>167829</>", level, level);
+  }
+}
+
+func BUFF_Traingmanual(level)
+{
+  return IMCFormat("<$>195433</>", level, level);
+}
+
+func BUFF_RudolphBless(level)
+{
+  return "<$>187982</>";
+}
+
+func BUFF_HotTimeBuff(level)
+{
+  return "<$>167832</>";
+}
+
+func BUFF_Virgo1(level)
+{
+  return "<$>153034</>";
+}
+
+func BUFF_Virgo2(level)
+{
+  return "<$>153035</>";
+}
+
+func BUFF_Minelauva(level)
+{
+  if (InWorldPVP() == 1){
+    return IMCFormat("<$>180197</>", level,  level, level * 3);
+  }
+  else {
+    return IMCFormat("<$>180197</>", level,  level, level * 6);
+  }
+}
+
+func BUFF_Reditum(level)
+{
+  if ( level <= 10 ){
+    return IMCFormat("<$>167834</>", level, level, level, level);
+  } else {
+    return IMCFormat("<$>167835</>", level, level, level, level);
+  }
+}
+
+func BUFF_Elementalwhisper(level)
+{
+  return IMCFormat("<$>198351</>");
+}
+
+func BUFF_Event_ApplyTime(level)
+{
+  return IMCFormat("<$>167837</>", level, level * 10, level * 10);
+}
+
+func BUFF_Event_ApplyTime2(level)
+{
+  return IMCFormat("<$>167838</>", level, -100 + level);
+}
+
+func BUFF_EXP_10THANNIVERSARY(level)
+{
+	return "<$>180198</>";
+}
+
+func BUFF_Wish(level)
+{
+  if ( level <= 10 ){
+    return IMCFormat("<$>180199</>", level, level * 3, level, level);
+  } else {
+    return IMCFormat("<$>180200</>", level, level * 3, level, level);
+  }
+}
+
+func BUFF_Virtus(level)
+{
+  if ( level <= 10 ){
+    return IMCFormat("<$>156199</>", level, level * 150, level * 20, level);
+  } else {
+    return IMCFormat("<$>167841</>", level, level * 150, level * 20, level);
+  }
+}
+
+func BUFF_Inhians(level)
+{
+    return IMCFormat("<$>167842</>");
+}
+
+func BUFF_Swordwound(level)
+{
+  return IMCFormat("<$>156202</>", level);
+}
+
+func BUFF_Instructor(level)
+{
+  return IMCFormat("<$>167843</>");
+}
+
+func BUFF_WHITEDAY_EXUP100(level)
+{
+  return IMCFormat("<$>167844</>");
+}
+
+func BUFF_Reiz(level)
+{
+  return IMCFormat("<$>225491</>", level);
+}
+
+func BUFF_Slayer(level)
+{
+  if(level >= 10){
+    return IMCFormat("<$>225492</>", level, level * 3, level * 5, math.floor(level * 1), math.floor(level * 1));
+  } else {
+    return IMCFormat("<$>225493</>", level, level * 3, level * 5, math.floor(level * 1), math.floor(level * 1));
+  }
+}
+
+func BUFF_Slayer2(level)
+{
+  if(level >= 10){
+    return IMCFormat("<$>225492</>", level, level * 3, level * 5, math.floor(level * 1), math.floor(level * 1));
+  } else {
+    return IMCFormat("<$>225493</>", level, level * 3, level * 5, math.floor(level * 1), math.floor(level * 1));
+  }
+}
+
+func BUFF_DiamondDEF(level)
+{
+  return "<$>198352</>";
+}
+func BUFF_Saluete(level)
+{
+	return "<$>198353</>";
+}
+func BUFF_Saluete2(level)
+{
+	return "<$>167847</>";
+}
+func BUFF_Bloodysaluete(level)
+{
+	return IMCFormat("<$>167848</>", level, level * 2);
+}
+func BUFF_Redcourage(level)
+{
+	return IMCFormat("<$>167849</>", level * 5);
+}
+
+func BUFF_Fastidiousness(level)
+{
+	return "<$>156390</>";
+}
+
+func BUFF_Cleaning(level)
+{
+  return IMCFormat("<$>156391</>", level, level * 10, level * 5, level * 3, level * 2);
+}
+
+func BUFF_Crush(level)
+{
+  if(level < 3){
+    return IMCFormat("<$>201907</>", level, level * 10, level * 8, level * 10);
+  }
+  else {
+    return IMCFormat("<$>217086</>", level, level * 10, level * 8, level * 10);
+  }
+}
+
+func BUFF_Speedreading(level)
+{
+	return "<$>187983</>";
+}
+
+func BUFF_Ravolbless(level)
+{
+  if(level >= 3){
+    return IMCFormat("<$>225494</>", level, level * 40, level * 20, level * 10, level * 20);
+  }
+  else {
+    return IMCFormat("<$>225495</>", level, level * 40, level * 20, level * 10, level * 10, level * 20);
+  }
+}
+
+func BUFF_Ogmashield(level)
+{
+  return IMCFormat("<$>156572</>", level, level, level);
+}
+
+func BUFF_Rapacity(level)
+{
+  return "<$>180203</>";
+}
+
+func BUFF_Revolution(level)
+{
+  return IMCFormat("<$>225496</>", level);
+}
+
+func BUFF_FireProtect(level)
+{
+	return "<$>180204</>";
+}
+
+func BUFF_Resolved(level)
+{
+  return IMCFormat("<$>201910</>", level);
+}
+
+func BUFF_Superweek(level)
+{
+  return "<$>168491</>";
+}
+
+func BUFF_Funny(level)
+{
+  return IMCFormat("<$>168364</>", level, level*20, level*2, level*5 );
+}
+
+func BUFF_Cheerup2(level)
+{
+  return IMCFormat("<$>168365</>", level );
+}
+func BUFF_Almighty(level)
+{
+  return "<$>170971</>";
+}
+func BUFF_IcySkin(level)
+{
+  if ( level > 10 ) {
+    return IMCFormat("<$>217087</>", level, level, level*5 );
+  } else {
+    return IMCFormat("<$>217088</>", level, level, level*5 );
+  }
+}
+func BUFF_IceBlock(level)
+{
+  return "<$>168652</>";
+}
+func BUFF_Gelid(level)
+{
+  return "<$>217089</>";
+}
+
+func BUFF_Wounds(level)
+{
+  return IMCFormat("<$>187984</>", level, level * 2);
+}
+
+func BUFF_Gias(level)
+{
+  if(level == 10){
+    return ("<$>225497</>");
+  }
+  else {
+    return IMCFormat("<$>187986</>");
+  }
+}
+func BUFF_XmasBuffEvent1(level)
+{
+  if ( level == 1 ) { //신규 복귀 월드 전용 아이리스
+    return IMCFormat("<$>199906</>"); 
+  } else if ( level == 20 ) { //신규 복귀 월드 통합 아이리스 버프
+    return IMCFormat("<$>201912</>"); 
+  }
+}
+func BUFF_XmasBuffEvent2(level)
+{
+  return "<$>181553</>";
+}
+
+func BUFF_ChilingSoul(level)
+{
+  if (InWorldPVP() == 1){
+  	return IMCFormat("<$>198355</>", level);
+	} else {
+	  return IMCFormat("<$>198356</>", level);
+	}
+}
+func BUFF_IcyPossession(level)
+{
+  return IMCFormat("<$>180540</>", level, level, level * 100, level);
+}
+
+func BUFF_Karinbuff(level)
+{
+  if (level == 1){
+    return IMCFormat("<$>187988</>");
+  }else if (level == 2){
+    return IMCFormat("<$>187989</>");
+  }else if (level == 3){
+    return IMCFormat("<$>187990</>");
+  }else if (level == 4){
+    return IMCFormat("<$>187991</>");
+  }else if (level == 5){
+    return IMCFormat("<$>187992</>");
+  }else if (level == 6){
+    return IMCFormat("<$>187993</>");
+  }else if (level == 7){
+    return IMCFormat("<$>187994</>");
+  }else if (level == 8){
+    return IMCFormat("<$>187995</>");
+  }else if (level == 9){
+    return IMCFormat("<$>187996</>");
+  }else if (level == 10){
+    return IMCFormat("<$>187997</>");
+  }else if (level == 11){
+    return IMCFormat("<$>187998</>");
+  }else if (level == 12){
+    return IMCFormat("<$>187999</>");
+  }else if (level == 13){
+    return IMCFormat("<$>188000</>");
+  }else if (level == 14){
+    return IMCFormat("<$>188001</>");
+  }else if (level == 15){
+    return IMCFormat("<$>188002</>");
+  }else if (level == 16){
+    return IMCFormat("<$>188003</>");
+  }else if (level == 17){
+    return IMCFormat("<$>188004</>");
+  }else if (level == 18){
+    return IMCFormat("<$>188005</>");
+  }else if (level == 19){
+    return IMCFormat("<$>188006</>");
+  }else if (level == 20){
+    return IMCFormat("<$>188007</>");
+  }else if (level == 21){
+    return IMCFormat("<$>188008</>");
+  }else if (level == 22){
+    return IMCFormat("<$>188009</>");
+  }
+}
+func BUFF_Tease(level)
+{
+  if ( level <= 10 ){
+    return IMCFormat("<$>180775</>", level, level * 3, level * 2, level);
+  }
+  else {
+    return IMCFormat("<$>180776</>", level, level * 3, level * 2, level);
+  }
+}
+func BUFF_Mend(level)
+{
+  return IMCFormat("<$>180777</>", level);
+}
+func BUFF_Sanquines(level)
+{
+  if ( level >= 1 && level <= 10 ){
+    return IMCFormat("<$>180778</>", level, level * 2);
+  }
+  else if ( level >= 11 && level <= 20 ){
+    return IMCFormat("<$>180968</>", level - 10, (level -10) * 2);
+  }
+  else if ( level >= 21 && level <= 30 ){
+    return IMCFormat("<$>199907</>", level - 20, (level -20) * 2);
+  }
+}
+func BUFF_Jinx(level)
+{
+  return IMCFormat("<$>221096</>", level);
+}
+func BUFF_11thBuff(level)
+{
+  return "<$>195436</>";
+}
+func BUFF_Disruption(level)
+{
+  return IMCFormat("<$>181556</>", level);
+}
+
+func BUFF_Reloadbullet(level)
+{
+  return IMCFormat("<$>199908</>", level, level);
+}
+
+func BUFF_Invisibledetect(level)
+{
+  return IMCFormat("<$>181558</>", level);
+}
+
+func BUFF_KingMajesty(level)
+{
+  return IMCFormat("<$>181823</>", level);
+}
+
+func BUFF_CliqueSafety2(level)
+{
+  return "<$>105358</>";
+}
+
+func BUFF_Velmas(level)
+{
+  if ( level <= 10 ){
+    return IMCFormat("<$>181824</>", level, level, level);
+  }
+  else if ( level >= 11 ){
+    return IMCFormat("<$>181824</>", level,  10 + (level - 10) * 10, 10 + (level - 10) * 2);
+  }
+}
+
+func BUFF_GoldenChain(level)
+{
+  return IMCFormat("<$>198357</>", level, level * 10, level * 12.5, level * 2.5);
+}
+
+func BUFF_GoldenBless(level)
+{
+  return IMCFormat("<$>181826</>", level, level * 5, level * 5);
+}
+
+func BUFF_Imaneti(level)
+{
+  return "<$>181827</>";
+}
+func BUFF_StartSteam(level)
+{
+  return "<$>230246</>";
+}
+
+func BUFF_BurnigSteam(level)
+{
+  return "<$>230247</>";
+}
+func BUFF_Evsteam1(level)
+{
+  return "<$>230248</>";
+}
+func BUFF_Evsteam2(level)
+{
+  return "<$>230249</>";
+}
+func BUFF_Evsteam3(level)
+{
+  return "<$>230250</>";
+}
+func BUFF_Evsteam4(level)
+{
+  return "<$>230251</>";
+}
+func BUFF_Karma(level)
+{
+  return "<$>188369</>";
+}
+
+func BUFF_Karma2(level)
+{
+  return "<$>225498</>";
+}
+func BUFF_P_BloodMark(level)
+{
+  return IMCFormat("<$>195437</>", level);
+}
+func BUFF_E_BloodMark(level)
+{
+  return IMCFormat("<$>195438</>", level);
+}
+func BUFF_Aroma(level)
+{
+  if(level == 1){
+    return IMCFormat("<$>189153</>", level);
+  }else if(level == 2){
+    return IMCFormat("<$>189154</>", level);
+  }else if(level == 3){
+    return IMCFormat("<$>189155</>", level);
+  }else if(level == 4){
+    return IMCFormat("<$>189156</>", level);
+  }
+}
+
+func BUFF_Redshipide(level)
+{
+  if ( level >= 12 ){
+    return IMCFormat("<$>189630</>", level, level * 3, level);
+  }
+  else if ( level >= 11 && level < 12 ){
+    return IMCFormat("<$>189631</>", level, level * 3, level);
+  }
+  else {
+    return IMCFormat("<$>189632</>", level, level * 3, level);
+  }
+}
+
+func BUFF_Blueshipide(level)
+{
+  if ( level >= 12 ){
+    return IMCFormat("<$>189633</>", level, level, level);
+  }
+  else if ( level >= 11 && level < 12 ){
+    return IMCFormat("<$>189634</>", level, level, level);
+  }
+  else {
+    return IMCFormat("<$>189635</>", level, level, level);
+  }
+}
+
+func BUFF_Lataein(level)
+{
+  return IMCFormat("<$>195439</>", level);
+}
+func BUFF_EventKael(level)
+{
+  return "<$>189637</>";
+}
+
+func BUFF_BlessofArgus(level)
+{
+  return "<$>189657</>";
+}
+func BUFF_MagicBullet1(level)
+{
+  return "<$>189760</>";
+}
+func BUFF_MagicBullet2(level)
+{
+  return "<$>189761</>";
+}
+func BUFF_MagicBullet3(level)
+{
+  return "<$>189762</>";
+}
+func BUFF_CheerUpTalos(level)
+{
+  return "<$>189659</>";
+}
+func BUFF_MarkFire(level)
+{
+  return IMCFormat("<$>198359</>", level, level * 20);
+}
+
+func BUFF_MarkIce(level)
+{
+  return IMCFormat("<$>198360</>", level, level * 20);
+}
+func BUFF_Deathfire(level)
+{
+  return "<$>198361</>";
+}
+
+func BUFF_dariabuff(level)
+{
+  return IMCFormat("<$>195645</>", level);
+}
+
+func BUFF_daruabuff2(level)
+{
+  return "<$>214483</>";
+}
+
+func BUFF_Balisada(level)
+{
+  if ( level <= 10 ){
+    return IMCFormat("<$>198362</>", level, level * 3, level, level);
+  }
+  else if ( level == 11 ){
+    return IMCFormat("<$>198363</>", level, level * 3, level, level);
+  }
+  else if ( level == 12 ){
+    return IMCFormat("<$>198364</>", level, level * 3, level, level);
+  }
+  else if ( level >= 13 ){
+    return IMCFormat("<$>195650</>", level);
+  }
+}
+
+func BUFF_Aias(level)
+{
+  if ( level <= 10 ){
+    return IMCFormat("<$>195651</>", level, level * 2, level, level * 500);
+  }
+  else if ( level == 11 ){
+    return IMCFormat("<$>195652</>", level, level * 2, level, level * 500);
+  }
+  else if ( level == 12 ){
+    return IMCFormat("<$>195653</>", level, level * 2, level, level * 500);
+  }
+  else if ( level >= 13 ){
+    return IMCFormat("<$>195654</>", level);
+  }
+}
+
+func BUFF_dariararemaze(level)
+{
+  return "<$>195655</>";
+}
+
+func BUFF_Destroyer(level)
+{
+	return IMCFormat("<$>210245</>", level);
+}
+func BUFF_RoadExproving(level)
+{
+	return IMCFormat("<$>210903</>", level);
+}
+
+func BUFF_GhostAttack(level)
+{
+  return "<$>198514</>";
+}
+
+func BUFF_DeathMark(level)
+{
+  return "<$>198515</>";
+}
+
+func BUFF_Coma(level)
+{
+  return "<$>198516</>";
+}
+
+func BUFF_Opportunist(level)
+{
+  return "<$>198517</>";
+}
+
+func BUFF_MagicPlague(level)
+{
+  return "<$>198518</>";
+}
+
+func BUFF_Mindstill(level)
+{
+    return IMCFormat("<$>201913</>", level, level, level, level * 3);
+}
+
+func BUFF_Majesty(level)
+{
+  return IMCFormat("<$>195846</>", level);
+}
+
+func BUFF_Blackmark(level)
+{
+  return IMCFormat("<$>195847</>", level, level * 3);
+}
+
+func BUFF_Goldenmark(level)
+{
+  return "<$>195848</>";
+}
+
+func BUFF_LightingShield1(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>195849</>", level, level, level * 30 );
+  }
+  else {
+    return IMCFormat("<$>195850</>", level, level, level * 30 );
+  }
+}
+
+func BUFF_LightingShield2(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>195851</>", level, level, level * 30 );
+  }
+  else {
+    return IMCFormat("<$>195852</>", level, level, level * 30 );
+  }
+}
+
+func BUFF_Souleileen(level)
+{
+  return IMCFormat("<$>195853</>", level, level * 5, level * 5, level * 5);
+}
+
+func BUFF_Pioneermark(level)
+{
+  return "<$>196089</>";
+}
+
+func BUFF_Pioneerspeed(level)
+{
+  return "<$>196090</>";
+}
+
+func BUFF_Pioneerwis(level)
+{
+  return IMCFormat("<$>196091</>", level);
+}
+
+func BUFF_OrdenCurse(level)
+{
+  if ( level == 2 ){
+    return "<$>230252</>";
+  } else {
+	  return "<$>230253</>";
+	}
+}
+
+func BUFF_Piratecode1(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>196092</>", level, level*3, level );
+  }
+  else {
+    return IMCFormat("<$>196093</>", level, level*3, level );
+  }
+}
+func BUFF_Piratecode2(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>196094</>", level, level*3, level );
+  }
+  else {
+    return IMCFormat("<$>196095</>", level, level*3, level );
+  }
+}
+func BUFF_Piratecode3(level)
+{
+  if (InWorldPVP() == 1){
+    if ( level > 10 ){
+      return IMCFormat("<$>199911</>", level, level*3, level );
+    }
+    else {
+      return IMCFormat("<$>199912</>", level, level*3, level );
+    }
+  }
+  else {
+    if ( level > 10 ){
+      return IMCFormat("<$>196096</>", level, level*3, level );
+    }
+    else {
+      return IMCFormat("<$>196097</>", level, level*3, level );
+    }
+  }
+}
+
+func BUFF_Navycode1(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>198365</>", level, level*3, level*3, level );
+  }
+  else {
+    return IMCFormat("<$>198366</>", level, level*3, level*3, level );
+  }
+}
+func BUFF_Navycode2(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>198367</>", level, level*3, level*3, level );
+  }
+  else {
+    return IMCFormat("<$>198368</>", level, level*3, level*3, level );
+  }
+}
+func BUFF_Navycode3(level)
+{
+  if (InWorldPVP() == 1){
+    if ( level > 10 ){
+      return IMCFormat("<$>225499</>", level, level*3, level*3, level );
+    }
+    else {
+      return IMCFormat("<$>225500</>", level, level*3, level*3, level );
+    }
+  }
+  else {
+    if ( level > 10 ){
+      return IMCFormat("<$>225499</>", level, level*3, level*3, level );
+    }
+    else {
+      return IMCFormat("<$>225500</>", level, level*3, level*3, level );
+    }
+  }
+}
+
+func BUFF_Morass(level)
+{
+  if (level <= 10){
+	  return IMCFormat("<$>196104</>", level, level * 5);
+	}else if (level == 11){
+	  return IMCFormat("<$>196105</>", level, level * 5);
+	}else if (level >= 12){  
+	  return IMCFormat("<$>196106</>", level, level * 5);
+	}
+}
+
+func BUFF_Rebound(level)
+{
+	return IMCFormat("<$>196107</>", level);
+}
+
+func BUFF_Rebound2(level)
+{
+	return IMCFormat("<$>196108</>", level);
+}
+
+func BUFF_EarthCurse(level)
+{
+  if ( level <= 11 ){
+  	return IMCFormat("<$>196109</>", level*3);
+	}else{
+	  return IMCFormat("<$>196110</>", level*3);
+	}
+}
+
+func BUFF_Lahar(level)
+{
+	return "<$>196111</>";
+}
+
+func BUFF_Gaia(level)
+{
+	return "<$>196112</>";
+}
+
+func BUFF_Gaia2(level)
+{
+	return "<$>196112</>";
+}
+
+func BUFF_Provoke2(level)
+{
+	return "<$>196113</>";
+}
+
+func BUFF_Stun3(level)
+{
+	return IMCFormat("<$>196114</>", level);
+}
+
+func BUFF_ColonyATK(level)
+{
+	return IMCFormat("<$>199915</>", level);
+}
+
+func BUFF_ColonyDebuff(level)
+{
+	return IMCFormat("<$>199916</>", level);
+}
+
+func BUFF_ColonyDEF(level)
+{
+	return IMCFormat("<$>214484</>", level);
+}
+
+func BUFF_ColonyCast(level)
+{
+	return IMCFormat("<$>199918</>", level);
+}
+
+func BUFF_ColonyCooltime(level)
+{
+	return IMCFormat("<$>199919</>", level);
+}
+
+func BUFF_ColonyMHPUP(level)
+{
+	return IMCFormat("<$>199920</>", level);
+}
+
+func BUFF_ColonyWardMHPUP(level)
+{
+	return IMCFormat("<$>199921</>", level);
+}
+
+func BUFF_Leviathanroar(level)
+{
+  if ( level == 12 ){
+    return IMCFormat("<$>199922</>", level );
+  }
+  if ( level == 11 ){
+    return IMCFormat("<$>199923</>", level );
+  }
+  else {
+    return IMCFormat("<$>199924</>", level );
+  }
+}
+
+func BUFF_Purification(level)
+{
+ if (InWorldPVP() == 1){
+  if ( level == 1 ){
+  	return IMCFormat("<$>231137</>");
+	}else{
+	  return IMCFormat("<$>231138</>");
+	}
+ } else {
+  if ( level == 1 ){
+  	return IMCFormat("<$>196355</>");
+	}else{
+	  return IMCFormat("<$>196356</>");
+	}
+ }
+}
+
+func BUFF_Tumar(level)
+{
+  if(level >= 11){
+    return IMCFormat("<$>217090</>", level, (level/2), level);
+  } else {
+    return IMCFormat("<$>217091</>", level, (level/2), level);
+  }
+}
+
+func BUFF_Benedictus(level)
+{
+  if(level >= 12){
+    return IMCFormat("<$>217092</>", level, (level * 1000));
+  }
+  if(level == 11 ){
+    return IMCFormat("<$>217093</>", level, (level * 1000));
+  } else {
+    return IMCFormat("<$>217094</>", level, (level * 1000));
+  }
+}
+
+func BUFF_Remedium(level)
+{
+  if ( level == 1 ){
+ 	  return IMCFormat("<$>196350</>");
+ 	}
+ 	else {
+ 	  return IMCFormat("<$>196351</>");
+ 	}
+}
+
+func BUFF_Cartias(level)
+{
+  if ( level == 1 ){
+    return "<$>196352</>";
+ 	}
+ 	else {
+ 	  return "<$>196353</>";
+ 	}
+}
+
+func BUFF_Berserker(level)
+{
+  return "<$>214485</>";
+}
+
+
+func BUFF_Oblivion(level)
+{
+    return IMCFormat("<$>198530</>", level);
+}
+
+func BUFF_Year12(level)
+{
+  return "<$>198702</>";
+}
+
+func BUFF_FlameCharging(level)
+{
+  if(level == 1){
+    return IMCFormat("<$>199925</>", level);
+  }
+  if(level == 2){
+    return IMCFormat("<$>199926</>", level);
+  }
+}
+
+func BUFF_FrozenCharging(level)
+{
+  if(level == 1){
+    return IMCFormat("<$>199927</>", level);
+  }
+  if(level == 2){
+    return IMCFormat("<$>199928</>", level);
+  }
+}
+
+func BUFF_Redaccendo1(level)
+{
+  return "<$>198698</>";
+}
+func BUFF_Redaccendo2(level)
+{
+  return "<$>198699</>";
+}
+
+func BUFF_ShadowRein(level)
+{
+  return "<$>198700</>";
+}
+func BUFF_ShadowHide(level)
+{
+  return "<$>198701</>";
+}
+
+//바롱이의 엄호사격
+func BUFF_CheerUpBarong(level)
+{
+  return "<$>198798</>";
+}
+
+//태엽감기1
+func BUFF_windup1(level)
+{
+  return IMCFormat("<$>198791</>", level, level, level, level, level);
+}
+
+//태엽감기2
+func BUFF_windup2(level)
+{
+  return IMCFormat("<$>198791</>", level, level, level, level, level);
+}
+
+//전력충전1
+func BUFF_misabuff1(level)
+{
+  return IMCFormat("<$>198792</>", level, level * 15, level * 6);
+}
+
+//전력충전2
+func BUFF_misabuff2(level)
+{
+  return IMCFormat("<$>198792</>", level, level * 15, level * 6);
+}
+
+//방전
+func BUFF_misadebuff(level)
+{
+  return IMCFormat("<$>198793</>", level);
+}
+
+//특별강사와 학생들
+func BUFF_201804EventBuff1(level)
+{
+  return IMCFormat("<$>201048</>", level, level * 150);
+}
+func BUFF_Laenatalnaar(level)
+{
+  return IMCFormat("<$>212830</>", level);
+}
+
+//바롱이의 엄호사격
+func BUFF_CheerUpBarong(level)
+{
+  return "<$>230254</>";
+}
+//블루볼 응원2
+func BUFF_pet_blueballbuff(level)
+{
+  //return "<$>230255</>"; //기본 월드컵 종료후 원복
+  return "<$>230256</>";//예선전
+  //return "<$>230257</>";//16강
+  //return "<$>230258</>";//8강
+  //return "<$>230259</>";//4강
+  //return "<$>230260</>";//결승
+}
+//속박의 사슬
+func BUFF_ChainBind(level)
+{
+  return IMCFormat("<$>200191</>", level);
+}
+//피의 욕망
+func BUFF_Bloodlust(level)
+{
+  if ( level >= 10 ) {
+    return IMCFormat("<$>201915</>", level, level*2, level, level*5);
+  } else {
+    return IMCFormat("<$>201916</>",  level, level*2, level, level*5 );
+  }
+}
+
+//특별강사와 학생들
+func BUFF_201804EventBuff1(level)
+{
+  return IMCFormat("<$>201048</>", level, level * 150);
+}
+//전염부식
+func BUFF_Epidemic(level)
+{
+  return "<$>212831</>";
+}
+
+//물리 재생
+func BUFF_PhysicalRHP(level)
+{
+  return "<$>212832</>";
+}
+
+//마법 재생
+func BUFF_MagicalRHP(level)
+{
+  return "<$>204686</>";
+}
+//마법 재생
+func BUFF_ShootRHP(level)
+{
+  return "<$>204688</>";
+}
+
+//코아 에스파루
+func BUFF_Asparu(level)
+{
+  if ( level >= 11 ) {
+    return IMCFormat("<$>201153</>", level, level);
+  } else {
+    return IMCFormat("<$>201154</>", level, level);
+  }
+}
+
+//마비독 중첩
+func BUFF_Paralysispoison(level)
+{
+  return IMCFormat("<$>201155</>", level, level * 10, level * 10, level * 5);
+}
+
+//코아 완전 마비상태 PC용
+func BUFF_Paralysispoison2(level)
+{
+  return "<$>201156</>";
+}
+
+//코아 아르로아
+func BUFF_Areloa(level)
+{
+  if ( level == 13 ){
+    return IMCFormat("<$>500327</>", level, level, level);
+  }else if ( level == 12 ){
+    return IMCFormat("<$>201157</>", level, level, level);
+  }else if ( level == 11 ) {
+    return IMCFormat("<$>201158</>", level, level, level);
+  } else {
+    return IMCFormat("<$>201159</>", level, level * 2, level, level);
+  }
+}
+
+//코아 출혈독
+func BUFF_Bleedingpoison(level)
+{
+  return IMCFormat("<$>201160</>");
+}
+
+//수호자 코아 라하무
+func BUFF_Lahamu(level)
+{
+  return IMCFormat("<$>201161</>");
+}
+//개척 응원
+func BUFF_Alt_Ev_Buff(level)
+{
+  return IMCFormat("<$>201162</>", level, 10 + (level*10), 10 + (level*10) );
+}
+//퀘스트 미션 지원
+func BUFF_Quest_Mission_Buff(level)
+{
+  return "<$>212833</>";
+}
+
+//코아 완전 마비상태 몬스터용
+func BUFF_Paralysispoison3(level)
+{
+  return "<$>201164</>";
+}
+func BUFF_SP_Welcome(level)
+{
+  return "<$>212834</>";
+}
+//키스 전격강화
+func BUFF_ReinLght(level)
+{
+  if ( level == 1 ) {
+    return IMCFormat("<$>201287</>", level, level*2);
+  } else if ( level >= 50  ){
+    return IMCFormat("<$>214486</>", level, level*2, math.floor(level*0.5), level * 6);
+  } else {
+    return IMCFormat("<$>214487</>", level, level*2, math.floor(level*0.5), level * 6);
+  }
+}
+func BUFF_RockSpirit(level)
+{
+    return "<$>201985</>"
+}
+//전사의 용기
+func BUFF_CheerUpBearBaby(level)
+{
+  return "<$>202070</>";
+}
+
+func BUFF_Unsword(level)
+{
+    return "<$>214488</>"
+}
+
+func BUFF_Unsword2(level)
+{
+    return IMCFormat("<$>202072</>", level, level * 6, level * 4);
+}
+
+func BUFF_Unsword3(level)
+{
+    return "<$>202073</>"
+}
+
+func BUFF_Rapidfire(level)
+{
+    return IMCFormat("<$>603297</>", level) ;
+}
+
+func BUFF_FerroCity(level)
+{
+  return "<$>604282</>";
+}
+
+func BUFF_Isicleimagination(level)
+{
+  return "<$>603298</>";
+}
+
+func BUFF_Rotation(level)
+{
+    return IMCFormat("<$>214489</>", level, level * 30, level * 50);
+}
+
+//데이드림
+func BUFF_Daydream(level)
+{
+  return "<$>202292</>"
+}
+
+
+func BUFF_EXP_manual_1(level)
+{
+    return "<$>214490</>";
+}
+func BUFF_EXP_manual_2(level)
+{
+    return "<$>214491</>";
+}
+func BUFF_EXP_manual_3(level)
+{
+    return "<$>214492</>";
+}
+func BUFF_Chilly2(level)
+{
+	return "<$>202293</>";
+}
+
+func BUFF_ColonyShelter(level)
+{
+  return "<$>214493</>";
+}
+
+func BUFF_NavasDebuff(level)
+{
+  return "<$>213005</>";
+}
+
+func BUFF_navasbuff1(level)
+{
+  var nationName = GetServiceNation();
+  if(nationName == 'JPN'){
+    return IMCFormat("<$>225501</>", level, level * 2, level * 2);
+  } else {
+    return IMCFormat("<$>225501</>", level, level * 10, level * 2, level * 2);
+  }
+}
+
+func BUFF_navasbuff2(level)
+{
+  var nationName = GetServiceNation();
+  if(nationName == 'JPN'){
+    return "<$>213007</>";
+  } else {
+    return "<$>213007</>";
+  }
+}
+
+func BUFF_201809EventBuff(level)
+{
+    return IMCFormat("<$>214494</>", level, level * 100);
+}
+
+func BUFF_Quatanaru(level)
+{
+    return "<$>213256</>";
+}
+
+func BUFF_Machetau(level)
+{
+  if ( level >= 11 ) {
+    return IMCFormat("<$>214571</>", level, level, level);
+  }
+  else {
+    return IMCFormat("<$>214572</>", level, level, level);
+  }
+}
+func BUFF_fireriverBuff(level)
+{
+  if(level == 1){
+    return IMCFormat("<$>214573</>");
+  } else if(level == 2){
+    return IMCFormat("<$>214574</>");
+  } else if(level == 3){
+    return IMCFormat("<$>214575</>");
+  } else if(level == 5) {
+    return IMCFormat("<$>221097</>");
+  } else if(level == 10) {
+    return IMCFormat("<$>221098</>");
+  }
+}
+
+func BUFF_Ludin2Flamebuff(level)
+{
+    return IMCFormat("<$>214576</>", level, level * 3, level * 2);
+}
+
+func BUFF_EXPERTTURRETDEF(level)
+{
+  if ( level == 7 ){
+    return IMCFormat("<$>218179</>", level, level * 5);
+  }
+  else {
+    return IMCFormat("<$>214577</>", level, level * 5);
+  }
+}
+
+func BUFF_Gladiator(level)
+{
+  return IMCFormat("<$>214578</>");
+}
+
+func BUFF_Event201811Buff(level)
+{
+  return IMCFormat("<$>214579</>"); 
+}
+func BUFF_WakeLeng(level)
+{
+  return IMCFormat("<$>225502</>"); 
+}
+func BUFF_Toxic(level)
+{
+  if(level < 11){
+    return IMCFormat("<$>214647</>", level * 2, level );
+  } else {
+    return IMCFormat("<$>225503</>", level * 2, level );
+  }
+}
+
+func BUFF_InfiShd(level)
+{
+  return IMCFormat("<$>217095</>", level, level * 1000 );
+}
+
+func BUFF_SpiderSteak2(level)
+{
+  return "<$>217548</>";
+}
+
+
+func BUFF_WolfSteak2(level)
+{
+  return "<$>217549</>";
+}
+
+func BUFF_EsSalad2(level)
+{
+  return "<$>217550</>";
+}
+
+func BUFF_Caborum2(level)
+{
+  return "<$>217551</>";
+}
+func BUFF_2018Xmas(level)
+{
+  return "<$>214697</>";
+}
+func BUFF_2018XmasBuffEvent(level)
+{
+  return "<$>214698</>";
+}
+
+func BUFF_spiritfox2(level)
+{
+  return "<$>215296</>";
+}
+
+func BUFF_spiritfox(level)
+{
+  return "<$>225504</>";
+}
+
+func BUFF_foxfoam(level)
+{
+  return "<$>215298</>";
+}
+
+func BUFF_mihodebuff(level)
+{
+  return "<$>215299</>";
+}
+func BUFF_mihadebuff(level)
+{
+  return "<$>215300</>";
+}
+
+func BUFF_foxcube(level)
+{
+  return IMCFormat("<$>215301</>", level);
+}
+
+//호롱이의 보주
+func BUFF_CheerUpFox(level)
+{
+  return "<$>215302</>";
+}
+
+//여우 조각상의 축복
+func BUFF_201812arti(level)
+{
+  return IMCFormat("<$>215303</>", level, level*5);
+}
+
+//나인테일의 축복
+func BUFF_201812achi(level)
+{
+  return IMCFormat("<$>215304</>", level, level*10);
+}
+
+//여우 도사의 축복
+func BUFF_201812fox(level)
+{
+  return IMCFormat("<$>215305</>", level, level);
+}
+
+//나르 고대인의 의지
+func BUFF_Narbuff(level)
+{
+  return IMCFormat("<$>218180</>", level, level*5000);
+}
+
+func BUFF_BlfShd(level) //크롤로니아 블리프 실드 사격 대미지 흡수 보호막
+{
+  return IMCFormat("<$>218181</>", level * 1000 );
+}
+
+func BUFF_QasShd(level) //퀘이사의 상흔 대미지 흡수 보호막
+{
+  return IMCFormat("<$>218182</>", level * 1000 );
+}
+
+func BUFF_NewYear2019(level) //신년 교범
+{
+  return "<$>217610</>";
+}
+
+func BUFF_Pressure2(level)
+{
+	return IMCFormat("<$>221099</>", level);
+}
+func BUFF_SIERRA_NEWYEAR(level) //시에라 새해의 축복
+{
+  return "<$>217608</>";
+}
+
+func BUFF_shotpromoto(level)
+{
+  if ( level >= 11 ){
+    return IMCFormat("<$>217457</>", level, level, level, level * 5, level * 2);
+  }
+  else {
+	  return IMCFormat("<$>217458</>", level, level, level, level * 5, level * 2);
+	}
+}
+func BUFF_story_buff(level)
+{
+  return IMCFormat("<$>221100</>", level * 50);
+}
+
+func BUFF_ProtectAura(level)
+{
+  return IMCFormat("<$>221101</>");
+}
+
+func BUFF_Letizia_Cook(level)
+{
+  return IMCFormat("<$>221102</>");
+}
+
+func BUFF_PiopreBuff(level)
+{
+	return "<$>221103</>";
+}
+
+func BUFF_Ratio(level)
+{
+  return IMCFormat("<$>217890</>");
+}
+
+func BUFF_Cassandradebuff(level)
+{
+  return IMCFormat("<$>217891</>", level, level * 2, level * 2);
+}
+
+func BUFF_Cassandradebuff2(level)
+{
+  return IMCFormat("<$>217892</>");
+}
+
+func BUFF_Rafur(level)
+{
+  return IMCFormat("<$>218340</>", level, level, level, level);
+}
+
+func BUFF_Deathtoken(level)
+{
+  return IMCFormat("<$>221104</>");
+}
+
+func BUFF_Giantbuff(level)
+{
+  return IMCFormat("<$>221105</>");
+}
+
+func BUFF_NewbieBuff(level)
+{
+  return IMCFormat("<$>218341</>");
+}
+
+func BUFF_WorldPvP_manual_1(level)
+{
+    return "<$>221106</>";
+}
+func BUFF_WorldPvP_manual_2(level)
+{
+    return "<$>225505</>";
+}
+func BUFF_WorldPvP_manual_3(level)
+{
+    return "<$>225506</>";
+}
+
+//Moon 메르헨
+func BUFF_Merhen(level)
+{
+  if ( level >= 12 ){
+    return IMCFormat("<$>218342</>", level, level * 3, -(level * 2), -(level * 3));
+  }
+  else if ( level == 11 ){
+    return IMCFormat("<$>218343</>", level, level * 3, -(level * 2), -(level * 3));
+  }
+  else {
+    return IMCFormat("<$>218344</>", level, level * 3, level * 3,  -(level * 2), -(level * 3));
+  }
+}
+
+//Moon 캔서
+func BUFF_Cancer(level)
+{
+  return "<$>218345</>";
+}
+
+//Moon 위압
+func BUFF_Fear3(level)
+{
+	return "<$>218346</>";
+}
+
+func BUFF_Dun_Alt_Curse(level)
+{
+	return "<$>218347</>";
+}
+
+func BUFF_Dun_Alt_Bless(level)
+{
+	return "<$>221109</>";
+}
+
+func BUFF_Dun_Alt_Pressure(level)
+{
+	return "<$>221110</>";
+}
+func BUFF_ConcentrationAura(level)
+{
+  return IMCFormat("<$>221111</>");
+}
+
+func BUFF_dun_alt_Buff(level)
+{
+  return "<$>221112</>";
+}
+
+func BUFF_ProtectAura2(level)
+{
+  if ( level == 2 ){
+    return IMCFormat("<$>225507</>");
+  }
+  else {
+    return IMCFormat("<$>221101</>");
+  }
+}
+
+func BUFF_Princaurora(level)
+{
+  return IMCFormat("<$>218608</>", level);
+}
+func BUFF_Fortaurora(level)
+{
+  if(level == 25){
+    return IMCFormat("<$>225508</>", level);
+  } else {
+    return IMCFormat("<$>225509</>", level);
+  }
+}
+func BUFF_Intensiaurora(level)
+{
+  if(level == 25){
+    return IMCFormat("<$>218611</>", level);
+  } else {
+    return IMCFormat("<$>218612</>", level);
+  } 
+}
+func BUFF_Retribution(level)
+{
+ if (InWorldPVP() == 1){
+  return IMCFormat("<$>231142</>");
+ } else {
+  return IMCFormat("<$>218613</>");
+ }
+}
+func BUFF_Princaurora2(level)
+{
+  if(level < 12){
+    return IMCFormat("<$>218614</>");
+  } else {
+    return IMCFormat("<$>218615</>");
+  }
+}
+func BUFF_Fortaurora2(level)
+{
+  if(level < 12){
+    return IMCFormat("<$>218616</>");
+  } else {
+    return IMCFormat("<$>218617</>");
+  }
+}
+func BUFF_Intensiaurora2(level)
+{
+  if(level < 12){
+    return IMCFormat("<$>218618</>", level);
+  } else {
+    return IMCFormat("<$>218619</>", level);
+  }
+}
+func BUFF_Stun3(level)
+{
+	return IMCFormat("<$>218620</>");
+}
+
+func BUFF_EVENT201905BUFF(level)
+{
+  if ( level == 1 ){ 
+    return "<$>218621</>";
+  } else if ( level == 2 ){
+    return "<$>218622</>";
+  } else if ( level == 3 ){
+    return "<$>218623</>";
+  } else if ( level == 4 ){
+    return "<$>218624</>";
+  } else if ( level == 5 ){
+    return "<$>218625</>";
+  } else if ( level == 6 ){
+    return "<$>218626</>";
+  } else if ( level == 7 ){
+    return "<$>218627</>";
+  }
+}
+
+//어니스트 프레어
+func BUFF_EarnestPrayer(level)
+{
+  if (level > 11){
+    return IMCFormat("<$>219012</>", level, level / 2, level)
+  } else if (level == 11){
+    return IMCFormat("<$>219013</>", level, level / 2, level)
+  } else if ( level == 1){
+    return IMCFormat("<$>219014</>", level, level, level)
+  } else {
+    return IMCFormat("<$>219014</>", level, level / 2, level)
+  }
+}
+
+//세이크리드 실드
+func BUFF_SacredShd(level)
+{
+  return IMCFormat("<$>219015</>", level * 1000 );
+}
+
+//교화
+func BUFF_Gelation(level)
+{
+  return IMCFormat("<$>219016</>", level, level*4, level*4);
+}
+
+//홀리 세크리파이스
+func BUFF_Holysacrifice(level)
+{
+  if (level <= 10){
+    return IMCFormat("<$>219017</>", level)
+  } else if (level > 10){
+    return IMCFormat("<$>219018</>", level)
+  }
+}
+
+//앤썸
+func BUFF_Anthem(level)
+{
+  return IMCFormat("<$>219019</>", level)
+}
+
+//전기장2 -> 퀘스트용
+func BUFF_Rollsofthunder2(level)
+{
+	return "<$>225510</>";
+}
+
+func BUFF_dun_quibuff(level)
+{
+	return "<$>225511</>";
+}
+
+func BUFF_dun_quibuff2(level)
+{
+	return "<$>225512</>";
+}
+
+//절망
+func BUFF_DespairOM(level)
+{
+	return IMCFormat("<$>225513</>", level*5);
+}
+
+//절망
+func BUFF_EVENT201906BUFF(level)
+{
+  if ( level == 1 ){
+    return "<$>222356</>";
+  }
+  else if ( level == 2 ){
+    return "<$>222357</>";
+  }
+  else if ( level == 3 ){
+    return "<$>222358</>";
+  }
+}
+
+//마나토
+func BUFF_Manato(level)
+{
+  if ( level >= 12 ){
+    return IMCFormat("<$>222353</>", level, level * 1000, level * 100, level);
+  }else if ( level == 11 ){
+    return IMCFormat("<$>222354</>", level, level * 1000, level * 100, level);
+  }else {
+	  return IMCFormat("<$>222355</>", level, level * 1000, level * 100, level);
+	}
+}
+
+//세인트 크리스탈
+func BUFF_Saintcristal(level)
+{
+	return IMCFormat("<$>222359</>", level, level, level, level);
+}
+
+//스티그마
+func BUFF_ornelladebuff1(level)
+{
+  if ( level >= 3 ){
+    return IMCFormat("<$>223230</>", level, level * 30, level* 10);
+  } else {
+    return IMCFormat("<$>223231</>", level, level * 20, level* 10, level * 5);
+  }
+}
+
+func BUFF_Heaven(level)
+{
+ if (InWorldPVP() == 1){
+  return "<$>231140</>";
+ } else {
+  return "<$>222362</>";
+ }
+}
+
+//포이나
+func BUFF_Poena(level)
+{
+  if ( level >= 12 ){
+    return IMCFormat("<$>222363</>", level, level, math.floor(level * 2));
+  }else if ( level == 11 ){
+    return IMCFormat("<$>222364</>", level, level, math.floor(level * 2));
+  }else {
+	  return IMCFormat("<$>222365</>", level, level, math.floor(level * 2));
+	}
+}
+
+func BUFF_Genesis(level)
+{
+  return "<$>222366</>";
+}
+
+//아비스 스티그마
+func BUFF_ornellablackdebuff(level)
+{
+  if ( level >= 3 ){
+    return IMCFormat("<$>222367</>", level, level * 3, level * 3);
+  } else {
+    return IMCFormat("<$>222368</>", level, level * 3, level * 3);
+  }
+}
+
+func BUFF_ornellashd(level)
+{
+  return "<$>222369</>";
+}
+
+func BUFF_EVENT201906_ORNELLA_BUFF(level)
+{
+  return IMCFormat("<$>222570</>"); 
+}
+
+func BUFF_EVENT201906_ORNELLA_BUFF2(level)
+{
+  return IMCFormat("<$>222571</>", level * 50); 
+}
+
+func BUFF_IFARM_QuestExp(level)
+{
+	return IMCFormat("<$>230261</>");
+}
+
+func BUFF_Abyss_Curse_Doom(level)
+{
+	return IMCFormat("<$>222572</>", level);
+}
+//열상
+func BUFF_Burn1(level)
+{
+	return IMCFormat("<$>222574</>", level, level*3, level);
+}
+//서리
+func BUFF_Frost1(level)
+{
+	return IMCFormat("<$>222575</>", level, level*3, level);
+}
+//라이트닝 실드
+func BUFF_LightningShield(level)
+{
+	return "<$>222576</>";
+}
+//바이블의 지혜
+func BUFF_CheerUpBible(level)
+{
+  return "<$>222577</>";
+}
+//디오세
+func BUFF_diosa(level)
+{
+	return "<$>222578</>";
+}
+//붉은 왕관의 가호
+func BUFF_charlotbuff2(level)
+{
+  return IMCFormat("<$>222579</>", level, level * 15, level * 20, level * 5, level * 15, level * 50); 
+}
+
+//플레임 부스터
+func BUFF_charlotbuff1(level)
+{
+  if ( level >= 11 ){
+    return IMCFormat("<$>222580</>", level, level * 2, level * 2, level * 50);
+  }
+  else {
+    return IMCFormat("<$>222581</>", level, level * 2, level * 2, level * 50);
+  }
+}
+
+
+
+func BUFF_FireBless(level)
+{
+	return "<$>230278</>";
+}
+
+func BUFF_Corperlationorder(level)
+{
+  return "<$>230279</>";
+}
+
+func BUFF_adrive(level)
+{
+  if ( level >= 11 ){
+    return IMCFormat("<$>230280</>", level, level);
+  }
+  else{
+    return IMCFormat("<$>230281</>", level, level, level * 7);
+  }
+}
+
+func BUFF_adrive(level)
+{
+  if ( level >= 11 ){
+    return IMCFormat("<$>230282</>", level, level);
+  }
+  else{
+    return IMCFormat("<$>230281</>", level, level, level * 4);
+  }
+}
+
+func BUFF_protectshade(level)
+{
+  return IMCFormat("<$>230283</>", level, level * 1000, level, level);
+}
+
+func BUFF_devisoncoper(level)
+{
+  if ( level >= 11 ){
+    return IMCFormat("<$>230284</>", level, level + 10, level * 0.5, level * 0.5 );
+  }
+  else{
+    return IMCFormat("<$>230285</>", level, level, level * 0.5, level * 0.5 );
+  }
+}
+//에이션트 뷸렛 버프 타이탄 뷸렛
+func BUFF_Titanebullet(level)
+{
+  if ( level >= 12 ){
+    return IMCFormat("<$>230286</>", level, level, level * 4, level * 3); 
+  }
+  if ( level == 11 ){
+    return IMCFormat("<$>230287</>", level, level, level * 4, level * 3); 
+  }
+  else{
+    return IMCFormat("<$>230288</>", level, level * 2, level, level * 4, level * 3); 
+  }
+}
+
+//에이션트 뷸렛 디버프 트루사이트
+func BUFF_Truesight(level)
+{
+  if ( level >= 12 ){
+    return IMCFormat("<$>230289</>", level, level * 2); 
+  }
+  if ( level == 11 ){
+    return IMCFormat("<$>230290</>", level, level * 2); 
+  }
+  else{
+    return IMCFormat("<$>230291</>", level, level * 2); 
+  }
+}
+
+//이벤트용 드롭 교범
+func BUFF_DropBuff20_Ev(level)
+{
+	return "<$>227260</>";
+}
+
+//에이션트 택틱스 미라클
+func BUFF_Miracle(level)
+{
+  if ( level >= 13 ){
+    return IMCFormat("<$>230272</>", level, level*1000, level*100, level, level*4);
+  } else if ( level == 12 ){
+    return IMCFormat("<$>230273</>", level, level*1000, level*100, level, level*4);
+  } else{
+    return IMCFormat("<$>230274</>", level, level*1000, level*100, math.floor( level/2 ), level, level*4);
+  }
+}
+
+//에이션트 택틱스 프로텍팅 부스터
+func BUFF_caenopy(level)
+{
+  return IMCFormat("<$>230275</>", level, level, level,level,level,level);
+}
+
+//에이션트 택틱스 시어링 부스터
+func BUFF_siaringbooster(level)
+{
+  return IMCFormat("<$>230276</>", level, level, level, level, level*2);
+}
+
+//에이션트 택틱스 어디셔널 트레이닝
+func BUFF_Additionaltraing(level)
+{
+	return "<$>230277</>";
+}
+
+func BUFF_Scald2(level)
+{
+  return "<$>222582</>"
+}
+
+func BUFF_Nightmare(level)
+{
+  return "<$>230265</>"
+}
+
+func BUFF_Luckydice1(level)
+{
+  return "<$>230266</>";
+}
+func BUFF_Luckydice2(level)
+{
+  return "<$>230267</>";
+}
+func BUFF_Luckydice3(level)
+{
+  return "<$>230268</>";
+}
+func BUFF_Luckydice4(level)
+{
+  return "<$>230269</>";
+}
+func BUFF_Luckydice5(level)
+{
+  return "<$>230270</>";
+}
+func BUFF_Luckydice6(level)
+{
+  return "<$>230271</>";
+}
+
+func BUFF_ToyLloyd(level)
+{
+  return "<$>223043</>";
+}
+func BUFF_Zizbuff(level)
+{
+  if ( level == 1 ){
+    return "<$>230263</>";
+  }
+  else {  
+    return "<$>230264</>";
+  }
+}
+
+func BUFF_FireBless(level)
+{
+	return "<$>223044</>";
+}
+
+
+func BUFF_Corperlationorder(level)
+{
+  return "<$>223045</>";
+}
+
+func BUFF_adrive(level)
+{
+  if ( level >= 11 ){
+    return IMCFormat("<$>223048</>", level, level);
+  }
+  else{
+    return IMCFormat("<$>223047</>", level, level, level * 4);
+  }
+}
+
+func BUFF_protectshade(level)
+{
+  return IMCFormat("<$>223049</>", level, level * 1000, level, level, level * 7);
+}
+
+func BUFF_devisoncoper(level)
+{
+  if ( level >= 11 ){
+    return IMCFormat("<$>223053</>", level, level + 10);
+  }
+  else{
+    return IMCFormat("<$>223051</>", level, level, level * 0.5, level * 0.5 );
+  }
+}
+
+func BUFF_CollectionChar(level)
+{
+	return "<$>230262</>";
+}
+
+func BUFF_ArmorBreak(level)
+{
+	return "<$>223052</>";
+}
+
+func BUFF_Limit_ALT(level)
+{
+  if ( level == 1 ){
+    return "<$>225682</>";
+  } else if ( level == 2){
+    return "<$>225683</>";
+  } else if ( level == 3){
+    return "<$>225684</>";
+  } else if ( level == 4){
+    return "<$>225685</>";
+  } else if ( level == 5){
+    return "<$>225686</>";
+  } else if ( level == 6){
+    return "<$>225687</>";
+  } else if ( level == 7){
+    return "<$>225688</>";
+  } else if ( level == 8){
+    return "<$>225689</>";
+  } else if ( level == 9){
+    return "<$>225690</>";
+  } else if ( level == 10){
+    return "<$>225691</>";
+  } else if ( level == 11){
+    return "<$>225692</>";
+  } else if ( level == 12){
+    return "<$>230292</>";
+  }
+}
+
+func BUFF_RankMaster(level)
+{
+	return IMCFormat("<$>230293</>", level * 10);
+}
+
+func BUFF_Hildegardcontrol1(level)
+{
+	return "<$>225570</>";
+}
+
+func BUFF_Hildegardcontrol2(level)
+{
+	return "<$>225693</>";
+}
+
+func BUFF_Hildegarddebuff(level)
+{
+	return IMCFormat("<$>225694</>", level, level * 15, level * 3, level * 100 );
+}
+
+func BUFF_Hildegardbuff(level)
+{
+  if ( level >= 5 ){
+    return IMCFormat("<$>225695</>", level, level * 5, level );
+  }
+  else {
+	  return IMCFormat("<$>225696</>", level, level * 5, level );
+	}
+}
+
+func BUFF_Frost(level)
+{
+  return IMCFormat("<$>230294</>", level);
+}
+func BUFF_Starthunting(level)
+{
+  return "<$>230295</>";
+}
+
+func BUFF_Taunt(level)
+{
+  return "<$>230296</>";
+}
+func BUFF_BloodRevenge2(level)
+{
+  return "<$>230297</>";
+}
+func BUFF_Tempest(level)
+{
+  return IMCFormat("<$>230298</>", level);
+}
+
+func BUFF_Lightcube(level)
+{
+  if(level >= 13){
+    return IMCFormat("<$>230299</>", level-12);
+  } else {
+    return IMCFormat("<$>230300</>", level);
+  }
+}
+
+func BUFF_Landcracker(level)
+{
+  if(level >= 13){
+    return IMCFormat("<$>230301</>", level-12);
+  } else {
+    return IMCFormat("<$>230302</>", level);
+  }
+}
+func BUFF_Hold2(level)
+{
+	return "<$>28067</>";
+}
+
+func BUFF_201910HW_Event(level)
+{
+    return IMCFormat("<$>225921</>", level, level * 100);
+}
+
+func BUFF_ValkyrieTrigger1(level)
+{
+    return IMCFormat("<$>226233</>", level, level, level * 0.5, level, level * 0.5, level * 0.5, level * 0.5, level, level * 0.5, level * 0.5  );
+}
+
+func BUFF_ValkyrieTrigger2(level)
+{
+    return IMCFormat("<$>226234</>", level, level, level * 0.5, level * 0.5, level * 0.5, level, level*1000, level, level * 0.5, level * 0.5, level * 0.5 );
+}
+
+func BUFF_ValkyrieCurse(level)
+{
+	return IMCFormat("<$>226235</>", level, level * 2.5, level * 3, level * 100 );
+}
+
+func BUFF_ValkyrieShd(level)
+{
+  return IMCFormat("<$>226242</>", level * 1000 );
+}
+
+func BUFF_ProtectAura3(level)
+{
+  return IMCFormat("<$>230303</>", level, level);
+}
+
+func BUFF_ValkyrieTaunt(level)
+{
+  return IMCFormat("<$>226237</>");
+}
+func BUFF_ValkyrieCurse2(level)
+{
+  if ( level <= 3 ){
+    return IMCFormat("<$>226238</>", level);
+  } else if ( level == 4 ){
+     return IMCFormat("<$>226239</>", level );
+  } else if ( level == 5 ){
+     return IMCFormat("<$>226240</>", level );
+  } else if ( level == 6 ){
+     return IMCFormat("<$>226241</>", level );
+  }
+}
+
+func BUFF_WPFEVER(level)
+{
+  return IMCFormat("<$>226563</>", level, level * 100, level * 10);
+}
+
+func BUFF_CheerUpVictor(level)
+{
+  return "<$>226569</>";
+}
+
+func BUFF_WeaponMaster2(level)
+{
+  return "<$>226564</>";
+}
+
+func BUFF_Resolution(level)
+{
+  if(level <= 10){
+    return IMCFormat("<$>226565</>", level, math.floor(level*0.5), math.floor(level*0.5));
+  } else if(level == 11){
+    return IMCFormat("<$>226566</>", level, math.floor(level*0.5), math.floor(level*0.5));
+  } else if(level == 12){
+    return IMCFormat("<$>226567</>", level, math.floor(level*0.5), math.floor(level*0.5));
+  }
+}
+
+func BUFF_BattleReady(level)
+{
+  return "<$>226568</>";
+}
+
+func BUFF_IncreasePower(level)
+{
+    return IMCFormat("<$>226570</>", level, math.floor(level/4));
+}
+func BUFF_EnergyCharging(level)
+{
+  return "<$>226571</>";
+}
+
+func BUFF_Introduction(level)
+{
+  return "<$>226572</>";
+}
+
+func BUFF_Finale(level)
+{
+ if(level <= 10){
+    return IMCFormat("<$>226573</>", level, level*2, level);
+  } else if(level == 11){
+    return IMCFormat("<$>226574</>", level);
+  } else if(level == 12){
+    return IMCFormat("<$>226575</>", level);
+  }
+}
+
+func BUFF_Grave(level)
+{
+  return IMCFormat("<$>226576</>", level, level * 2.5, level * 3, level * 100 );
+}
+
+func BUFF_Weaknessiden(level)
+{
+  return IMCFormat("<$>226577</>", level, level * 2.5, level * 3, level * 100 );
+}
+
+func BUFF_OICG(level)
+{
+  if ( level == 1 ){
+    return IMCFormat("<$>226578</>", level);
+  } else if ( level == 2 ){
+      return IMCFormat("<$>226579</>", level);
+  } else if ( level == 3 ){
+      return IMCFormat("<$>226580</>", level);
+  } else if ( level == 4 ){
+      return IMCFormat("<$>226581</>", level);
+  } else if ( level == 5 ){
+      return IMCFormat("<$>226582</>", level);
+  }
+}
+
+func BUFF_AnkleInjury(level)
+{
+	return IMCFormat("<$>226583</>", level);
+}
+
+func BUFF_Argafo(level)
+{
+	return IMCFormat("<$>230304</>", level, level, level);
+}
+
+func BUFF_Rupture(level)
+{
+  return "<$>230305</>";
+}
+
+func BUFF_Dodge(level)
+{
+
+  	return IMCFormat("<$>227035</>", level, (5 + math.floor(level * 1.5)));
+
+}
+
+func BUFF_Petal(level)
+{
+  if(level > 10){
+  	return IMCFormat("<$>227037</>", level, level * 10,  level * 10);
+  }else{
+    return IMCFormat("<$>227037</>", level, level * 10,  level * 10);
+  }
+}
+
+func BUFF_WDPVPCaptain(level)
+{
+  return "<$>230308</>";
+
+}
+
+func BUFF_FrostShield2(level)
+{
+  if ( level > 10 ) {
+    return IMCFormat("<$>230306</>", level, level, math.floor(level/2), level );
+  } else {
+    return IMCFormat("<$>230307</>", level, level, math.floor(level/2), level );
+  }
+}
+func BUFF_EV_STM20XMASBUFF(level) // 스팀 크리스마스 3종
+{
+  if ( level == 1 ){ //Silent Night LV.1
+    return IMCFormat("<$>230309</>", level);
+  }
+  else if ( level == 2 ){ // Silent Night LV.2
+    return IMCFormat("<$>230310</>", level);
+  }
+  else if ( level == 3 ){ //Silent Night LV.3
+    return IMCFormat("<$>230311</>", level);
+  }
+  else if ( level == 4 ){ // Jingle Bell Rock LV.1
+    return IMCFormat("<$>230312</>", level-3);
+  }
+  else if ( level == 5 ){ // Jingle Bell Rock LV.2
+    return IMCFormat("<$>230313</>", level-3);
+  }
+  else if ( level == 6 ){ // Jingle Bell Rock LV.3
+    return IMCFormat("<$>230314</>", level-3);
+  }
+  else if ( level == 7 ){ // WE..CHRISTMAS LV. 1
+    return IMCFormat("<$>230315</>", level-6);
+  }
+  else if ( level == 8 ){ // WE..CHRISTMAS LV. 2
+    return IMCFormat("<$>230316</>", level-6);
+  }
+  else if ( level == 9 ){ // WE..CHRISTMAS LV. 3
+    return IMCFormat("<$>230317</>", level-6);
+  }
+}
+func BUFF_Spiritdance(level)
+{
+  return IMCFormat("<$>227825</>", level);
+}
+
+func BUFF_Spiritmark(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>227826</>", level, level * 5,level * 5, level );
+  }
+  else {
+    return IMCFormat("<$>227827</>", level, level * 5 );
+  }
+}
+
+func BUFF_nalakblade(level)
+{
+  return IMCFormat("<$>227828</>", level, level * 10, level * 5, level * 10, level * 30 );
+}
+
+func BUFF_BladeMaster(level)
+{
+  return IMCFormat("<$>227829</>", level, level * 10, level * 5, level * 10 );
+}
+
+func BUFF_WDPVPWeapon(level)
+{
+  if(level == 1){ //계약자 무기
+    return "<$>230318</>";
+  } else if(level == 2){//계약자 무기 + 계약자 실드
+    return "<$>230319</>";
+  } else if(level == 3){//소환무기류
+    return "<$>230320</>";
+  } else if(level == 4){//로자리오
+    return "<$>230321</>";
+  } else if(level == 5){//일반 무기 + 실드
+    return "<$>230322</>";
+  } else if(level == 6){ //계약자 무기 + 로자리오
+    return "<$>230323</>";
+  }
+}
+func BUFF_WDPVPArmor(level)
+{
+  return "<$>230324</>";
+}
+
+func BUFF_WDPVPAcc(level)
+{
+  return "<$>230325</>";
+}
+func BUFF_BatoBless(level)
+{
+  return "<$>230326</>";
+}
+
+func BUFF_Elisabuff(level)
+{
+  return IMCFormat("<$>230327</>", 1, level*5, level );
+  
+}
+
+func BUFF_Magneticfield(level)
+{
+  return "<$>230328</>";
+}
+
+func BUFF_Reditum_Fire(level)
+{
+  if ( level <= 10 ){
+    return IMCFormat("<$>230329</>", level, level, level, level);
+  } else {
+    return IMCFormat("<$>230330</>", level, level, level, level);
+  }
+}
+
+func BUFF_Reditum_Lght(level)
+{
+  if ( level <= 10 ){
+    return IMCFormat("<$>230331</>", level, level, level, level);
+  } else {
+    return IMCFormat("<$>230332</>", level, level, level, level);
+  }
+}
+
+func BUFF_Reditum_Psy(level)
+{
+  if ( level <= 10 ){
+    return IMCFormat("<$>230333</>", level, level, level, level);
+  } else {
+    return IMCFormat("<$>230334</>", level, level, level, level);
+  }
+}
+
+func BUFF_Prep(level)
+{
+  return IMCFormat("<$>230335</>", level, level);
+}
+
+func BUFF_Anesthesia(level)
+{
+  if ( level <= 1 ){
+    return IMCFormat("<$>230336</>", level, level*2, math.floor(level*1.5));
+  } else if ( level >= 2 && level <= 10 ){
+      return IMCFormat("<$>230337</>", level, level*2, math.floor(level*1.5), math.floor(level*0.5));
+  } else if ( level >= 11 ) {
+    return IMCFormat("<$>230337</>", level, math.floor(level*2.5), math.floor(level*1.7), math.floor(level*0.84));
+  }
+}
+
+func BUFF_Tolerance(level)
+{
+  return IMCFormat("<$>230338</>");
+}
+
+func BUFF_Resction(level)
+{
+  if ( level == 1 ){
+    return IMCFormat("<$>230339</>");
+  } else if ( level == 2 ){
+      return IMCFormat("<$>230340</>");
+  }
+}
+
+func BUFF_Atkreaction(level)
+{
+  if ( level == 1 ){
+    return IMCFormat("<$>230341</>");
+  } else if ( level == 2 ){
+      return IMCFormat("<$>230342</>");
+  }
+}
+
+func BUFF_Suture(level)
+{
+  if ( level == 1 ){
+    return IMCFormat("<$>230343</>");
+  } else if ( level == 2 ){
+      return IMCFormat("<$>230344</>");
+  }
+}
+
+func BUFF_Defreaction(level)
+{
+  if ( level == 1 ){
+    return IMCFormat("<$>230345</>");
+  } else if ( level == 2 ){
+      return IMCFormat("<$>230346</>");
+  }
+}
+
+func BUFF_Slaughter(level)
+{
+  if ( level <= 2 ){
+    return IMCFormat("<$>230347</>", level, level*30, level*15, level*10, level*5, level*5, level*3, level*3);
+  }
+}
+
+func BUFF_Awareness(level)
+{
+  return IMCFormat("<$>230348</>");
+}
+
+func BUFF_Endorphinsfever(level)
+{
+  return IMCFormat("<$>230349</>", level, level);
+}
+
+func BUFF_Slaughter2(level)
+{
+  return IMCFormat("<$>230350</>");
+
+}
+
+func BUFF_Arterycut(level)
+{
+  return IMCFormat("<$>230351</>", level, math.floor(level*6.8), math.floor(level*3.5));
+
+}
+
+func BUFF_CutTolerance(level)
+{
+  return IMCFormat("<$>230352</>");
+}
+
+//라일로스
+func BUFF_Raeloss(level)
+{
+  return "<$>230353</>";
+}
+
+//카토르
+func BUFF_Katore(level)
+{
+  return "<$>230354</>";
+}
+
+//라일로스 브레이크
+func BUFF_RaelossBreak(level)
+{
+  return "<$>230355</>";
+}
+//카토르 브레이크
+func BUFF_KatoreBreak(level)
+{
+  return "<$>230356</>";
+}
+//어디셔널 스피릿
+func BUFF_Additionalspirit(level)
+{
+  if(level <= 10){
+    return IMCFormat("<$>230357</>", level, level);
+  } else if(level == 11){
+    return IMCFormat("<$>230358</>", level, level, level);
+  } else {
+    return IMCFormat("<$>230359</>", level, level, level);
+  } 
+}
+
+
+//도르사타
+func BUFF_dorsata(level)
+{
+  return "<$>230360</>";
+}
+//만다리니아
+func BUFF_mandarinia(level)
+{
+  return "<$>230361</>";
+}
+//플로렌스
+func BUFF_florens(level)
+{
+  return IMCFormat("<$>230362</>", level);
+}
+//플로레오
+func BUFF_floreo(level)
+{
+  return "<$>230363</>";
+}
+//토르멘툼
+func BUFF_tormentum(level)
+{
+  return "<$>230364</>"
+}
+
+//데클리노
+func BUFF_declino(level)
+{
+  return "<$>230365</>";
+}
+func BUFF_Stun4(level)
+{
+	return IMCFormat("<$>230366</>", level);
+}
+//카린 오펜시브
+func BUFF_KarinOFF(level)
+{
+  
+    return "<$>230367</>"
+}
+//블러디 디펜시브
+func BUFF_BloodyDEF(level)
+{
+    return "<$>230368</>"
+}
+//엑스키도
+func BUFF_excido(level)
+{
+  return IMCFormat("<$>230369</>", level, level);
+}
+//강화토탈스테이터스앰플
+func BUFF_IncreaseALL2(level)
+{
+	return IMCFormat("<$>230370</>", level);
+}
+//리전의 비기
+func BUFF_Legion_Attack(level)
+{
+  return IMCFormat("<$>230371</>", level, level);
+}
+//어디셔널 스파이어
+func BUFF_Additionalslash(level)
+{
+  if(level <= 10){
+    return IMCFormat("<$>230372</>", level, level, level * 2);
+  } else if(level >= 11){
+    return IMCFormat("<$>230373</>", level, level, level * 2);
+  }
+}
+ 
+ //펜타 브레이크
+func BUFF_phantabreak(level)
+{
+  if(level <= 10){
+    return IMCFormat("<$>230374</>", level, level, level);
+  } else if(level == 11){
+    return IMCFormat("<$>230375</>", level, level);
+  } else if(level >= 12){
+    return IMCFormat("<$>230376</>", level, level);
+  }
+}
+
+func BUFF_Stun5(level)
+{
+	return IMCFormat("<$>230377</>");
+}
+
+func BUFF_Additionalmagic(level)
+{
+	return IMCFormat("<$>230378</>", level);
+}
+
+func BUFF_Beast2(level)
+{
+  return IMCFormat("<$>230379</>");
+}
+
+func BUFF_spiritpanther(level)
+{
+  if(level >= 12){
+    return IMCFormat("<$>230380</>");
+  }else if(level == 11){
+    return IMCFormat("<$>230381</>");
+  }else if(level <= 10 ){
+    return IMCFormat("<$>230382</>");
+  }
+}
+
+func BUFF_Toothpanther(level)
+{
+	return IMCFormat("<$>230383</>", level, level*15, level*5, level*15);
+}
+
+func BUFF_BlessofPortus(level)
+{
+	return "<$>230384</>";
+}
+
+func BUFF_Grizzlowroar(level)
+{
+	return "<$>230385</>";
+}
+
+func BUFF_Descentinuit(level)
+{
+  if(level > 10){
+    return "<$>230386</>";
+  } else {
+    return "<$>230387</>";
+  }
+}
+
+func BUFF_GuardiansBless(level)
+{
+	return IMCFormat("<$>230388</>", level, level*3,level*1.5, level*1.5);
+}
+
+func BUFF_ResionCompanionship(level)
+{
+	return IMCFormat("<$>230389</>", level);
+}
+func BUFF_GuardiansINT(level)
+{
+	return "<$>230390</>";
+}
+func BUFF_AllDamageDown(level)
+{
+	return IMCFormat("<$>230391</>", level, level);
+}
+func BUFF_Ponlar(level)
+{
+	return IMCFormat("<$>230392</>", level, level);
+}
+
+func BUFF_Defect(level)
+{
+  if ( level >= 3 ){
+    return IMCFormat("<$>230393</>", level, level * 2, level * 2, level * 2);
+  } else {
+    return IMCFormat("<$>230394</>", level, level * 2, level * 2, level * 2);
+  }
+}
+
+func BUFF_Horaisonprotect(level)
+{
+  return IMCFormat("<$>230395</>", level, level, level, level, level);
+}
+
+func BUFF_Cureast(level)
+{
+  if ( level >= 11 ){
+    return IMCFormat("<$>230396</>", level, level + 10);
+  }
+  else{
+    return IMCFormat("<$>230397</>", level, level, level * 0.5, level * 0.5 );
+  }
+}
+
+func BUFF_GoldenAraratBless(level)
+{
+  return "<$>230398</>";
+}
+
+func BUFF_Mablespit(level)
+{
+  return "<$>230399</>"
+}
+
+func BUFF_Ponlar2(level)
+{
+  return IMCFormat("<$>230400</>", level);
+}
+func BUFF_Intensify_mon(level)
+{
+  if(level > 10){
+	  return IMCFormat("<$>230401</>", level,level+5);
+	}else{
+	  return IMCFormat("<$>230402</>", level,level+5);
+	}
+}
+func BUFF_ToughSkin(level)
+{
+  if ( level == 1 ){	
+	return IMCFormat("<$>230403</>", level);
+  }
+  
+  if ( level == 2 ){	
+	return IMCFormat("<$>606855</>", level);
+  }
+  
+  if ( level == 3 ){	
+	return IMCFormat("<$>606856</>", level);
+  }
+}
+
+func BUFF_EVENT202007BUFF(level)
+{
+  return IMCFormat("<$>230404</>"); 
+}
+
+func BUFF_Raidcharlotdebuff(level)
+{
+  if ( level >= 10 ){
+    return IMCFormat("<$>230405</>", level, level * 10, level * 3, level * 0.5, level * 0.5, level * 20 );
+  }
+  else{
+    return IMCFormat("<$>230406</>", level, level * 10, level * 3, level * 20 );
+  }
+}
+
+func BUFF_Displayed(level)
+{
+  return"<$>230407</>"
+}
+func BUFF_Sentence(level)
+{
+  if(level < 3 ){
+    return IMCFormat("<$>230408</>",level, level * 30); 
+  } else {
+    return "<$>230409</>"
+  }
+}
+func BUFF_Rampant(level)
+{
+  return IMCFormat("<$>230410</>", level, level * 3, level * 3); 
+}
+
+//앰플용 에이션트 택틱스 미라클
+func BUFF_Miracle2(level)
+{
+  return IMCFormat("<$>230411</>", level, level*1000, level*100, level, level*4);
+}
+
+//앰플용 에이션트 택틱스 프로텍팅 부스터
+func BUFF_caenopy2(level)
+{
+  return IMCFormat("<$>230412</>", level, level, level,level,level,level);
+}
+
+//앰플용 에이션트 택틱스 시어링 부스터
+func BUFF_siaringbooster2(level)
+{
+  return IMCFormat("<$>230413</>", level, level, level, level, level*2);
+}
+
+func BUFF_VanguardFormation(level)
+{
+  return "<$>230414</>";
+}
+
+func BUFF_AimForward(level)
+{
+  var monatk = 2*level;
+  var dex = 3;
+  var ar = 3;
+  if(level == 12){
+    ar = 3;
+    monatk = 25;
+    dex = 5;
+  }else if(level >= 13){
+    ar = 3;
+    monatk = 30;
+    dex = 5;
+  }
+  return IMCFormat("<$>230415</>", level, ar, monatk, dex);
+
+}
+
+func BUFF_Aimed(level)
+{
+  return IMCFormat("<$>230416</>", level, level*3);
+}
+
+func BUFF_Awakenarm(level)
+{
+  return IMCFormat("<$>230417</>");
+}
+
+func BUFF_Redlightning(level)
+{
+  if(level < 5 ){
+    return IMCFormat("<$>230418</>", level, (5-level) ); 
+  }
+}
+
+func BUFF_Lightningfield(level)
+{
+  return "<$>230419</>";
+}
+
+func BUFF_Electricalburn(level)
+{
+  return "<$>230420</>";
+}
+
+func BUFF_Redlightning2(level)
+{
+  return IMCFormat("<$>230421</>", level); 
+}
+func BUFF_SpeedBullet(level)
+{
+  if ( level >= 3 ){
+    return "<$>230422</>";
+  }
+  else {
+    return IMCFormat("<$>230423</>", level); 
+  }
+}
+//이벤트 버프====2020 할로윈 용으로 제작하였으나 추후 같은 버프 이벤트를 재사용할 수 있으므로 지우지 않길 권장합니다=====//
+func BUFF_Event_EXPUP(level)
+{
+  return "<$>230424</>";
+}
+func BUFF_Event_MONATK(level)
+{
+  return "<$>230425</>";
+}
+func BUFF_Event_DEF(level)
+{
+  return "<$>230426</>";
+}
+func BUFF_Event_ITEMDROP(level)
+{
+  return "<$>230427</>";
+}
+func BUFF_Event_ADRANK(level)
+{
+  return "<$>230428</>";
+}
+
+func BUFF_Sayol(level)
+{
+  return IMCFormat("<$>230429</>", level);
+}
+
+//세로
+func BUFF_Cero(level)
+{
+  return IMCFormat("<$>230430</>", level, level*3, level*2, level*10, level*2); 
+}
+
+//세로
+func BUFF_Polutewater(level)
+{
+  if ( level >= 12 ){
+    return IMCFormat("<$>230431</>", level, level*2); 
+  } else {
+    return IMCFormat("<$>230432</>", level, level*2); 
+  }
+}
+//캐슬원의 개척 지원 교범
+func BUFF_CastleOneEXP(level)
+{
+  return "<$>230433</>";
+}
+//강화 세라믹
+func BUFF_MonBane_Golem(level)
+{
+  return IMCFormat("<$>219037</>", level-100);
+}
+func BUFF_CheerUpSasha(level)
+{
+  return "<$>228812</>";
+}
+func BUFF_Ios(level)
+{
+    return IMCFormat("<$>230434</>", level, level, level, level);
+}
+
+//마리아 메이어 메모리 피스
+func BUFF_Memorypiece(level)
+{
+  return IMCFormat("<$>230436</>", level, level);
+}
+
+//고대의 용맹
+func BUFF_Frontia_Buff01(level)
+{
+  if ( level == 1 ){
+    return IMCFormat("<$>230437</>", level);
+  } else if ( level == 2 ){
+    return IMCFormat("<$>230438</>", level); 
+  } else if ( level == 3 ){
+    return IMCFormat("<$>230439</>", level); 
+  } else if ( level == 4 ){
+    return IMCFormat("<$>230440</>", level); 
+  } else if ( level == 5 ){
+    return IMCFormat("<$>230441</>", level); 
+  } else if ( level == 6 ){
+    return IMCFormat("<$>230442</>", level); 
+  } 
+}
+
+//고대의 보호
+func BUFF_Frontia_Buff02(level)
+{
+  if ( level == 1 ){
+    return IMCFormat("<$>230443</>", level);
+  } else if ( level == 2 ){
+    return IMCFormat("<$>230444</>", level); 
+  } else if ( level == 3 ){
+    return IMCFormat("<$>230445</>", level); 
+  } else if ( level == 4 ){
+    return IMCFormat("<$>230446</>", level); 
+  } else if ( level == 5 ){
+    return IMCFormat("<$>230447</>", level); 
+  } else if ( level == 6 ){
+    return IMCFormat("<$>230448</>", level); 
+  } 
+}
+
+//고대의 통찰
+func BUFF_Frontia_Buff03(level)
+{
+  if ( level == 1 ){
+    return IMCFormat("<$>230449</>", level);
+  } else if ( level == 2 ){
+    return IMCFormat("<$>230450</>", level); 
+  } else if ( level == 3 ){
+    return IMCFormat("<$>230451</>", level); 
+  } else if ( level == 4 ){
+    return IMCFormat("<$>230452</>", level); 
+  } else if ( level == 5 ){
+    return IMCFormat("<$>230453</>", level); 
+  } else if ( level == 6 ){
+    return IMCFormat("<$>230454</>", level); 
+  }
+}
+
+//고대의 권능
+func BUFF_Frontia_Buff04(level)
+{
+  if ( level == 1 ){
+    return IMCFormat("<$>230455</>", level);
+  } else if ( level == 2 ){
+    return IMCFormat("<$>230456</>", level); 
+  } else if ( level == 3 ){
+    return IMCFormat("<$>230457</>", level); 
+  } else if ( level == 4 ){
+    return IMCFormat("<$>230458</>", level); 
+  } else if ( level == 5 ){
+    return IMCFormat("<$>230459</>", level); 
+  } else if ( level == 6 ){
+    return IMCFormat("<$>230460</>", level); 
+  }
+}
+
+//멜팅 다크니스 - 1단계
+func BUFF_Meltingdarkness(level)
+{
+  return "<$>230461</>";
+}
+
+//멜팅 다크니스 - 2단계
+func BUFF_Meltingdarkness2(level)
+{
+  return "<$>230462</>";
+}
+
+//멜팅 다크니스 - 3단계
+func BUFF_Meltingdarkness3(level)
+{
+  return "<$>230463</>";
+}
+
+//멜팅 다크니스 - 활성화
+func BUFF_Meltingdarkness4(level)
+{
+  return "<$>230464</>";
+}
+
+//다크니스 하이드
+func BUFF_DarknessHide(level)
+{
+  return "<$>230465</>";
+}
+
+//복수의 환희
+func BUFF_RevengeJoy(level)
+{
+  if ( level < 2 ){
+    return IMCFormat("<$>230466</>", level, level*2);
+  } else if ( level >= 2 && level < 10 ){
+    return IMCFormat("<$>230467</>", level, level*2, math.floor(level*0.6)); 
+  } else if ( level >= 10 && level < 25 ){
+    return IMCFormat("<$>230468</>", level, level*2, math.floor(level*0.6)); 
+  } else if ( level >= 25 && level < 50 ){
+    return IMCFormat("<$>230469</>", level, level*2, math.floor(level*0.6)); 
+  } else if ( level >= 50 ){
+    return IMCFormat("<$>230470</>", level, level*2, math.floor(level*0.6)); 
+  }
+}
+
+//복수의 표식
+func BUFF_RevengeMark(level)
+{
+  return IMCFormat("<$>230471</>", level);
+}
+
+//해제 방지용 무적
+func BUFF_Invulnerable2(level)
+{
+  return IMCFormat("<$>230472</>", level);
+}
+
+//마성의 권능
+func BUFF_Masung_Buff(level)
+{
+  if ( level == 1 ){
+    return "<$>230473</>";
+  } else if ( level == 2 ){
+      return "<$>230474</>";
+  } else if ( level == 3 ){
+      return "<$>230475</>";
+  } else if ( level == 4 ){
+      return "<$>230476</>";
+  } else if ( level == 5 ){
+      return "<$>230477</>";
+  }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+func BUFF_Trigger_Natalli(level)
+{
+  return "<$>605109</>";
+}
+
+//라우도 임팩트
+func BUFF_Trigger_Daria(level)
+{
+  return "<$>605110</>";
+}
+//지휘자 리오 - 디레토레
+func BUFF_Dirretore(level)
+{
+  return "<$>500171</>";
+}
+//스타카토
+func BUFF_Staccato(level)
+{
+  var skilldam = 0;
+  
+  if(level <= 10){
+    return IMCFormat("<$>500172</>",level, level, 2*level );
+  }else if(level <=12){
+    return IMCFormat("<$>500173</>",level, level, 2.5*level);
+  }else if(level >= 13){
+    var CAST_BM = 15;
+    if(level == 14) CAST_BM = 20;
+    else if(level >= 15) CAST_BM = 30;
+    return IMCFormat("<$>500172</>", level, CAST_BM, 3*level);
+  }
+}
+//리테누토
+func BUFF_Ritenuto(level)
+{
+  if(level <=12){
+    return IMCFormat("<$>500174</>", level, level);
+  }else{
+    return IMCFormat("<$>500174</>", level, 3*level -24);
+  }
+}
+//디미누엔도
+func BUFF_Diminuendo(level)
+{
+  if(level <=10){
+    return IMCFormat("<$>500175</>", level, -5, -level);
+  }else if(level <=12){
+    return IMCFormat("<$>500175</>", level, -7, -5*level + 40);
+  }else if(level >= 13){
+    return IMCFormat("<$>500175</>", level, -10, -30);
+  }
+}
+//라르기시모
+func BUFF_Larghissimo(level)
+{
+  return IMCFormat("<$>500176</>", level,  -2 * level, 5 *level);
+}
+//신포니아
+func BUFF_Sinfonia(level)
+{
+  var stat = 0;
+  if(level <= 1){
+    stat = 0;
+  }else if(level <= 3){
+    stat = 1;
+  }else if(level <=5){
+    stat = 2;
+  }else if(level <= 7){
+    stat = 3;
+  }else if(level <= 9){
+    stat = 4;
+  }else if(level <= 11){
+    stat = 5;
+  }else if(level >= 12){
+    stat = 6;
+  }
+  if(level <=10){
+    return IMCFormat("<$>500177</>", level, level, stat, stat);
+  }else if(level >= 11){
+    return IMCFormat("<$>500177</>", level, 10+level, stat, stat);
+  }
+}
+//
+func BUFF_Bulletapulsiont(level)
+{
+  return "<$>500178</>"
+}
+
+//
+func BUFF_Shareplant(level)
+{
+  if (InWorldPVP() == 1){
+    return IMCFormat("<$>500179</>", level);
+  }
+  else{
+    return IMCFormat("<$>500180</>", level, level, 10 * level);
+  }
+}
+
+//
+func BUFF_Bolbodface(level)
+{
+  if (InWorldPVP() == 1){
+    return IMCFormat("<$>500181</>", level);
+  }
+  else{
+    return IMCFormat("<$>500182</>", level);
+  }
+}
+
+//
+func BUFF_Assistshooter(level)
+{
+  return IMCFormat("<$>500183</>", level);
+}
+
+//해마수의 가호
+func BUFF_BlessofLeviathan(level)
+{
+  return "<$>604039</>";
+}
+func BUFF_BlessofGabirus(level)
+{
+  return "<$>604040</>";
+}
+func BUFF_BlessofMerman(level)
+{
+  return "<$>604041</>";
+}
+func BUFF_BlessofBlueFish(level)
+{
+  return "<$>604042</>";
+}
+func BUFF_BlessofGreenFish(level)
+{
+  return "<$>604043</>";
+}
+func BUFF_BlessofBlackFish(level)
+{
+  return "<$>604044</>";
+}
+
+func BUFF_EVENT202012BUFF(level)
+{
+  if ( level == 1 ){
+    return "<$>500184</>";
+  } else if ( level == 2 ){
+    return "<$>500185</>";
+  }
+}
+
+func BUFF_LowTemperature(level)
+{
+  var MSPD_Lv = level;
+  if ( MSPD_Lv >= 90 ) {
+    MSPD_Lv = 90;
+  }
+  if( level >= 2){
+    return IMCFormat("<$>604045</>", level, level, level, MSPD_Lv, level, math.floor(0.5* level), level );
+  }
+  else{
+    return IMCFormat("<$>604046</>", level, level, level, MSPD_Lv, level, level );
+  }
+}
+
+//델피나 Despertar
+func BUFF_Despertar(level)
+{
+  return "<$>550043</>";
+}
+//델피나 Estallido
+func BUFF_Estallido(level)
+{
+  if(level < 3 ){
+    return IMCFormat("<$>550044</>",level, level * 30); 
+  } else {
+    return "<$>550045</>"
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+//비앙카 - 미소티스
+func BUFF_Myosotis(level)
+{
+  return "<$>500317</>";
+}
+//비앙카 - 프리메디테이션
+func BUFF_Premeditation(level)
+{
+  return IMCFormat("<$>500318</>", level, level*2 );
+}
+//비앙카 - 플랜C
+func BUFF_PlanC(level)
+{
+  return "<$>530005</>";
+}
+//비앙카 - 플랜B
+func BUFF_PlanB(level)
+{
+  return "<$>530007</>";
+}
+//비앙카 - 플랜C
+func BUFF_PlanA(level)
+{
+  return "<$>530009</>";
+}
+//비앙카 - 플랜C
+func BUFF_Ending(level)
+{
+  return "<$>530011</>";
+}
+
+
+//수줍음
+func BUFF_Shyness(level)
+{
+  var value = level;
+  if(level >= 100){
+    value = 99
+  }
+  return IMCFormat("<$>310047</>", level, value );
+}
+
+//엔 오드
+func BUFF_EnOrdre(level)
+{
+  return "<$>310048</>";
+}
+
+//래빗 브루즈
+func BUFF_RabbitBruise(level)
+{
+  return "<$>310049</>";
+}
+
+//래빗 치얼 
+func BUFF_RabbitCheer(level)
+{
+  return IMCFormat("<$>310050</>", level, level*10, level*3, level*3 );
+}
+
+func BUFF_Polutewater_Mon(level)
+{
+   return IMCFormat("<$>605016</>", level, 100, level*5, level*2); 
+}
+
+//디자이너 카자라이네 탕페트 네쥬
+func BUFF_TempeteDeNeige1(level)
+{
+  return "<$>603446</>"
+}
+func BUFF_TempeteDeNeige2(level)
+{
+  return "<$>603447</>"
+}
+func BUFF_TempeteDeNeige3(level)
+{
+  return "<$>603448</>"
+}
+func BUFF_TempeteDeNeige4(level)
+{
+  return "<$>603449</>"
+}
+
+//아이비 핀리
+func BUFF_CookingTimeK(level)
+{
+  return IMCFormat("<$>500332</>", level);
+}
+func BUFF_CookingTimeF(level)
+{
+  return IMCFormat("<$>500333</>", level);
+}
+func BUFF_CookReady(level)
+{
+  return IMCFormat("<$>500334</>", level, level);
+}
+func BUFF_Embers(level)
+{
+  return IMCFormat("<$>500335</>", level, math.floor(level/2), level);
+}
+
+
+func BUFF_Listo(level)
+{
+  return "<$>577124</>";
+}
+
+func BUFF_Calentar(level)
+{
+  if ( level >= 14 ){
+    return "<$>577125</>";
+  }
+  else if ( level == 13 ){
+    return "<$>577126</>";
+  } else {
+    return "<$>577127</>";
+  }
+}
+
+
+//케인 - 아스펠
+func BUFF_Aspel(level)
+{
+  return "<$>577128</>";
+}
+
+//케인 - 에이비우스
+func BUFF_Abus(level)
+{
+  if ( level >= 11 ){
+    return "<$>577129</>";
+  } else {
+    return "<$>577130</>";
+  }
+}
+
+//케인 - 광란의 어릿 광대
+func BUFF_Keinbuff(level)
+{
+  return IMCFormat("<$>577131</>", level, level, level * 7, level * 15);
+}
+
+//케인/쉐리 - 듀엣
+func BUFF_Duet(level)
+{
+  return "<$>577132</>";
+}
+
+
+
+func BUFF_Innate_Heart(level)
+{
+  return "<$>577027</>";
+}
+
+//에이션트 슬레이어 [버서크니스]
+func BUFF_Berserkness(level)
+{
+  var weight;
+  var str;
+  if(level <= 10){
+    weight = 10;
+    str = 8;
+  }else if(level == 11){
+    weight = 12;
+    str = 9;
+  }else if(level >= 12){
+    weight = 15;
+    str = 10;
+  }
+  return IMCFormat("<$>250081</>", level, level, str, weight);
+}
+
+//어디셔널 레이지
+func BUFF_Additionalrage(level)
+{
+  if ( level >= 11 ){
+    return IMCFormat("<$>250082</>", level, level, level * 2, level);
+  } else {
+    return IMCFormat("<$>250083</>", level, level, level * 2, level);
+  }
+}
+
+//드래곤 피어
+func BUFF_Dragonfear(level)
+{
+  return IMCFormat("<$>223938</>", level, level, level, level * 4);
+}
+
+//클로에 - 슈드
+func BUFF_Sude(level)
+{
+    return IMCFormat("<$>300580</>", level);
+}
+
+//클로에 - 서번트
+func BUFF_Servant(level)
+{
+  if ( level >= 5 ){
+    return IMCFormat("<$>300581</>", level, level);
+  } else {
+    return IMCFormat("<$>300582</>", level, level);
+  }
+}
+
+//클로에 - 오프레시온
+func BUFF_Opresion(level)
+{
+  if (InWorldPVP() == 1){
+    return IMCFormat("<$>300583</>", level);
+  }
+  else if ( level > 10 ){
+    return IMCFormat("<$>300584</>", level, level);
+  } 
+  else {
+    return IMCFormat("<$>300585</>", level, level);
+  }
+}
+
+//클로에 - 블레스 오브 워터
+func BUFF_Blessofwater(level)
+{
+  if ( level >= 11 ){
+    return IMCFormat("<$>300586</>", level, level, level * 3);
+  } else {
+    return IMCFormat("<$>300587</>", level, level, level * 3);
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+//~custom
+func BUFF_Haste_1h(level)
+{
+	return "<$>167467</>";
+}
+func BUFF_Haste_10h(level)
+{
+	return "<$>167467</>";
+}
+func BUFF_GoldenApplePie2(level)
+{
+	return "<$>217545</>";
+}
+
+//페인배리어
+func BUFF_Painbarrier(level)
+{
+  return IMCFormat("<$>560041</>", level)
+}
+//프렛
+func BUFF_Pret(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>560042</>", level);
+  } else {
+    return IMCFormat("<$>560043</>", level);
+  }
+}
+//포포리온
+func BUFF_Poporion(level)
+{
+  return "<$>560039</>";
+}
+//테이큰
+func BUFF_Taken(level)
+{
+  return IMCFormat("<$>570043</>", level);
+}
+//릴리즈
+func BUFF_Release(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>570044</>", level, level * 2, level * 2);
+  } else {
+    return IMCFormat("<$>570045</>", level, level * 2, level * 2);
+  }
+}
+
+func BUFF_Wedresemble(level)
+{
+  return IMCFormat("<$>576047</>", level);
+}
+//엑토플라즘
+func BUFF_Ectoplasm(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>576048</>", level, level * 2);
+  } else {
+    return IMCFormat("<$>576048</>", level, level);
+  }
+}
+//사이킥
+func BUFF_Psychic(level)
+{
+  return IMCFormat("<$>576049</>", level);
+}
+//텔레
+func BUFF_Tele(level)
+{
+  return IMCFormat("<$>576050</>", level);
+}
+
+//링크
+func BUFF_Link(level)
+{
+  return "<$>603330</>";
+}
+
+//소울 웨폰
+func BUFF_SoulWeapon(level)
+{
+  if ( level > 10 ){
+    return "<$>603331</>"
+  } else {
+    return "<$>603332</>"
+  }
+}
+
+//아이르기아
+func BUFF_Aergia(level)
+{
+  return "<$>603743</>"
+}
+//스트라티직 컨실먼트
+func BUFF_Strategic(level)
+{
+  if ( level < 12 ){
+    return IMCFormat("<$>603744</>", level, level *2);
+  } else {
+    return IMCFormat("<$>603745</>", level);
+  }
+}
+
+func BUFF_Vanguard(level)
+{
+  return IMCFormat("<$>603746</>", level);
+}
+
+func BUFF_FallIntoHell(level)
+{
+  return IMCFormat("<$>212669</>", level);
+}
+
+func BUFF_TranscendScience(level)
+{
+	return IMCFormat("<$>603764</>", level);
+}
+
+func BUFF_Handsign2(level)
+{
+    return IMCFormat("<$>603826</>");
+}
+
+func BUFF_Sprint4(level)
+{
+	return IMCFormat("<$>603831</>");
+}
+
+func BUFF_Lyndonb(level)
+{
+	return IMCFormat("<$>603836</>");
+}
+
+func BUFF_GreatPower(level)
+{
+	return IMCFormat("<$>603844</>");
+}
+
+func BUFF_AbyssPetTerra01(level)
+{
+  return "<$>603845</>";
+}
+
+func BUFF_AbyssPetTerra02(level)
+{
+  return "<$>604485</>";
+}
+
+func BUFF_WolfEye2(level)
+{
+  	return IMCFormat("<$>603883</>");
+}
+
+func BUFF_Eternal(level)
+{
+  	return IMCFormat("<$>603905</>");
+}
+
+func BUFF_Gabiera(level)
+{
+  	return IMCFormat("<$>603906</>");
+}
+
+//프라이드
+func BUFF_Pride(level)
+{
+  return "<$>603965</>"
+}
+//프라이드2
+func BUFF_Pride2(level)
+{
+  return "<$>603966</>"
+}
+
+//이슈타르
+func BUFF_Ishtar(level)
+{
+  return IMCFormat("<$>603967</>", level);
+}
+
+//크랙
+func BUFF_Crack(level)
+{
+  return IMCFormat("<$>603968</>", level, level * 3);
+}
+
+
+func BUFF_BlessofNovia(level)
+{
+  return IMCFormat("<$>604124</>");
+}
+
+//카르가
+func BUFF_Carga(level)
+{
+  var value = level * 1;
+  return IMCFormat("<$>604276</>", level,value,value,value,value,value);
+}
+//디테르미나시온
+func BUFF_Determination(level)
+{
+  return "<$>604277</>"
+}
+
+func BUFF_Aegis(level)
+{
+  return "<$>604331</>"
+}
+
+func BUFF_Liberate(level)
+{
+  return "<$>604335</>"
+}
+
+//제노플럭수스
+func BUFF_Xenofluxus(level)
+{
+  return "<$>604376</>"
+}
+//소르디쿨라
+func BUFF_Sordicula(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>604377</>", level);
+  } else {
+    return IMCFormat("<$>604378</>", level);
+  }
+}
+//스페쿨로르
+func BUFF_Speculor(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>604379</>", level);
+  } else {
+    return IMCFormat("<$>604380</>", level);
+  }
+}
+
+func BUFF_LinterraBless(level)
+{
+  return "<$>604484</>"
+}
+
+func BUFF_LeaderofDirewolf(level)
+{
+  return "<$>604513</>"
+}
+
+func BUFF_DasBloodge(level)
+{
+  return "<$>604514</>"
+}
+
+//마나토
+func BUFF_FnManato(level)
+{
+  return "<$>604535</>"
+}
+
+//세인트 크리스탈
+func BUFF_FnSaintcristal(level)
+{
+	return "<$>604536</>"
+}
+
+func BUFF_FnHeavenlyShield(level)
+{
+  return "<$>604537</>"
+}
+
+func BUFF_FnConcentrate(level)
+{
+  return "<$>604559</>"
+}
+
+//웨자
+func BUFF_Weza(level)
+{
+  return "<$>604614</>"
+}
+//리푸카
+func BUFF_Lipuka(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>604615</>", level);
+  } else {
+    return IMCFormat("<$>604616</>", level);
+  }
+}
+//타아부
+func BUFF_Taabu(level)
+{
+  return IMCFormat("<$>604617</>", level);
+}
+
+func BUFF_Darkfate(level)
+{
+  return "<$>604697</>"
+}
+
+//울티마 플라스투스
+func BUFF_Ultimaplastus(level)
+{
+  return "<$>604783</>"
+}
+//콜로르 인사니아
+func BUFF_Colorinsania(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>604784</>", level);
+  } else {
+    return IMCFormat("<$>604785</>", level);
+  }
+}
+//탄툼 우나 베룸
+func BUFF_Verum(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>604786</>", level);
+  } else {
+    return IMCFormat("<$>604787</>", level);
+  }
+}
+
+//트라디시옹
+func BUFF_Tradition(level)
+{
+  if ( level > 10 ){
+    return IMCFormat("<$>605026</>", level);
+  } else {
+    return IMCFormat("<$>605027</>", level);
+  }
+}
+
+//앙커헤이지망
+func BUFF_Encouragement(level)
+{
+    return IMCFormat("<$>605028</>", level, level*1000);
+}
+//라시
+func BUFF_Lance(level)
+{
+  if ( level > 2 ){
+    return IMCFormat("<$>605029</>", level, level*15, level*15);
+  } else {
+    return IMCFormat("<$>605030</>", level, level*15, level*15, level*5, level*35);
+  }
+}
+
+//성장 바젤란느 10종
+//일렉트리피케이션
+func BUFF_Electrification(level)
+{
+    return IMCFormat("<$>605251</>", level);
+}
+//앰플리피케이션
+func BUFF_Amplification(level)
+{
+    return IMCFormat("<$>605252</>", level);
+}
+//루미네선스
+func BUFF_Luminesense(level)
+{
+    return IMCFormat("<$>605253</>", level, level, level);
+}
+//투-스텝
+func BUFF_Twostep(level)
+{
+    return "<$>605254</>";
+}
+//스리 파트
+func BUFF_Threepart(level)
+{
+    return "<$>605255</>";
+}
+//포 플러시
+func BUFF_Fourflush(level)
+{
+    return "<$>605256</>";
+}
+//하이 파이브
+func BUFF_Highfive(level)
+{
+    return "<$>605257</>";
+}
+//정전기
+func BUFF_Staticshock(level)
+{
+    return "<$>605258</>";
+}
+//라팡
+func BUFF_Lapin(level)
+{
+    return "<$>605259</>";
+}
+//시너지
+func BUFF_Synergy(level)
+{
+    return "<$>605260</>";
+}
+//비행 불가
+func BUFF_xflight(level)
+{
+    return "<$>605261</>";
+}
+
+func BUFF_Necromantia(level)
+{
+  return IMCFormat("<$>605298</>", level);
+}
+
+func BUFF_ThePirateCode(level)
+{
+  return "<$>605334</>";
+}
+
+//죽지 않음
+func BUFF_Undying(level)
+{
+    return "<$>605365</>";
+}
+// 개량된 과열
+func BUFF_ImprovedOverHeat(level)
+{
+  return IMCFormat("<$>605403</>", level, 100, 15 + (level * 2), 15 + (level * 1));
+}
+// 개량된 냉각
+func BUFF_ImprovedCoolingGun(level)
+{
+  return IMCFormat("<$>605404</>", 10);
+}
+// BF매그넘
+//BF매그넘
+func BUFF_BFMagnum(level)
+{
+  if ( level <= 10 ){
+    return IMCFormat("<$>605405</>", level);
+  } else if ( level == 11 ) {
+    return IMCFormat("<$>605406</>", level);
+  } else if ( level >= 12 ) {
+    return IMCFormat("<$>605407</>", level);
+  }
+}
+func BUFF_Uncovered(level)
+{
+    return "<$>605408</>";
+}
+
+func BUFF_Moribund(level)
+{
+	return "<$>605409</>";
+}
+
+func BUFF_BansheeOrders(level)
+{
+	return "<$>605468</>";
+}
+
+func BUFF_ViolenteControl(level)
+{
+	return "<$>605491</>";
+}
+
+func BUFF_FrozenFreeze(level)
+{
+	return "<$>605528</>";
+}
+
+func BUFF_GlacialAdditional(level)
+{
+	return "<$>605536</>";
+}
+
+func BUFF_LovelyBear(level)
+{
+	return "<$>605551</>";
+}
+
+func BUFF_RevDance(level)
+{
+	return "<$>605558</>";
+}
+
+func BUFF_HareDance(level)
+{
+	return "<$>605559</>";
+}
+
+func BUFF_Adrasteia(level)
+{
+    return "<$>606462</>";
+}
+//람누시아
+func BUFF_Rhamnousia(level)
+{
+    return "<$>606463</>";
+}
+
+func BUFF_ProsAndCons2(level)
+{
+
+	return "<$>606547</>";
+
+}
+
+func BUFF_BruteBuff(level)
+{
+
+	return "<$>606575</>";
+
+}
+
+func BUFF_Ogmashield2(level)
+{
+  return IMCFormat("<$>606586</>", level, level, level);
+}
+
+func BUFF_ZeppelinReady2(level)
+{
+  return "<$>606623</>";  
+}
+
+func BUFF_TerraBuffDamage(level)
+{
+  return "<$>606624</>";  
+}
+
+//파토스1
+func BUFF_Phthos(level)
+{
+    return IMCFormat("<$>606690</>", level, level*5, level*3);
+}
+//파토스2
+func BUFF_Phthos2(level)
+{
+    return IMCFormat("<$>606691</>", level+3, 20+level*5);
+}
+//파토스3
+func BUFF_Phthos3(level)
+{
+  if ( level == 4 ){
+    return IMCFormat("<$>606692</>", level+6, 40+level*10, 30+level*5);
+  }
+  else{
+    return IMCFormat("<$>606693</>", level+6, 40+level*10, 30+level*5);
+  }
+}
+//스코페프티스
+func BUFF_Skopeftis(level)
+{
+    return IMCFormat("<$>606694</>", level);
+}
+//크리보
+func BUFF_Kryvo(level)
+{
+    return IMCFormat("<$>606695</>", level);
+}
+//아스프로
+func BUFF_Aspro(level)
+{
+    return IMCFormat("<$>606696</>", level, level*3);
+}
+//아스테리
+func BUFF_Asteri(level)
+{
+    return IMCFormat("<$>606697</>", level, level, level*10);
+}
+//코스모스
+func BUFF_Kosmos(level)
+{
+    return IMCFormat("<$>606698</>", level);
+}
+
+func BUFF_Staccato2(level)
+{
+  var CAST_BM = 20;
+  var SkillAtk = 0;
+  
+  if(level <= 10){
+    return IMCFormat("<$>500172</>",level, CAST_BM, 2*level );
+  }else if(level == 11){
+	SkillAtk = 30;
+    return IMCFormat("<$>500173</>",level, CAST_BM, SkillAtk);
+  }else if(level == 12){
+	SkillAtk = 35;
+    return IMCFormat("<$>500173</>",level, CAST_BM, SkillAtk);
+  }else if(level >= 13){
+	SkillAtk = 45;
+    return IMCFormat("<$>500172</>", level, CAST_BM, SkillAtk);
+  }
+}
+//리테누토
+func BUFF_Ritenuto2(level)
+{
+  var All_DAMAGE = 18;
+  
+  if(level <=12){
+    return IMCFormat("<$>500174</>", level, All_DAMAGE);
+  }else{
+    return IMCFormat("<$>500174</>", level, All_DAMAGE);
+  }
+}
+
+func BUFF_Sinfonia2(level)
+{
+  return "<$>606745</>";
+}
+
+func BUFF_Misos(level)
+{
+    return "<$>606841</>";
+}
+//라발 - 렘프룬테르 (신체강화)
+func BUFF_Lemprunter(level)
+{
+    return IMCFormat("<$>606842</>", level);
+}
+//듀시르
+func BUFF_Durcir(level)
+{
+    return IMCFormat ("<$>606843</>", level);
+}
+//압도
+func BUFF_Overwhelm(level)
+{
+  if ( level < 5 ){
+    return IMCFormat("<$>606844</>", level, 10+(8*level), 5*level, 2*level, 4*level);
+  } else if ( level == 5 ){
+    return IMCFormat("<$>606845</>", level, 10+(8*level), 5*level, 2*level, 4*level);
+  }
+}
+//증식하는 상처
+func BUFF_Proliferation(level)
+{
+  if ( level < 40 ){
+    return IMCFormat("<$>606846</>", level, 0.5*level, 1*level, 0.5*level);
+  } else if ( level == 40 ){
+    return IMCFormat("<$>606847</>", level, 0.5*level, 1*level, 0.5*level);
+  }
+}
+
+func BUFF_PonlarTera(level)
+{
+	return "<$>606896</>";
+}
+
+func BUFF_HoraisonTera(level)
+{
+	return "<$>606910</>";
+}
+
+func BUFF_CureastTera(level)
+{
+	return "<$>606914</>";
+}
+
+// 유포크리시아 : 딜러
+func BUFF_Ypokrisia_Dealer(level)
+{
+	return IMCFormat ("<$>606973</>", level);
+}
+
+// 유포크리시아 : 탱커
+func BUFF_Ypokrisia_Tanker(level)
+{
+	return IMCFormat ("<$>606974</>", level);
+}
+
+// 이로아스
+func BUFF_Iroas(level)
+{
+	return IMCFormat ("<$>606975</>", level);
+}
+
+// 유포타소
+func BUFF_Ypotasso(level)
+{
+	return IMCFormat ("<$>606976</>", level);
+
+}
+
+// 아니포로스
+func BUFF_Anyporos(level)
+{
+	return IMCFormat ("<$>606977</>", level);
+}
+
+// 아나픽시
+func BUFF_Anaptyxi(level)
+{
+
+	return IMCFormat("<$>606978</>", level);
+
+}
+
+func BUFF_MonsterBerserKer(level)
+{
+	return "<$>607008</>";
+}
+
+func BUFF_MysteryIllusion(level)
+{
+	return "<$>607102</>";
+}
+
+func BUFF_Divisionattack(level)
+{
+	return "<$>607141</>";
+}
+
+func BUFF_Divisionbattle(level)
+{
+	return "<$>607142</>";
+}
+
+func BUFF_Divisionshot(level)
+{
+	return "<$>607143</>";
+}
+
+func BUFF_Divisionhound(level)
+{
+	return "<$>607144</>";
+}
+
+func BUFF_Divisionbooster(level)
+{
+	return "<$>607145</>";
+}
+
+func BUFF_StellaBuffterra(level)
+{
+	return "<$>607152</>";
+}
+
+//메리엘 직업스킬 레글라지
+func BUFF_Reglage(level)
+{
+    return IMCFormat("<$>607203</>");
+}
+//메리엘 프릿
+func BUFF_PretMeriel(level)
+{
+    return "<$>607204</>";
+}
+//메리엘 샤우드
+func BUFF_Chaud(level)
+{
+    return "<$>607205</>";
+}
+//메리엘 프로잇
+func BUFF_Froid(level)
+{
+    return "<$>607206</>";
+}
+//메리엘 패럴라이즈
+func BUFF_Paralyze(level)
+{
+    return "<$>607207</>";
+}
+//메리엘 래페미르
+func BUFF_Raffermir(level)
+{
+  return "<$>607208</>";
+}
+//메리엘 디버프 노트
+func BUFF_Note(level)
+{
+    return IMCFormat("<$>239724</>");
+}
+
+//메리엘 디버프 노트 저항
+func BUFF_Note_Ignore(level)
+{
+    return IMCFormat("<$>239707</>");
+}
+
+
+// 키카드 - ACE
+func BUFF_Keycard_ACE(level)
+{
+	return IMCFormat ("<$>607260</>", level);
+}
+
+// 키카드 - Lucky7
+func BUFF_Keycard_Lucky7(level)
+{
+	return IMCFormat ("<$>240134</>", level);
+}
+
+// 키카드 - Clover
+func BUFF_Keycard_Clover(level)
+{
+	return IMCFormat ("<$>240135</>", level);
+}
+
+// 원페어 - 공격 등급
+func BUFF_Onepair_atkrate(level)
+{
+	var decAR = -1;
+	if ( level > 11 ){
+		decAR = -2;
+		}
+	return IMCFormat("<$>607261</>", level, decAR);
+}
+
+// 원페어 - 방어 등급
+func BUFF_Onepair_defrate(level)
+{
+	var decDR = -1;
+	if ( level > 11 ){
+		decAR = -2;
+		}
+	return IMCFormat("<$>607262</>", level, decDR);
+}
+
+// 원페어 - 공격력
+func BUFF_Onepair_atk(level)
+{
+	return IMCFormat ("<$>607263</>", level, 2*level);
+}
+
+// 원페어 - 방어력
+func BUFF_Onepair_def(level)
+{
+	return IMCFormat ("<$>607264</>", level, 2*level);
+}
+
+// 원페어 - 명중률
+func BUFF_Onepair_hit(level)
+{
+	return IMCFormat ("<$>607265</>", level, 2*level);
+}
+
+// 노페어
+func BUFF_Highcard(level)
+{
+	var decAR = -1;
+	var decDR = -1;
+	if ( level > 11 ){
+		decAR = -2;
+		decDR = -2;
+		}
+	return IMCFormat("<$>607266</>", level, decAR, decDR, 2*level, 2*level, 2*level);
+}
+
+// 포커페이스
+func BUFF_Fokerface(level)
+{
+	return IMCFormat("<$>607267</>", level);
+}
+
+// Airheart Assemble
+func BUFF_Assemble(level)
+{
+  var MonATK = 50;
+  var MonDMG = 3;
+  var AR = 1
+  return IMCFormat("<$>10007359</>", MonATK, MonDMG, AR);
+}
+
+// Airheart RequestSupport
+func BUFF_Callvernie(level)
+{
+  var evasion = 1 * level;
+  var mspd = 1 * level;
+  var mspdlmt = 0.1 * level;
+  return IMCFormat("<$>10007360</>", level, evasion, mspd, mspdlmt);
+}
+
+// Airheart Oncommond
+func BUFF_Readytofire(level)
+{
+  
+  return IMCFormat("<$>10007361</>", level);
+}
+
+// Airheart Correr
+func BUFF_Correr(level)
+{
+  var evasion = 4 * level;
+  var mspd = 1.5 * level;
+  var mspdlmt = 0.15 * level;
+  return IMCFormat("<$>10007362</>", 1, evasion, mspd, mspdlmt);
+}
+
+// Serena - Firepower
+func BUFF_Firepower(level)
+{
+	return "<$>284240</>";
+}
+
+// Serena - Rapid Fire
+func BUFF_Volley(level)
+{
+	return "<$>284241</>";
+}
