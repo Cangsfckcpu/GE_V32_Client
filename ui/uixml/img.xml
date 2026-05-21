@@ -12326,4 +12326,29 @@
     <img name="icon_buff_Spirit_BurningHands.bmp" file="bufficon.bmp" imgrect="108 209 16 16" />
     <img name="icon_buff_CollapseLimit.bmp" file="bufficon2.bmp" imgrect="135 120 14 14" />
     <img name="icon_buff_lindenswitchOFF.bmp" file="bufficon2.bmp" imgrect="135 120 14 14" />
+
+	<!-- Dina -->
+	<img name="icon_it_m_202601lindendina.bmp" file="badgeicon3.bmp" imgrect="336 125 48 24" />
+    <img name="icon_buff_lettheshowbegin.bmp" file="bufficon4.bmp" imgrect="210 90 14 14" />
+	<img name="icon_buff_magicianshigh.bmp" file="bufficon4.bmp" imgrect="210 150 14 14"/>
+    <img name="icon_buff_engagement_applause.bmp" file="bufficon4.bmp" imgrect="210 105 14 14" />
+	<img name="icon_buff_engagement_ovation.bmp" file="bufficon4.bmp" imgrect="210 120 14 14"/>
+	<img name="icon_buff_engagement_fervor.bmp" file="bufficon4.bmp" imgrect="210 135 14 14"/>
+    <img name="stn_htr.bmp" file="stanceicon2.bmp" imgrect="350 375 24 24" />
+    <img name="job_welcometotheshow.bmp" file="skillicon8.bmp" imgrect="186 372 30 30" />
+    <img name="htr_whatsinmyhat.bmp" file="skillicon8.bmp" imgrect="217 372 30 30" />
+    <img name="htr_hatvitation.bmp" file="skillicon8.bmp" imgrect="248 372 30 30" />
+    <img name="htr_souvenir.bmp" file="skillicon8.bmp" imgrect="279 372 30 30" />
+    <img name="htr_thegreatescape.bmp" file="skillicon8.bmp" imgrect="310 372 30 30" />
+    <img name="htr_thecloser.bmp" file="skillicon8.bmp" imgrect="341 372 30 30" />
+    <img name="dina_f_small.bmp" file="portrait.bmp" imgrect="2145 715 64 64" />
+    <img name="dina_f_barrack_on.bmp" file="\BarrackPortrait\dina_f_barrack_on.bmp" imgrect="0 0 63 100" />
+    <img name="dina_f_barrack_off.bmp" file="\BarrackPortrait\dina_f_barrack_off.bmp" imgrect="0 0 63 100" />
+    <img name="dina_f_barrack_on_rotation.bmp" file="\BarrackPortrait\dina_f_barrack_on_rotation.bmp" imgrect="0 0 63 100" />
+    <img name="dina_f_barrack_off_rotation.bmp" file="\BarrackPortrait\dina_f_barrack_off_rotation.bmp" imgrect="0 0 63 100" />
+    <img name="it_w_dinabracelet_s.bmp" file="illust_s\ItemBigIcon13.bmp" imgrect="480 500 48 48" />
+    <img name="it_m_202601lindendina_s.bmp" file="illust_s\badgeBigicon2.bmp" imgrect="240 576 48 48" />
+    <img name="icon_it_w_dinabracelet.bmp" file="itemicon13.bmp" imgrect="240 250 24 24" />
+    <img name="icon_buff_Powerspike.bmp" file="bufficon3.bmp" imgrect="30 0 14 14" />
+    <img name="icon_buff_Resonate.bmp" file="bufficon3.bmp" imgrect="30 45 14 14" />
 </uiimagedef>
