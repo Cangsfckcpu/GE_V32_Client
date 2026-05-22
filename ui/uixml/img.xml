@@ -12351,4 +12351,5 @@
     <img name="icon_it_w_dinabracelet.bmp" file="itemicon13.bmp" imgrect="240 250 24 24" />
     <img name="icon_buff_Powerspike.bmp" file="bufficon3.bmp" imgrect="30 0 14 14" />
     <img name="icon_buff_Resonate.bmp" file="bufficon3.bmp" imgrect="30 45 14 14" />
+	<img name="icon_buff_Wudi.bmp" file="bufficon.bmp" imgrect="125 35 16 16"/>
 </uiimagedef>
