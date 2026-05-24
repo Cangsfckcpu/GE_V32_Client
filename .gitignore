@@ -12,5 +12,6 @@ ui/**/*
 !ui/uixml/img.xml
 
 *.ipf
+!xml.ipf
 *.bat
 *.py

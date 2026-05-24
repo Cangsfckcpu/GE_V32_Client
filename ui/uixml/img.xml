@@ -12352,4 +12352,44 @@
     <img name="icon_buff_Powerspike.bmp" file="bufficon3.bmp" imgrect="30 0 14 14" />
     <img name="icon_buff_Resonate.bmp" file="bufficon3.bmp" imgrect="30 45 14 14" />
 	<img name="icon_buff_Wudi.bmp" file="bufficon.bmp" imgrect="125 35 16 16"/>
+
+	<!-- CodeNameJ -->
+	<img name="icon_buff_ballistics_siege.bmp" file="bufficon4.bmp" imgrect="150 165 16 16" />
+	<img name="icon_buff_ballistics_fire.bmp" file="bufficon4.bmp" imgrect="150 180 16 16"/>
+    <img name="icon_buff_breechoverheat.bmp" file="bufficon4.bmp" imgrect="150 210 16 16" />
+    <img name="stn_cvrn.bmp" file="stanceicon2.bmp" imgrect="300 450 24 24" />
+    <img name="stn_aqbs.bmp" file="stanceicon2.bmp" imgrect="300 475 24 24" />
+    <img name="job_artilleria.bmp" file="skillicon8.bmp" imgrect="31 186 30 30" />
+    <img name="cvrn_directshot.bmp" file="skillicon8.bmp" imgrect="62 186 30 30" />
+    <img name="cvrn_cloudsweeper.bmp" file="skillicon8.bmp" imgrect="93 186 30 30" />
+    <img name="cvrn_midnightflare.bmp" file="skillicon8.bmp" imgrect="124 186 30 30" />
+    <img name="cvrn_incendiaryfield.bmp" file="skillicon8.bmp" imgrect="155 186 30 30" />
+    <img name="cvrn_hammeringtrebuchet.bmp" file="skillicon8.bmp" imgrect="186 186 30 30" />
+    <img name="aqbs_compressionwave.bmp" file="skillicon8.bmp" imgrect="217 186 30 30" />
+    <img name="aqbs_hushedheat.bmp" file="skillicon8.bmp" imgrect="248 186 30 30" />
+    <img name="aqbs_vulcanoverwhelm.bmp" file="skillicon8.bmp" imgrect="279 186 30 30" />
+    <img name="aqbs_recoillessbuster.bmp" file="skillicon8.bmp" imgrect="310 186 30 30" />
+    <img name="aqbs_overspresdflechette.bmp" file="skillicon8.bmp" imgrect="341 186 30 30" />
+    <img name="codenamej_f_small.bmp" file="portrait.bmp" imgrect="2080 325 64 64" />
+    <img name="codenamej_f_barrack_on.bmp" file="\BarrackPortrait\codenamej_f_barrack_on.bmp" imgrect="0 0 63 100" />
+    <img name="codenamej_f_barrack_off.bmp" file="\BarrackPortrait\codenamej_f_barrack_off.bmp" imgrect="0 0 63 100" />
+    <img name="codenamej_f_barrack_on_rotation.bmp" file="\BarrackPortrait\codenamej_f_barrack_on_rotation.bmp" imgrect="0 0 63 100" />
+    <img name="codenamej_f_barrack_off_rotation.bmp" file="\BarrackPortrait\codenamej_f_barrack_off_rotation.bmp" imgrect="0 0 63 100" />
+    <img name="it_m_2024booknbed_karmen_Blindfold_s.bmp" file="illust_s\ItemBigIcon12.bmp" imgrect="240 800 48 48" />
+    <img name="it_w_codenamejcannon_s.bmp" file="illust_s\ItemBigIcon12.bmp" imgrect="576 900 48 48" />
+    <img name="it_c_2025summerA_codenameJ_s.bmp" file="illust_s\ItemBigIcon13.bmp" imgrect="576 200 48 48" />
+    <img name="it_m_2025summerA_codenameJ_s.bmp" file="illust_s\ItemBigIcon13.bmp" imgrect="624 200 48 48" />
+    <img name="sta2_blindflash_s.bmp" file="illust_s\SkillBigIcon1.bmp" imgrect="336 384 48 48" />
+    <img name="sta_blindflash_s.bmp" file="illust_s\SkillBigIcon1.bmp" imgrect="336 384 48 48" />
+    <img name="dfs_blindflash_s.bmp" file="illust_s\SkillBigIcon1.bmp" imgrect="336 384 48 48" />
+    <img name="igu_blindly_s.bmp" file="illust_s\SkillBigIcon4.bmp" imgrect="144 0 48 48" />
+    <img name="rsj_suppressionrecord_s.bmp" file="illust_s\SkillBigIcon4.bmp" imgrect="288 288 48 48" />
+    <img name="eleg1_reblindly_s.bmp" file="illust_s\SkillBigIcon5.bmp" imgrect="288 336 48 48" />
+    <img name="eleg_reblindly_s.bmp" file="illust_s\SkillBigIcon5.bmp" imgrect="288 336 48 48" />
+    <img name="icon_it_c_2025summerA_codenameJ.bmp" file="itemicon13.bmp" imgrect="288 100 24 24" />
+    <img name="icon_it_m_2025summerA_codenameJ.bmp" file="itemicon13.bmp" imgrect="312 100 24 24" />
+    <img name="icon_buff_Spirit_Blind.bmp" file="bufficon.bmp" imgrect="108 209 16 16" />
+    <img name="icon_it_m_2024booknbed_karmen_Blindfold.bmp" file="itemicon12.bmp" imgrect="120 400 24 24" />
+    <img name="icon_it_w_codenamejcannon.bmp" file="itemicon12.bmp" imgrect="288 450 24 24" />
+
 </uiimagedef>
