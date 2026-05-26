@@ -12357,6 +12357,9 @@
 	<img name="icon_buff_ballistics_siege.bmp" file="bufficon4.bmp" imgrect="150 165 16 16" />
 	<img name="icon_buff_ballistics_fire.bmp" file="bufficon4.bmp" imgrect="150 180 16 16"/>
     <img name="icon_buff_breechoverheat.bmp" file="bufficon4.bmp" imgrect="150 210 16 16" />
+	<img name="icon_buff_counterweight.bmp" file="bufficon4.bmp" imgrect="150 195 16 16"/>
+	<img name="icon_buff_shutoutoverheat.bmp" file="bufficon4.bmp" imgrect="150 225 16 16"/>
+	<img name="icon_buff_attitudecontrol.bmp" file="bufficon4.bmp" imgrect="150 240 16 16"/>
     <img name="stn_cvrn.bmp" file="stanceicon2.bmp" imgrect="300 450 24 24" />
     <img name="stn_aqbs.bmp" file="stanceicon2.bmp" imgrect="300 475 24 24" />
     <img name="job_artilleria.bmp" file="skillicon8.bmp" imgrect="31 186 30 30" />
@@ -12392,4 +12395,41 @@
     <img name="icon_it_m_2024booknbed_karmen_Blindfold.bmp" file="itemicon12.bmp" imgrect="120 400 24 24" />
     <img name="icon_it_w_codenamejcannon.bmp" file="itemicon12.bmp" imgrect="288 450 24 24" />
 
+	<!-- 死神系列 武器 首饰 -->
+	<img name="icon_it_w_muertuorsCannon.bmp" file="itemicon13.bmp" imgrect="336 0 24 24"/>
+	<img name="icon_it_w_muertuorscrossbow.bmp" file="itemicon13.bmp" imgrect="360 0 24 24"/>
+	<img name="icon_it_w_muertuorsHeavyrifle.bmp" file="itemicon13.bmp" imgrect="384 0 24 24"/>
+	<img name="icon_it_w_muertuorspistol.bmp" file="itemicon13.bmp" imgrect="408 0 24 24"/>
+	<img name="icon_it_w_muertuorsrifle.bmp" file="itemicon13.bmp" imgrect="432 0 24 24"/>
+	<img name="icon_it_w_muertuorsshotgun.bmp" file="itemicon13.bmp" imgrect="456 0 24 24"/>
+	<img name="icon_it_w_muertuorsBook.bmp" file="itemicon13.bmp" imgrect="480 0 24 24"/>
+	<img name="icon_it_w_muertuorsbrc.bmp" file="itemicon13.bmp" imgrect="0 25 24 24"/>
+	<img name="icon_it_w_muertuorscontroller.bmp" file="itemicon13.bmp" imgrect="24 25 24 24"/>
+	<img name="icon_it_w_muertuorsCube.bmp" file="itemicon13.bmp" imgrect="48 25 24 24"/>
+	<img name="icon_it_w_muertuorsfbrc.bmp" file="itemicon13.bmp" imgrect="72 25 24 24"/>
+	<img name="icon_it_w_muertuorsicebrc.bmp" file="itemicon13.bmp" imgrect="96 25 24 24"/>
+	<img name="icon_it_w_muertuorslgtbrc.bmp" file="itemicon13.bmp" imgrect="120 25 24 24"/>
+	<img name="icon_it_w_muertuorsLute.bmp" file="itemicon13.bmp" imgrect="144 25 24 24"/>
+	<img name="icon_it_w_muertuorspendant.bmp" file="itemicon13.bmp" imgrect="168 25 24 24"/>
+	<img name="icon_it_w_muertuorsRod.bmp" file="itemicon13.bmp" imgrect="192 25 24 24"/>
+	<img name="icon_it_w_muertuorsrosario.bmp" file="itemicon13.bmp" imgrect="216 25 24 24"/>
+	<img name="icon_it_w_muertuorsStaff.bmp" file="itemicon13.bmp" imgrect="240 25 24 24"/>
+	<img name="icon_it_w_muertuorscrescent.bmp" file="itemicon13.bmp" imgrect="264 25 24 24"/>
+	<img name="icon_it_w_muertuorsdagger.bmp" file="itemicon13.bmp" imgrect="288 25 24 24"/>
+	<img name="icon_it_w_muertuorshammer.bmp" file="itemicon13.bmp" imgrect="312 25 24 24"/>
+	<img name="icon_it_w_muertuorsJavelin.bmp" file="itemicon13.bmp" imgrect="336 25 24 24"/>
+	<img name="icon_it_w_muertuorsKnuckle.bmp" file="itemicon13.bmp" imgrect="360 25 24 24"/>
+	<img name="icon_it_w_muertuorsMace.bmp" file="itemicon13.bmp" imgrect="384 25 24 24"/>
+	<img name="icon_it_w_muertuorsPolearm.bmp" file="itemicon13.bmp" imgrect="408 25 24 24"/>
+	<img name="icon_it_w_muertuorsrapier.bmp" file="itemicon13.bmp" imgrect="432 25 24 24"/>
+	<img name="icon_it_w_muertuorssabre.bmp" file="itemicon13.bmp" imgrect="456 25 24 24"/>
+	<img name="icon_it_w_muertuorsShield.bmp" file="itemicon13.bmp" imgrect="480 25 24 24"/>
+	<img name="icon_it_w_muertuorssword.bmp" file="itemicon13.bmp" imgrect="0 50 24 24"/>
+	<img name="icon_it_w_muertuorsthsword.bmp" file="itemicon13.bmp" imgrect="24 50 24 24"/>
+	<img name="icon_it_w_muertuorstonfa.bmp" file="itemicon13.bmp" imgrect="48 50 24 24"/>
+	<img name="icon_it_a_muertuorsGloves.bmp" file="itemicon13.bmp" imgrect="264 75 24 24"/>
+	<img name="icon_it_a_muertuorsBoots.bmp" file="itemicon13.bmp" imgrect="288 75 24 24"/>
+	<img name="icon_it_a_muertuorsBelt.bmp" file="itemicon13.bmp" imgrect="312 75 24 24"/>
+	<img name="icon_it_a_muertuorsEarring.bmp" file="itemicon13.bmp" imgrect="336 75 24 24"/>
+	<img name="icon_it_a_muertuorsNecklace.bmp" file="itemicon13.bmp" imgrect="360 75 24 24"/>
 </uiimagedef>
