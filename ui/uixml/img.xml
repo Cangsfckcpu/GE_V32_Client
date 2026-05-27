@@ -204,6 +204,7 @@
 	<img name="icon_it_e_venompouch.bmp" file="itemicon.bmp" imgrect="192 425 24 24"/>
 	<img name="icon_it_e_whitecloth.bmp" file="itemicon.bmp" imgrect="0 350 24 24"/>
 	<img name="icon_it_e_yeganehposter.bmp" file="itemicon.bmp" imgrect="0 300 24 24"/>
+	<img name="icon_it_e_deotitechip.bmp" file="itemicon13.bmp" imgrect="216 75 24 24"/>
 	<img name="icon_it_m_albaes.bmp" file="itemicon.bmp" imgrect="96 325 24 24"/>
 	<img name="icon_it_m_albaeshat.bmp" file="itemicon.bmp" imgrect="72 325 24 24"/>
 	<img name="icon_it_m_alegrias.bmp" file="itemicon.bmp" imgrect="360 200 24 24"/>
